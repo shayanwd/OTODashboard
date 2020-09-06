@@ -56,7 +56,7 @@ include('./header.php')
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="sticker">
-                                                    <a href="#"><p>Profile Status<br><span>Active</span></p></a>
+                                                    <a href="#" class="btn_light_1"><p>Profile Status<br><span>Active</span></p></a>
                                                 </div>
                                             </div>
                                         </div>
