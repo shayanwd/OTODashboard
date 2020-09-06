@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Stresser.su|Dashboard</title>
+    <title>OTO| Organization-list</title>
 </head>
 <body class="">
 	<!-- [ Pre-loader ] start -->
