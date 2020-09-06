@@ -53,6 +53,7 @@ include('./header.php')
                 </div>
 			</div>
 
+
 			<!-- [ table Content ] start -->	
 			<div class="row">
 			<div class="col-xl-12 col-md-12">
@@ -140,7 +141,9 @@ include('./header.php')
 						</div>
 					</div>
 				</div>
-			</div>				
+			</div>
+			</div>
+			
 </div>
 <!-- [ table Content ] end -->
     <script src="assets/js/vendor-all.min.js"></script>

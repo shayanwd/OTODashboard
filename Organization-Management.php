@@ -31,10 +31,19 @@ include('./header.php')
                     <div class="col-md-12">
 						<div class="card_my prod-p-card background-pattern">
 							<div class="card-body">
-								<div class="heading">
-									<h1>Organization List</h1>
-								</div>
-								<div class="sreach_row col-md-12">
+                                <div class="card-head">
+								    <div class="heading">
+                                        <div class="col-md-4">
+                                            <p>Organization Management /<span>Details (#234234)</span></p>
+                                        </div>
+                                    </div>
+                                    <div class="heading">
+                                        <div class="col-md-8">
+                                            <p>Organization Management /<span>Details (#234234)</span></p>
+                                        </div>
+                                    </div>
+                                </div>
+								<!-- <div class="sreach_row col-md-12">
 									<div class="row">
 									<div class="sreach_box col-md-6">
 										<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
@@ -46,7 +55,7 @@ include('./header.php')
 											<a class="btn_dark" href="#"><i class="fas fa-plus"></i> Add</a>
 										</div>											
 									</div>
-								</div>
+								</div> -->
 							</div>
 						</div>
 					</div>
@@ -54,7 +63,7 @@ include('./header.php')
 			</div>
 
 			<!-- [ table Content ] start -->	
-			<div class="row">
+			<!-- <div class="row">
 			<div class="col-xl-12 col-md-12">
 				<div class="card">
 					<div class="card-body_my">
@@ -140,7 +149,7 @@ include('./header.php')
 						</div>
 					</div>
 				</div>
-			</div>				
+			</div>				 -->
 </div>
 <!-- [ table Content ] end -->
     <script src="assets/js/vendor-all.min.js"></script>
