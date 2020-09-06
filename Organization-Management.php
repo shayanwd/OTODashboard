@@ -61,8 +61,23 @@ include('./header.php')
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
+                            <div class="row dec">
+                                <div class="col-md-2">
+                                    <div class="e-logo">
+                                        <img src="assets/images/e-logo.png">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="logo-decription">
+                                        <div class="logo_dec">
+                                            <h5>E:Skoot<span>United Kindom</span></h5>
+                                        </div>
+                                        <div class="contact-info"></div>
+                                    </div>
+                                </div>
+                            </div>
+                                
                             </div>
                         </div>
 					</div>

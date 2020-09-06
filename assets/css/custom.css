@@ -186,8 +186,37 @@ a.btn_light_1 span {
 .sticker_1 {
     height: 46px;
     box-shadow: 0px 4px 10px #cccccc;
-
 }
+.e-logo img {
+    border-radius:100%;
+    width: 100%;
+}
+.logo-decription {
+    margin-top: 30px;
+}
+.logo_dec h5 {
+    font-size: 20px;
+}
+.dec .col-md-10{
+    padding-left: 0px;
+}
+.logo_dec h5 span {
+    padding: 6px;
+    background: #ededed;
+    font-size: 13px;
+    color: #72747b;
+    margin-left: 22px;
+    border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_managment-end////////////////////////////////////
 =========================================================================== */
