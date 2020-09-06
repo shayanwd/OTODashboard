@@ -128,6 +128,12 @@ a.btn_dark i {
 .profile-icon{
 font-size: 10px !important;
 }
+li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
+    background: #0f2d48;
+    border-radius: 10px;
+    padding-bottom: 4px;
+}
+
 
 
 
