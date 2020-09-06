@@ -35,7 +35,7 @@ include('./header.php')
 									<div class="card-body">
 										<div class="row align-items-center m-b-0">
 											<div class="col">
-												<h6 class="m-b-5">Total Attack</h6>
+												<h6 class="m-b-5">mineTotal Attack</h6>
 												<h3 class="m-b-0">6</h3>
 											</div>
 											<div class="col-auto">
