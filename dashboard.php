@@ -103,6 +103,14 @@ include('./header.php')
 										<input type="text" placehoder="Search">
 										<i class="fas fa-search"></i>
 									</div>
+									<div class="buttons">
+										<div class="btn_light">
+											<a href="#"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>
+										</div>
+										<div class="btn_dark">
+											<a href="#"><i class="fas fa-plus"></i> Add</a>
+										</div>
+									</div>
 								</div>
 							</div>
 						</div>
