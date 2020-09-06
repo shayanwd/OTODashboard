@@ -62,30 +62,78 @@ include('./header.php')
 							<table class="my_table">
 								<thead>
 									<tr class="shadow">
-										<th class="text-md-center">Organizatione ID</th>
-										<th class="text-md-center">Name</th>
-										<th class="text-md-center">Created Date</th>
-										<th class="text-md-center">Country</th>
-										<th class="text-md-center">Active Status</th>
-										<th class="text-md-center">Action</th>
+										<th>Organizatione ID</th>
+										<th>Name</th>
+										<th>Created Date</th>
+										<th>Country</th>
+										<th>Active Status</th>
+										<th>Action</th>
 									</tr>
 								</thead>
 								<tbody>
 									<tr>
-										<td class="text-md-center">Support Lead</td>
-										<td class="text-md-center">Edinburgh</td>
-										<td class="text-md-center">61</td>
-										<td class="text-md-center">61</td>
-										<td class="text-md-center">61</td>
-										<td class="text-md-center">61</td>
+										<td>1</td>
+										<td>Jump Ride</td>
+										<td>27 June, 2019</td>
+										<td>Bangladesh</td>
+										<td><div class="org_activ">Active</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
+									</tr>
+									<tr class="blod">
+									<td>2</td>
+										<td>Drop Bike</td>
+										<td>26 May, 2019</td>
+										<td>United State</td>
+										<td ><div class="org_deactiv">Deactive</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
 									</tr>
 									<tr>
-										<td class="text-md-center">Support Lead</td>
-										<td class="text-md-center">Edinburgh</td>
-										<td class="text-md-center">61</td>
-										<td class="text-md-center">61</td>
-										<td class="text-md-center">61</td>
-										<td class="text-md-center">61</td>
+										<td>3</td>
+										<td>Glide</td>
+										<td>23 April, 2018</td>
+										<td>AUE</td>
+										<td><div class="org_activ">Active</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>OtoRide</td>
+										<td>21 January, 2018</td>
+										<td>Australia</td>
+										<td><div class="org_activ">Active</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
+									</tr>
+									<tr>
+										<td>1</td>
+										<td>Jump Ride</td>
+										<td>27 June, 2019</td>
+										<td>Bangladesh</td>
+										<td><div class="org_activ">Active</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
+									</tr>
+									<tr class="blod">
+									<td>2</td>
+										<td>Drop Bike</td>
+										<td>26 May, 2019</td>
+										<td>United State</td>
+										<td ><div class="org_activ">Active</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
+									</tr>
+									<tr>
+										<td>3</td>
+										<td>Glide</td>
+										<td>23 April, 2018</td>
+										<td>AUE</td>
+										<td><div class="org_activ">Active</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
+									</tr>
+									<tr>
+										<td>4</td>
+										<td>OtoRide</td>
+										<td>21 January, 2018</td>
+										<td>Australia</td>
+										<td><div class="org_activ">Active</div></td>
+										<td><a href="#"><img src="assets/images/edit.png"></a></td>
 									</tr>
 								</tbody>
 							</table>

@@ -106,14 +106,39 @@ a.btn_dark i {
 .card {
     border-radius: 0px 0px 4px 4px;
 }
-
 table.my_table th {
     padding: 15px;
   }
-  table.my_table tr,td {
+  table.my_table tr, td {
     padding: 15px;
-  }
+    font-weight: 500;
+}
+  table.my_table tr td a img {
+    width: 20px !important;
+}
+.org_activ {
+    background: #0fc12e;
+    color: #fff;
+    padding: 8px 22px 8px 16px;
+    width: fit-content;
+    border-radius: 3px;
+}
+.org_deactiv {
+    background: #ff7a09;
+    color: #fff;
+    padding: 8px 11px 8px 13px;
+    width: fit-content;
+    border-radius: 3px;
+}
+tr.blod {
+    background: aliceblue;
 
+}
+tr.blod td{
+    font-weight: 700 !important;
+}
+
+  
 
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_list-end////////////////////////////////////
