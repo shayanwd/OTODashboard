@@ -33,30 +33,30 @@ include('./header.php')
 							<div class="card-body">
                                 <div class="card-head">
                                     <div class="row">
-								    <div class="col-md-4 ">
-                                        <div class="heading">
+								    <div class="col-md-6 ">
+                                        <div class="heading_Id">
                                             <p>Organization Management /<span>Details (#234234)</span></p>
                                         </div>
                                     </div>
-                                    <div class="col-md-8">
+                                    <div class="col-md-6">
                                         <div class="row">
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="sticker">
 												<a href="#">
                                                    <img src="assets/images/sticker_1.png"/>
 												   </a>
                                                 </div>
                                             </div>
-                                            <div class="col-md-3">
+                                            <div class="col-md-4">
                                                 <div class="sticker">
 												<a href="#">
                                                 <img src="assets/images/sticker_2.png"/>
 												</a>
                                                 </div>
                                             </div>
-                                            <div class="col-md-6">
+                                            <div class="col-md-4">
                                                 <div class="sticker">
-                                                    <a href="#"><p>Profile Status<span>Active</span></p></a>
+                                                    <a href="#"><p>Profile Status<br><span>Active</span></p></a>
                                                 </div>
                                             </div>
                                         </div>

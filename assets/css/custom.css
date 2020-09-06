@@ -151,6 +151,19 @@ tr.blod td{
 .sticker img {
     width: 100%;
 }
+.heading_Id p {
+    margin-top: 10px;
+    font-size: 19px;
+    margin-bottom: 0px;
+}
+.heading_Id p span {
+    font-weight: 600;
+    font-size: 25px;
+}
+.card-head .col-md-4 {
+    padding: 3px;
+}
+
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_managment-end////////////////////////////////////
 =========================================================================== */
