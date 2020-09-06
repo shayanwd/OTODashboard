@@ -62,12 +62,12 @@ include('./header.php')
 							<table class="my_table">
 								<thead>
 									<tr class="shadow">
-										<th class="text-md-center">SERVER NAME</th>
-										<th class="text-md-center">NETWORK</th>
-										<th class="text-md-center">LOAD</th>
-										<th class="text-md-center">SERVER STATUS</th>
-										<th class="text-md-center">LOAD</th>
-										<th class="text-md-center">SERVER STATUS</th>
+										<th class="text-md-center">Organizatione ID</th>
+										<th class="text-md-center">Name</th>
+										<th class="text-md-center">Created Date</th>
+										<th class="text-md-center">Country</th>
+										<th class="text-md-center">Active Status</th>
+										<th class="text-md-center">Action</th>
 									</tr>
 								</thead>
 								<tbody>
