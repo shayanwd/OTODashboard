@@ -13,6 +13,9 @@
 .red-b{
     background: #d90a20 !important;
 }
+.aliceblue{
+    background: aliceblue;
+}
 
 
 
@@ -248,10 +251,50 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
 .header-profile-content h4{
     font-size:14px;
     font-weight: 500;
+}
+.header-profile-content h4 a{
+    font-size:14px;
+    font-weight: 500;
+    color:#8f9399;
+}
+.whats-new h2{
+font-size: 25px;
+font-weight: 600;
+color: #323740;
+}
+.notification-boxes{
+    padding: 16px 24px;
+}
+.notification-boxes h1{
+    font-size: 21px;
+    font-weight: 600;
+    color: black;
+}
+.notification-boxes h2{
+    font-size: 17px;
+    color: rgb(27, 27, 27);
+}
+.notification-boxes h3{
+    font-size: 16px;
     color:#616672;
 }
-
-
+.notification-boxes p{
+    margin: 0px !important;
+    font-size: 18px;
+}
+.new-badge {
+    width: 61px;
+    max-width: 100%;
+    padding: 1px;
+    background: #7d3cf8;
+    border-radius: 3px;
+}
+.new-badge p{
+   color: white;
+   font-size: 16px;
+   margin: 0px !important;
+   text-align: center;
+}
 
 
 
