@@ -97,7 +97,9 @@ a.btn_dark i {
     background: #fff;
     box-shadow: none;
 }
-
+.card {
+    border-radius: 0px 0px 4px 4px;
+}
 
 
 

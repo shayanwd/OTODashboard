@@ -53,20 +53,21 @@ include('./header.php')
                 </div>
 			</div>
 
-			
+			<!-- [ table Content ] start -->	
 			<div class="row">
 			<div class="col-xl-12 col-md-12">
-				<div class="card user-profile-list">
+				<div class="card">
 					<div class="card-body_my">
 						<div class="dt-responsive table-responsive">
-							<table id="user-list-table" class="table nowrap">
+							<table class="my_table">
 								<thead>
-									<tr>
+									<tr class="shadow">
 										<th class="text-md-center">SERVER NAME</th>
 										<th class="text-md-center">NETWORK</th>
 										<th class="text-md-center">LOAD</th>
 										<th class="text-md-center">SERVER STATUS</th>
-									
+										<th class="text-md-center">LOAD</th>
+										<th class="text-md-center">SERVER STATUS</th>
 									</tr>
 								</thead>
 								<tbody>
@@ -75,10 +76,14 @@ include('./header.php')
 										<td class="text-md-center">Edinburgh</td>
 										<td class="text-md-center">61</td>
 										<td class="text-md-center">61</td>
+										<td class="text-md-center">61</td>
+										<td class="text-md-center">61</td>
 									</tr>
 									<tr>
 										<td class="text-md-center">Support Lead</td>
 										<td class="text-md-center">Edinburgh</td>
+										<td class="text-md-center">61</td>
+										<td class="text-md-center">61</td>
 										<td class="text-md-center">61</td>
 										<td class="text-md-center">61</td>
 									</tr>
@@ -87,9 +92,9 @@ include('./header.php')
 						</div>
 					</div>
 				</div>
-			</div>
+			</div>				
 </div>
-
+<!-- [ table Content ] end -->
     <script src="assets/js/vendor-all.min.js"></script>
     <script src="assets/js/plugins/bootstrap.min.js"></script>
     <script src="assets/js/plugins/feather.min.js"></script>
