@@ -100,7 +100,8 @@ include('./header.php')
 								</div>
 								<div class="sreach_row">
 									<div class="sreach_box">
-										<input type="text" placehoder="Sreach">
+										<input type="text" placehoder="Search">
+										<i class="fas fa-search"></i>
 									</div>
 								</div>
 							</div>
