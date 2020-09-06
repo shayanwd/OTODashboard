@@ -3406,7 +3406,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
     }
 
     .dropdown-item:hover, .dropdown-item:focus {
-        color: #5368f1;
+        color: #d90a20;
         text-decoration: none;
         background-color: #f4f3fe;
     }

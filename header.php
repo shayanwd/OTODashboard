@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-	<title>Stresser.su</title>
+	<title>OTO</title>
 	<!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
 	<!--[if lt IE 11]>
@@ -229,19 +229,26 @@
 						</a>
 						<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
 							<div class=" dropdown-header">
-								<h6 class="text-overflow m-0">Welcome !</h6>
+								<div class="header-profile-img">
+									<img src="assets/images/header-profile-1.png">
+								</div>
+								<div class="header-profile-content">
+									<h2>John Wick</h2>
+									<h3>Admin</h3>
+									<h4><a href="johnwick.1234@yhaoo.com">johnwick.1234@yhaoo.com</a></h4>
+								</div>
 							</div>
 							<a href="inbox.php" class="dropdown-item">
-								<i class="fas fa-envelope"></i>
-								<span>Inbox</span>
+							<i class="fas fa-edit"></i>
+								<span>Edit-profile</span>
 							</a>
 							<a href="profile.php" class="dropdown-item">
-								<i data-feather="settings"></i>
-								<span>Account</span>
+							<i class="fas fa-key"></i>
+								<span>Change Password</span>
 							</a>
-							<a href="#!" class="dropdown-item">
-								<i data-feather="power"></i>
-								<span>Logout</span>
+							<a href="#!" class="dropdown-item ">
+							<i class="fas fa-sign-out-alt red-t"></i>
+								<span class="red-t">Logout</span>
 							</a>
 						</div>
 					</li>
