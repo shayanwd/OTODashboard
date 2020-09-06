@@ -98,24 +98,24 @@ include('./header.php')
 								<div class="heading">
 									<h1>Organization List</h1>
 								</div>
-								<div class="sreach_row">
-									<div class="sreach_box">
-										<input type="text" placehoder="Search">
+								<div class="sreach_row col-md-12">
+									<div class="row">
+									<div class="sreach_box col-md-6">
+										<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
 										<i class="fas fa-search"></i>
 									</div>
-									<div class="buttons">
-										<div class="btn_light">
-											<a href="#"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>
-										</div>
-										<div class="btn_dark">
-											<a href="#"><i class="fas fa-plus"></i> Add</a>
-										</div>
+									<div class="col-md-6">
+										<div class="buttons">									
+											<a class="btn_light" href="#"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>										
+											<a class="btn_dark" href="#"><i class="fas fa-plus"></i> Add</a>
+										</div>											
 									</div>
 								</div>
 							</div>
 						</div>
-                    </div>
-				</div>
+					</div>
+                </div>
+			</div>
 				
 
 				<div class="card card-border-c-green">
