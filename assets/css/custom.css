@@ -17,7 +17,7 @@
     color: lightgray;
     font-size: initial;
     position: absolute;
-    left: 8px;
+    left: -7px;
     top: -4px;
 }
 .sreach_box input {
@@ -36,7 +36,8 @@
     font-size: 10px;
 }
 a.btn_light {
-    padding: 12px 20px;
+    margin-right:10px;
+    padding: 10px 20px;
     color: #4b4b4b;
     background: #fff;
     box-shadow: 0px 4px 10px #cccccc;
@@ -47,10 +48,13 @@ a.btn_light i {
 a.btn_dark {
     color: #fff;
     background: #000;
-    padding: 12px 36px;
+    padding: 10px 20px;
 }
 a.btn_dark i {
-    margin: 0px 5px;
+    margin: 0px 5px 0px 0px;
+}
+.sreach_box.col-md-6 {
+    padding: 0px;
 }
 
 
