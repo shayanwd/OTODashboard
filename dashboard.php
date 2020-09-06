@@ -26,7 +26,7 @@ include('./header.php')
     <div class="pcoded-content">
         <div class="row">
             <!-- support-section start -->
-            <div class="col-xl-6 col-md-12">
+            <div class="col-xl-12 col-md-12">
                 <div class="row">
                     <div class="col-md-12">
 						<!-- <div class="row">
