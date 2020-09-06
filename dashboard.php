@@ -95,7 +95,14 @@ include('./header.php')
 						</div> -->
 						<div class="card prod-p-card background-pattern">
 							<div class="card-body">
-								<h1>Organization List</h1>
+								<div class="heading">
+									<h1>Organization List</h1>
+								</div>
+								<div class="sreach_row">
+									<div class="sreach_box">
+										<input type="text" placehoder="Sreach">
+									</div>
+								</div>
 							</div>
 						</div>
                     </div>
