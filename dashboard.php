@@ -112,25 +112,25 @@ include('./header.php')
 									</div>
 									<div class="my_table">
 									<table style="width:100%">
-  <tr>
-    <th>Organizatione ID</th>
-    <th>Name</th>
-	<th>Created Date</th>
-	<th>Created Date</th>
-	<th>Created Date</th>
-	<th>Created Date</th>
-  </tr>
-  <tr>
-    <td>Jill</td>
-    <td>Smith</td>
-    <td>50</td>
-  </tr>
-  <tr>
-    <td>Eve</td>
-    <td>Jackson</td>
-    <td>94</td>
-  </tr>
-</table>
+										<tr>
+											<th>Organizatione ID</th>
+											<th>Name</th>
+											<th>Created Date</th>
+											<th>Country</th>
+											<th>Active Status</th>
+											<th>Action</th>
+										</tr>
+										<tr>
+											<td>Jill</td>
+											<td>Smith</td>
+											<td>50</td>
+										</tr>
+										<tr>
+											<td>Eve</td>
+											<td>Jackson</td>
+											<td>94</td>
+										</tr>
+										</table>
 									</div>
 								</div>
 							</div>

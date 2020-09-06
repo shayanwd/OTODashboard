@@ -57,7 +57,27 @@ a.btn_dark i {
 .sreach_box.col-md-6 {
     padding: 0px;
 }
-
+.my_table {
+    width: 100%;
+}
+.my_table  table tbody tr th {
+    padding: 14px 0px;
+}
+.card_my {
+    box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.1);
+    transition: box-shadow 0.2s ease-in-out;
+}
+.card_my {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    min-width: 0;
+    word-wrap: break-word;
+    background-color: #fff;
+    background-clip: border-box;
+    border: 0px solid rgba(0, 0, 0, 0.125);
+    border-radius: 4px;
+}
 
 
 
