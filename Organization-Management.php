@@ -32,36 +32,41 @@ include('./header.php')
 						<div class="card_my prod-p-card background-pattern">
 							<div class="card-body">
                                 <div class="card-head">
-								    <div class="heading">
-                                        <div class="col-md-4">
+                                    <div class="row">
+								    <div class="col-md-4 ">
+                                        <div class="heading">
                                             <p>Organization Management /<span>Details (#234234)</span></p>
                                         </div>
                                     </div>
-                                    <div class="heading">
-                                        <div class="col-md-8">
-                                            <p>Organization Management /<span>Details (#234234)</span></p>
+                                    <div class="col-md-8">
+                                        <div class="row">
+                                            <div class="col-md-3">
+                                                <div class="sticker">
+                                                   <img src="assets/images/sticker_1.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-3">
+                                                <div class="sticker">
+                                                <img src="assets/images/sticker_2.png"/>
+                                                </div>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <div class="sticker">
+                                                    <a href="#"><p>Profile Status<span>Active</span></p></a>
+                                                </div>
+                                            </div>
                                         </div>
                                     </div>
-                                </div>
-								<!-- <div class="sreach_row col-md-12">
-									<div class="row">
-									<div class="sreach_box col-md-6">
-										<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
-										<i class="fas fa-search"></i>
-									</div>
-									<div class="col-md-6">
-										<div class="buttons">									
-											<a class="btn_light" href="#"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>										
-											<a class="btn_dark" href="#"><i class="fas fa-plus"></i> Add</a>
-										</div>											
-									</div>
-								</div> -->
-							</div>
-						</div>
-					</div>
-                </div>
-			</div>
 
+                                </div>
+                            </div>
+                        </div>
+					</div>
+				</div>
+			</div>
+        </div>
+	</div>
+</div>
 			<!-- [ table Content ] start -->	
 			<!-- <div class="row">
 			<div class="col-xl-12 col-md-12">
@@ -150,7 +155,7 @@ include('./header.php')
 					</div>
 				</div>
 			</div>				 -->
-</div>
+
 <!-- [ table Content ] end -->
     <script src="assets/js/vendor-all.min.js"></script>
     <script src="assets/js/plugins/bootstrap.min.js"></script>
