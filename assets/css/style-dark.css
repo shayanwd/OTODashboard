@@ -12394,7 +12394,7 @@ pre[class*="language-"] {
 
 /* ================================    Blockquote End  ===================== */
 .pc-sidebar {
-    background: #1c232f;
+    background: #141414;
     box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
     width: 280px;
     position: fixed;
@@ -12487,7 +12487,7 @@ pre[class*="language-"] {
     display: flex;
     align-items: center;
     padding: 15px 30px;
-    background: #161c25;
+    background: #141414;
 }
 
 .pc-sidebar .m-header .logo-sm {
@@ -12523,7 +12523,7 @@ pre[class*="language-"] {
 }
 
 .pc-sidebar .pc-navbar > .pc-item.active > .pc-link, .pc-sidebar .pc-navbar > .pc-item:focus > .pc-link, .pc-sidebar .pc-navbar > .pc-item:hover > .pc-link {
-    background: #161c25;
+    background: #1c1625;
 }
 
 .pc-sidebar .pc-hasmenu.pc-trigger > .pc-submenu {
@@ -12542,7 +12542,7 @@ body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item {
     position: relative;
 }
 
-body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item:before {
+/* body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item:before {
     content: "";
     width: 6px;
     height: 6px;
@@ -12552,7 +12552,7 @@ body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item:before {
     border-radius: 50%;
     z-index: 1;
     opacity: 0.7;
-}
+} */
 
 body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item.active:before {
     background: #7267EF;

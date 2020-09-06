@@ -12393,7 +12393,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
 
     /* ================================    Blockquote End  ===================== */
     .pc-sidebar {
-        background: #1c232f;
+        background: #141414;
         box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
         width: 280px;
         position: fixed;
@@ -12448,7 +12448,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
 
     .pc-sidebar .pc-link {
         display: block;
-        padding: 14px 30px;
+        padding: 14px 10px;
         color: #ced4dc;
         font-size: 13px;
         font-weight: 500;
@@ -12486,7 +12486,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         display: flex;
         align-items: center;
         padding: 15px 30px;
-        background: #161c25;
+        background: #141414;
     }
 
     .pc-sidebar .m-header .logo-sm {
@@ -12503,7 +12503,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
     }
 
     .pc-sidebar .pc-submenu .pc-link {
-        padding: 10px 30px 10px 65px;
+        /* padding: 10px 30px 10px 65px; */
     }
 
     .pc-sidebar .pc-submenu .pc-submenu .pc-link {
@@ -12512,6 +12512,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
 
     .pc-sidebar .pc-item.active > .pc-link, .pc-sidebar .pc-item:focus > .pc-link, .pc-sidebar .pc-item:hover > .pc-link {
         color: #fff;
+        background:#256baa;
     }
 
     .pc-sidebar .pc-item.active > .pc-link .pc-micon i,
@@ -12539,9 +12540,10 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
 
     body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item {
         position: relative;
+        background: #1e1e1e;
     }
 
-    body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item:before {
+    /* body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item:before {
         content: "";
         width: 6px;
         height: 6px;
@@ -12551,7 +12553,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         border-radius: 50%;
         z-index: 1;
         opacity: 0.7;
-    }
+    } */
 
     body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item.active:before {
         background: #5368f1;
