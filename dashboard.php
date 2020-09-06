@@ -29,7 +29,7 @@ include('./header.php')
             <div class="col-xl-6 col-md-12">
                 <div class="row">
                     <div class="col-md-12">
-						<div class="row">
+						<!-- <div class="row">
 							<div class="col-sm-6">
 								<div class="card prod-p-card background-pattern">
 									<div class="card-body">
@@ -91,6 +91,11 @@ include('./header.php')
 										</div>
 									</div>
 								</div>
+							</div>
+						</div> -->
+						<div class="card prod-p-card background-pattern">
+							<div class="card-body">
+								<h1>Organization List</h1>
 							</div>
 						</div>
                     </div>
