@@ -16,7 +16,136 @@
 .aliceblue{
     background: aliceblue;
 }
+.relative{
+    position: relative;
+}
+.step-form-overlay{
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    background: rgba(65, 65, 65, 0.253);
+    z-index: 9999 !important;
+    float: left;
+}
+.main-step-form-holder{
+    width: 500px;
+    max-width: 100%;
+    height: 100%;
+    float: right;
+}
+.main-step-form-container{
+    width: 100%;
+    background: white;
+    position: absolute;
+    right: 0%;
+    height: 100%;
+    overflow: scroll;
+    padding: 20px 30px;
+}
+.add-organization-heading h2{
+    font-size: 18px;
+    font-weight: bold;
+}
 
+
+
+/* Style the form */
+#regForm {
+    /* background-color: #ffffff; */
+    margin: 100px auto;
+    /* padding: 40px; */
+    width: 100%;
+    min-width: 300px;
+  }
+  
+  /* Style the input fields */
+  input {
+    padding: 10px;
+    width: 100%;
+    font-size: 17px;
+    font-family: Raleway;
+    border: 1px solid #aaaaaa;
+  }
+  
+  /* Mark input boxes that gets an error on validation: */
+  input.invalid {
+    background-color: #ffdddd;
+  }
+  
+  /* Hide all steps by default: */
+  .tab {
+    display: none;
+  }
+  
+  .step-container{
+      display: inline-block;
+      text-align: center;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+  }
+
+  /* Make circles that indicate the steps of the form: */
+  .step {
+   padding: 7px;
+    margin: 0 2px;
+    /* background-color: #bbbbbb; */
+    border: 1px solid black !important;
+    border: none;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: inline-block;
+    opacity: 0.5;
+    text-align: center;
+    cursor: pointer;
+  }
+.step p{
+    margin: 0px !important;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+.step p span{
+    margin-right: 4px;
+    width: 13px;
+    height: 13px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 7px;
+    border-radius: 50%;
+    margin-top:1px ;
+    font-size: 12px;
+}
+  
+  /* Mark the active step: */
+  .step.active {
+    opacity: 1;
+  }
+  
+  /* Mark the steps that are finished and valid: */
+  .step.finish {
+    color: #4CAF50!important;
+    opacity: 1;
+    border: 1px solid #4CAF50 !important;
+  }
+  .step.finish p{
+    color: #4CAF50!important;
+    opacity: 1;
+  }
+  .step.finish p span{
+    background-color: #4CAF50;
+    color: white!important;
+    opacity: 1;
+  }
 
 
 

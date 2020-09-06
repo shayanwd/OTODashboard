@@ -249,7 +249,7 @@
 											<p class="mb-1">2. Sample description</p>
 											<p class="mb-2">3. Sample description</p>
 
-										<h3 class="mt-1">23 July 2020</h3>
+										<h3 class="mt-2">23 July 2020</h3>
 									</div>
 
 								</div>
