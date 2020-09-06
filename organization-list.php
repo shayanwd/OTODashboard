@@ -54,10 +54,10 @@ include('./header.php')
 			</div>
 
 			
-
+			<div class="row">
 			<div class="col-xl-12 col-md-12">
 				<div class="card user-profile-list">
-					<div class="card-body">
+					<div class="card-body_my">
 						<div class="dt-responsive table-responsive">
 							<table id="user-list-table" class="table nowrap">
 								<thead>
@@ -87,7 +87,8 @@ include('./header.php')
 						</div>
 					</div>
 				</div>
-            </div>
+			</div>
+</div>
 
     <script src="assets/js/vendor-all.min.js"></script>
     <script src="assets/js/plugins/bootstrap.min.js"></script>
