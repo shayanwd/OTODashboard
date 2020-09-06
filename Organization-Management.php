@@ -55,14 +55,35 @@ include('./header.php')
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
-                                                <div class="sticker">
-                                                    <a href="#" class="btn_light_1"><p>Profile Status<br><span>Active</span></p></a>
+                                                <div class="sticker_1">
+                                                    <a href="#" class="btn_light_1"><p>Profile Status</p><span>Active</span><i class="fas fa-chevron-down"></i></a>
                                                 </div>
                                             </div>
                                         </div>
                                     </div>
-
                                 </div>
+                            <div class="row dec">
+                                <div class="col-md-2">
+                                    <div class="e-logo">
+                                        <img src="assets/images/e-logo.png">
+                                    </div>
+                                </div>
+                                <div class="col-md-10">
+                                    <div class="logo-decription">
+                                        <div class="logo_dec">
+                                            <h5>E:Skoot<span>United Kindom</span></h5>
+                                        </div>
+                                        <div class="contact-info">
+                                            <ul>
+                                                <li><img src="assets/images/mess.png">Eskoot@yahoo.com</li>
+                                                <li><img src="assets/images/phone.png">997278889</li>
+                                                <li><img src="assets/images/globe.png">www.eskoot.com</li>
+                                            </ul>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                                
                             </div>
                         </div>
 					</div>
