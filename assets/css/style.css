@@ -12400,6 +12400,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         top: 0;
         bottom: 0;
         z-index: 1026;
+        padding: 0 13px;
     }
 
     .pc-sidebar ul {
@@ -12452,6 +12453,8 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         color: #ced4dc;
         font-size: 13px;
         font-weight: 500;
+        background: #282828;
+        border-radius: 10px;
     }
 
     .pc-sidebar .pc-link:active, .pc-sidebar .pc-link:focus, .pc-sidebar .pc-link:hover {
@@ -12523,7 +12526,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
     }
 
     .pc-sidebar .pc-navbar > .pc-item.active > .pc-link, .pc-sidebar .pc-navbar > .pc-item:focus > .pc-link, .pc-sidebar .pc-navbar > .pc-item:hover > .pc-link {
-        background: #161c25;
+        background: #0f2d48;
     }
 
     .pc-sidebar .pc-hasmenu.pc-trigger > .pc-submenu {
@@ -12540,7 +12543,8 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
 
     body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item {
         position: relative;
-        background: #1e1e1e;
+        margin:2px 5px;
+       
     }
 
     /* body:not(.minimenu) .pc-sidebar .pc-submenu .pc-item:before {
@@ -12738,6 +12742,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         font-size: 20px;
         color: black;
     }
+
     .pc-header .pc-head-link > i:hover {
         color: black;
     }

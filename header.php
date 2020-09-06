@@ -76,7 +76,7 @@
 			</div>
 			<div class="navbar-content">
 				<ul class="pc-navbar">
-						
+
 
 					<!-- <li class="pc-item pc-hasmenu">
 						<a href="dashboard.php" class="pc-link"><span class="pc-micon"><i class="fas fa-home"></i></span><span class="pc-mtext">Home</span></a>
@@ -105,26 +105,41 @@
 						</ul>
 					</li>
 
-
-					<li class="pc-item pc-hasmenu">
-						<a href="attack.php" class="pc-link"><span class="pc-micon"><i class="fas fa-bolt"></i></span><span class="pc-mtext">Attack</span></a>
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">VEHICLE MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>IOT </a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Bikes </a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Scooter</a></li>
+						</ul>
 					</li>
 
-					<li class="pc-item pc-hasmenu">
-						<a href="tos.php" class="pc-link"><span class="pc-micon"><i class="fas fa-gavel"></i></span><span class="pc-mtext">TOS</span></a>
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">MAP VIEW </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Map</a></li>
+						</ul>
 					</li>
 
-					<li class="pc-item pc-hasmenu">
-						<a href="faq.php" class="pc-link"><span class="pc-micon"><i class="fas fa-question"></i></span><span class="pc-mtext">FAQ</span></a>
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">GEOFENCE MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Parkings</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Restricted Areas</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Service Areas</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Geofence</a></li>
+						</ul>
 					</li>
 
-					<li class="pc-item pc-hasmenu">
-						<a href="inbox.php" class="pc-link"><span class="pc-micon"><i class="fas fa-question-circle"></i></span><span class="pc-mtext">Support</span></a>
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">TRIP MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
 					</li>
 
-					<li class="pc-item pc-hasmenu">
-						<a href="profile.php" class="pc-link"><span class="pc-micon"><i class="fas fa-gift"></i></span><span class="pc-mtext">Giftcard</span></a>
-					</li>
+
+
 
 
 				</ul>
