@@ -184,6 +184,7 @@ a.btn_light_1 span {
     font-weight: 600;
 }
 .sticker_1 {
+    border-radius:3px;
     height: 46px;
     box-shadow: 0px 4px 10px #cccccc;
 }
@@ -208,6 +209,29 @@ a.btn_light_1 span {
     margin-left: 22px;
     border-radius: 3px;
 }
+.contact-info ul{
+    padding: 0px;
+    float: left;
+    width:100%;
+    margin:0px;
+}
+.contact-info ul li {
+    list-style: none;
+    float: left;
+    margin-left: 36px;
+}
+.contact-info ul li:first-child{
+    margin-left: 0px;
+}
+
+.contact-info ul li img {
+    width: 16px;
+    margin-right: 7px;
+}
+
+
+
+
 
 
 

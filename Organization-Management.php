@@ -73,7 +73,13 @@ include('./header.php')
                                         <div class="logo_dec">
                                             <h5>E:Skoot<span>United Kindom</span></h5>
                                         </div>
-                                        <div class="contact-info"></div>
+                                        <div class="contact-info">
+                                            <ul>
+                                                <li><img src="assets/images/mess.png">Eskoot@yahoo.com</li>
+                                                <li><img src="assets/images/phone.png">997278889</li>
+                                                <li><img src="assets/images/globe.png">www.eskoot.com</li>
+                                            </ul>
+                                        </div>
                                     </div>
                                 </div>
                             </div>
