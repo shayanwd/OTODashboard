@@ -138,6 +138,55 @@
 						</ul>
 					</li>
 
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">OPERATION MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">REPORT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">USER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">PAYMENT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">OFFER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">POIN MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">Setting</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
 
 
 
