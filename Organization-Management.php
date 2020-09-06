@@ -2,7 +2,7 @@
 <html lang="en">
 
 <head>
-    <title>Stresser.su|Dashboard</title>
+    <title>OTO| Organization-Management</title>
 </head>
 <body class="">
 	<!-- [ Pre-loader ] start -->
@@ -42,12 +42,16 @@ include('./header.php')
                                         <div class="row">
                                             <div class="col-md-4">
                                                 <div class="sticker">
+												<a href="#">
                                                    <img src="assets/images/sticker_1.png"/>
+												   </a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
                                                 <div class="sticker">
+												<a href="#">
                                                 <img src="assets/images/sticker_2.png"/>
+												</a>
                                                 </div>
                                             </div>
                                             <div class="col-md-4">
