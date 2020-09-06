@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<title>Stresser.su</title>
 	<!-- HTML5 Shim and Respond.js IE11 support of HTML5 elements and media queries -->
@@ -27,8 +28,10 @@
 	<!-- vendor css -->
 	<link rel="stylesheet" href="assets/css/style.css">
 	<link rel="stylesheet" href="assets/css/customizer.css">
+	<link rel="stylesheet" href="assets/css/custom.css">
 
 </head>
+
 <body class="">
 	<!-- [ Pre-loader ] start -->
 	<div class="loader-bg">
@@ -73,11 +76,8 @@
 			</div>
 			<div class="navbar-content">
 				<ul class="pc-navbar">
-					<li class="pc-item pc-caption">
-						<label>Navigation</label>
 
-					</li>
-				
+
 					<li class="pc-item pc-hasmenu">
 						<a href="dashboard.php" class="pc-link"><span class="pc-micon"><i class="fas fa-home"></i></span><span class="pc-mtext">Home</span></a>
 					</li>
@@ -111,7 +111,7 @@
 					<li class="pc-item pc-hasmenu">
 						<a href="profile.php" class="pc-link"><span class="pc-micon"><i class="fas fa-gift"></i></span><span class="pc-mtext">Giftcard</span></a>
 					</li>
-		
+
 
 				</ul>
 			</div>
@@ -124,34 +124,29 @@
 
 			<div class="ml-auto">
 				<ul class="list-unstyled">
-	
-				
-					<li class="pc-h-item" data-toggle="tooltip" data-placement="bottom" title="Server Capacity 0%">
-						<a class="pc-head-link mr-0" href="#">
-							<i class="fas fa-battery-three-quarters"></i>
-							<span class="badge pc-h-badge"><span class="sr-only"></span></span>
+
+
+					<li class="pc-h-item" id="flash">
+						<a class="pc-head-link mr-0 border-left border-right" href="#">
+							<i class="fas fa-bolt"></i>
 						</a>
 					</li>
 
 					<li class="pc-h-item">
-						<a class="pc-head-link mr-0" href="#">
-							<i class="fas fa-users"></i>
+						<a class="pc-head-link mr-0 border-right " href="#">
+							<span class="notification-number">2</span>
 							<span class="badge badge-danger pc-h-badge dots"><span class="sr-only"></span></span>
 						</a>
 					</li>
 
-					<li class="pc-h-item">
-						<a class="pc-head-link mr-0" href="#" data-toggle="modal" data-target="#notification-modal">
-							<i data-feather="bell"></i>
-							<span class="badge badge-danger pc-h-badge dots"><span class="notification-nums"><p>1</P></span><span class="sr-only"></span></span>
-						</a>
-					</li>
 					<li class="dropdown pc-h-item">
 						<a class="pc-head-link dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
-							<img src="assets/images/user/avatar-2.jpg" alt="user-image" class="user-avtar">
+
+							<i class="fas fa-chevron-down mr-2  profile-icon"></i>
+
 							<span>
-								<span class="user-name">Joseph William</span>
-								<span class="user-desc">Administrator</span>
+								<span class="user-name">John Wick</span>
+								<span class="user-desc">Super Admin</span>
 							</span>
 						</a>
 						<div class="dropdown-menu dropdown-menu-right pc-h-dropdown">
@@ -280,7 +275,9 @@
 								<a href="#!"><img src="assets/images/news/img-news-2.jpg" class="wid-90 rounded" alt="..."></a>
 								<div class="media-body ml-3">
 									<p class="float-right mb-0 text-success"><small>now</small></p>
-									<a href="#!"><h6>This is a news image</h6></a>
+									<a href="#!">
+										<h6>This is a news image</h6>
+									</a>
 									<p class="mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy.</p>
 								</div>
 							</div>
@@ -288,7 +285,9 @@
 								<a href="#!"><img src="assets/images/news/img-news-1.jpg" class="wid-90 rounded" alt="..."></a>
 								<div class="media-body ml-3">
 									<p class="float-right mb-0 text-muted"><small>3 mins ago</small></p>
-									<a href="#!"><h6>Industry's standard dummy</h6></a>
+									<a href="#!">
+										<h6>Industry's standard dummy</h6>
+									</a>
 									<p class="mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
 									<a href="#" class="badge badge-light">Html</a>
 									<a href="#" class="badge badge-light">UI/UX designed</a>
@@ -298,7 +297,9 @@
 								<a href="#!"><img src="assets/images/news/img-news-2.jpg" class="wid-90 rounded" alt="..."></a>
 								<div class="media-body ml-3">
 									<p class="float-right mb-0 text-muted"><small>5 mins ago</small></p>
-									<a href="#!"><h6>Ipsum has been the industry's</h6></a>
+									<a href="#!">
+										<h6>Ipsum has been the industry's</h6>
+									</a>
 									<p class="mb-2">Lorem Ipsum is simply dummy text of the printing and typesetting.</p>
 									<a href="#" class="badge badge-light">JavaScript</a>
 									<a href="#" class="badge badge-light">Scss</a>
@@ -347,15 +348,17 @@
 	</div>
 	<!-- [ Header ] end -->
 
-    <!-- <script src="assets/js/vendor-all.min.js"></script>
+	<!-- <script src="assets/js/vendor-all.min.js"></script>
     <script src="assets/js/plugins/bootstrap.min.js"></script>
     <script src="assets/js/plugins/feather.min.js"></script>
     <script src="assets/js/pcoded.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
     <script src="assets/js/plugins/clipboard.min.js"></script>
-    <script src="assets/js/uikit.min.js"></script> -->
+	<script src="assets/js/uikit.min.js"></script> -->
+	<script src="assets/js/custom.js"></script>
 
 
 
 </body>
+
 </html>

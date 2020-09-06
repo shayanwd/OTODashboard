@@ -12763,7 +12763,8 @@ body:not(.minimenu) .pc-sidebar .pc-submenu .pc-submenu > .pc-item:before {
     height: 9px;
     top: 7px;
     right: 16px;
-    padding: 0;
+    padding: 5px;
+    background: white;
 }
 
 .pc-header .pc-head-link .user-desc,
