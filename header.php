@@ -211,10 +211,50 @@
 					</li>
 
 					<li class="pc-h-item">
-						<a class="pc-head-link mr-0 border-right " href="#">
+						<a class="pc-head-link mr-0 border-right" dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
 							<span class="notification-number">2</span>
 							<span class="badge badge-danger pc-h-badge dots"><span class="sr-only"></span></span>
 						</a>
+						<div class="dropdown-menu dropdown-menu2 dropdown-menu-right pc-h-dropdown">
+							<div class=" dropdown-header">
+								<div class="whats-new">
+									<h2>Whats New?</h2>
+								</div>
+
+							</div>
+							<div class="notification-boxes aliceblue">
+								<div class="row">
+									<div class="col-md-9">
+										<h1>Tab Update</h1>
+										<h2>Sample description or summary description or
+											summary i in max row</h2>
+										<h3>23 July 2020</h3>
+									</div>
+
+									<div class="col-md-3">
+										<div class="new-badge">
+											<p>NEW</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="notification-boxes mt-1">
+								<div class="row">
+									<div class="col-md-9">
+										<h1>Tab Update</h1>
+										<h2>Sample description or summary description or
+											summary i in max row</h2>
+											<p class="mb-1">1. Sample description</p>
+											<p class="mb-1">2. Sample description</p>
+											<p class="mb-2">3. Sample description</p>
+
+										<h3 class="mt-1">23 July 2020</h3>
+									</div>
+
+								</div>
+							</div>
+						</div>
 					</li>
 
 					<li class="dropdown pc-h-item">
@@ -239,19 +279,20 @@
 								</div>
 							</div>
 							<a href="inbox.php" class="dropdown-item">
-							<i class="fas fa-edit"></i>
+								<i class="fas fa-edit"></i>
 								<span>Edit-profile</span>
 							</a>
 							<a href="profile.php" class="dropdown-item">
-							<i class="fas fa-key"></i>
+								<i class="fas fa-key"></i>
 								<span>Change Password</span>
 							</a>
 							<a href="#!" class="dropdown-item ">
-							<i class="fas fa-sign-out-alt red-t"></i>
+								<i class="fas fa-sign-out-alt red-t"></i>
 								<span class="red-t">Logout</span>
 							</a>
 						</div>
 					</li>
+
 				</ul>
 			</div>
 
