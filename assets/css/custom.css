@@ -101,7 +101,12 @@ a.btn_dark i {
     border-radius: 0px 0px 4px 4px;
 }
 
-
+table.my_table th {
+    padding: 15px;
+  }
+  table.my_table tr,td {
+    padding: 15px;
+  }
 
 
 /* ===========================================================================
