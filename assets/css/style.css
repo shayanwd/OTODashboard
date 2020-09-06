@@ -13121,7 +13121,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         top: 70px;
         margin-left: 280px;
         min-height: calc(100vh - 70px);
-        background-image: url("../images/auth/bg.png");
+        /* background-image: url("../images/auth/bg.png"); */
         background-size:cover;
         background-repeat:no-repeat;
         background-attachment:fixed;
