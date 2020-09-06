@@ -93,8 +93,8 @@
 					<li class="pc-item pc-hasmenu mt-2">
 						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">ORGANIZATION MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Organization List </a></li>
-							<li class="pc-item"><a class="pc-link" href="purchase.php"><span class="pc-micon"><i class="fas fa-shopping-cart"></i></span>Admin User List</a></li>
+							<li class="pc-item"><a class="pc-link" href="organization-list.php"><span class="pc-micon"></span>Organization List </a></li>
+							<li class="pc-item"><a class="pc-link" href="purchase.php"><span class="pc-micon"></span>Admin User List</a></li>
 						</ul>
 					</li>
 
