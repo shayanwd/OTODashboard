@@ -28,7 +28,38 @@
 ::-webkit-scrollbar {
     width: 0px;
 }
+.form-save-btn{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    background: black;
+    padding:4px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+}
 
+.form-previous-btn{
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    background: black;
+    padding:4px 10px;
+    border-radius: 3px;
+    font-weight: 600;
+}
+.step-form-close{
+    background: none;
+    float: left;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: #6a6a6a;
+    background: #f2f2f2;
+    padding:4px 10px;
+    font-weight: 600;
+}
 
 
 /* ===========================================================================
@@ -345,7 +376,7 @@ a.btn_light_1 span {
 #regForm {
     /* background-color: #ffffff; */
     margin: 0 auto;
-    padding: 15px 0 40px 0;
+    padding: 15px 0 100px 0;
     /* padding: 40px; */
     width: 100%;
     min-width: 300px;
@@ -380,6 +411,31 @@ a.btn_light_1 span {
     padding: 5px;
     border-radius: 3px;
     border: 1px solid lightgray;
+}
+.input-fields-url{
+    margin: 0px !important;
+    width: 100%;
+    float: left;
+}
+.input-social-icons{
+    float: right;
+    width: 30px;
+    margin-top: -16px;
+}
+.input-social-icons img{
+    width: 100%;
+}
+
+.input-fields-url input{
+    width: 80%;
+    border: none;
+    background: none;
+    outline: none;
+    height: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+    float: left;
 }
 
 .input-fields textarea {
@@ -599,7 +655,22 @@ label img {
     /* box-shadow: 0 0 5px #333; */
     /* z-index: -1; */
 }
-
+.web-links-seperator{
+    width: 100%;
+    margin: 20px 0;
+}
+.web-links-seperator h3{
+    font-size: 13px;
+    color: #ababb0;
+    font-weight: 600;
+}
+.main-form-btn-container{
+    overflow:auto;
+    margin-top: 50px;
+}
+.next-prev-btns{
+    float: right;
+}
 
 
 /* ===========================================================================

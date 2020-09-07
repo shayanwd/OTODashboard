@@ -57,6 +57,11 @@
 
 
 
+						<!-- =======================================================================================
+						\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Step-1-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+						======================================================================================= -->
+
+
 						<!-- One "tab" for each step in the form: -->
 						<div class="tab">
 
@@ -456,24 +461,196 @@
 									</div>
 								</div>
 							</div>
+									
+					</div>
 
-									</div>
+					<!-- =======================================================================================
+						\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Step-1-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+						=======================================================================================										 -->
+
+
+
+						<!-- =======================================================================================
+						\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Step-2-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+						======================================================================================= -->
 
 									<div class=" tab">
-														<p><input placeholder="dd" oninput="this.className = ''"></p>
-														<p><input placeholder="mm" oninput="this.className = ''"></p>
-														<p><input placeholder="yyyy" oninput="this.className = ''"></p>
+
+
+														<div class="row mt-4">
+															<div class="col-md-6">
+																<label class="step-label">Default Payment Gatway</label>
+																<div class="input-fields">
+																	<p><select required>
+																			<option value="Stripe">Stripe</option>
+																			<option value="Stripe 2">Stripe 2</option>
+																		</select></p>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<label class="step-label">Gateway Name</label>
+																<div class="input-fields">
+																	<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+														</div>
+
+														<div class="row mt-4">
+															<div class="col-md-6">
+																<label class="step-label">Stripe Client ID</label>
+																<div class="input-fields">
+																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<label class="step-label">Strip Publisable Key</label>
+																<div class="input-fields">
+																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+														</div>
+
+														<div class="row mt-4">
+															<div class="col-md-6">
+																<label class="step-label">Stripe Secrate Key</label>
+																<div class="input-fields">
+																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<label class="step-label">Default Currancy</label>
+																<div class="input-fields">
+																	<p><select required>
+																			<option value="USD">USD</option>
+																			<option value="Dollar">Dollar</option>
+																		</select></p>
+																</div>
+															</div>
+														</div>
+
+														<div class="clearfix"></div>
+
+														<div class="web-links-seperator">
+															<h3>Web Links</h3>
+														</div>
+
+														<div class="clearfix"></div>
+
+														<div class="row mt-4">
+															<div class="col-md-12">
+																<label class="step-label">Stripe Secrate Key</label>
+																<div class="input-fields-url">
+																	<p><input type="url" class="form-control " placeholder="" oninput="this.className = ''" required></p>
+																	<div class="input-social-icons">
+																		<img src="assets/images/play-store-icon.png">
+																	</div>
+																</div>
+															</div>
+												
+															<div class="col-md-12 mt-4">
+																<label class="step-label">Default Currancy</label>
+																<div class="input-fields-url">
+																	<p><input type="url" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																	<div class="input-social-icons">
+																		<img src="assets/images/apple-icon.png">
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														<div class="row mt-4">
+															<div class="col-md-12">
+																<label class="step-label">WebSite</label>
+																<div class="input-fields-url">
+																	<p><input type="url" class="form-control " placeholder="" oninput="this.className = ''" required></p>
+																	<div class="input-social-icons">
+																		<img src="assets/images/website-icon.png">
+																	</div>
+																</div>
+															</div>
+												
+															<div class="col-md-12 mt-4">
+																<label class="step-label">Email</label>
+																<div class="input-fields-url">
+																	<p><input type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																	<div class="input-social-icons">
+																		<img src="assets/images/email-icon.png">
+																	</div>
+																</div>
+															</div>
+														</div>
+
+														
+
+
 												</div>
 
-												<div class="tab">Login Info:
-													<p><input placeholder="Username..." oninput="this.className = ''"></p>
-													<p><input placeholder="Password..." oninput="this.className = ''"></p>
+												<!-- =======================================================================================
+												\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Step-2-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+												======================================================================================= -->
+
+												<!-- =======================================================================================
+												\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Step-3-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+												======================================================================================= -->
+
+												<div class="tab">
+												<div class="row mt-4">
+															<div class="col-md-6">
+																<label class="step-label">Full Name</label>
+																<div class="input-fields">
+																	<p><input  class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<label class="step-label">User Name</label>
+																<div class="input-fields">
+																	<p><input  class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+														</div>
+											
+
+												<div class="row mt-4">
+															<div class="col-md-6">
+																<label class="step-label">Phone Number</label>
+																<div class="input-fields">
+																	<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<label class="step-label">Email</label>
+																<div class="input-fields">
+																	<p><input type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+														</div>
+												
+
+												<div class="row mt-4">
+															<div class="col-md-6">
+																<label class="step-label">Password</label>
+																<div class="input-fields">
+																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+															<div class="col-md-6">
+																<label class="step-label">Confirm Password</label>
+																<div class="input-fields">
+																	<p><input type="password" type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																</div>
+															</div>
+														</div>
 												</div>
 
-												<div style="overflow:auto;">
-													<div style="float:right;">
-														<button type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-														<button type="button" id="nextBtn" onclick="nextPrev(1)">Next</button>
+												<!-- =======================================================================================
+												\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\Step-3-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+												======================================================================================= -->
+
+												<div class="main-form-btn-container">
+												<button id="close-organization-form" class="step-form-close" type="reset">Cancle</button>
+													<div class="next-prev-btns">
+														<button class="form-previous-btn"  type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+														<button class="form-save-btn" type="button" id="nextBtn" onclick="nextPrev(1)">Save & Continue</button>
 													</div>
 												</div>
 

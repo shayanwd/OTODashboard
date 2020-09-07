@@ -16,9 +16,9 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "inline";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
+    document.getElementById("nextBtn").innerHTML = "Save & Finish";
   } else {
-    document.getElementById("nextBtn").innerHTML = "Next";
+    document.getElementById("nextBtn").innerHTML = "Save & Continue";
   }
   // ... and run a function that displays the correct step indicator:
   fixStepIndicator(n)
@@ -81,3 +81,9 @@ $('.step-form-overlay').css("opacity", "1")
 $('.step-form-overlay').css("pointer-events", "all")
 $('.main-step-form-container').css("right", "0")
 });
+
+$("#close-organization-form").on('click', function (){
+  $('.step-form-overlay').css("opacity", "0")
+  $('.step-form-overlay').css("pointer-events", "none")
+  $('.main-step-form-container').css("right", "-100%")
+  });
