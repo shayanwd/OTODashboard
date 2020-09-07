@@ -53,3 +53,9 @@
         margin-top: 60px;
     }
 }
+
+@media (max-width: 767.98px){
+    .tabcontent {
+        padding: 6px 20px;
+    }
+}
