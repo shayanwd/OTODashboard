@@ -1,0 +1,29 @@
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\responsive-start////////////////////////////////////
+=========================================================================== */
+@media(max-width: 1024px) {
+    .buttons {
+        float: none;
+        margin-top: 21px;
+    }
+
+    .sreach_box input {
+        width: 100%;
+    }
+}
+
+
+
+
+@media(max-width: 500px) {
+    .step-container{
+        display: block;
+    }
+    .step{
+        margin-top: 5px;
+    }
+    .card_my{
+        margin-top: 60px;
+    }
+}
