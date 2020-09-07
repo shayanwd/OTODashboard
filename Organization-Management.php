@@ -88,18 +88,33 @@ include('./header.php')
 									<div class="summery_tabs">
 										<ul class="nav nav-tabs" id="myTab" role="tablist">
   											<li class="nav-item" role="presentation">
+												<!-- Shayan -->
     											<a class="nav-link active" id="SUMMARY-tab" data-toggle="tab" href="#SUMMARY" role="tab" aria-controls="SUMMARY" aria-selected="true">SUMMARY</a>
-  											</li>
+											  	<!-- Shayan -->
+											</li>
   											<li class="nav-item" role="presentation">
-    											<a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Profile</a>
+    											<a class="nav-link" id="basc-profile-tab" data-toggle="tab" href="#basc-profile" role="tab" aria-controls="basc-profile" aria-selected="false">BASIC PROFILE</a>
   											</li>
   											<li class="nav-item" role="presentation">
     											<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
   											</li>
 										</ul>
 										<div class="tab-content" id="myTabContent">
+											<!-- Shayan -->
   											<div class="tab-pane fade show active" id="SUMMARY" role="tabpanel" aria-labelledby="SUMMARY-tab">...</div>
-  											<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
+											<!-- Shayan -->  
+											<div class="tab-pane fade" id="basc-profile" role="tabpanel" aria-labelledby="basc-profile-tab">
+												<div class="row">
+													<div class="col-md-6">
+														<div class="Basic-Profile">
+															<div class="basic_heading">
+																<h3>Basic Profile</h3>
+																<a href="#"><i class="fas fa-pen"></i>Edit</a>
+															</div>
+														</div>
+													</div>
+												</div>
+											</div>
   											<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
 										</div>
 									</div>
