@@ -85,7 +85,7 @@ include('./header.php')
                             </div>
 							<div class="row">
 								<div class="col-md-12">
-									<div class="summery_tabs">
+									<!-- <div class="summery_tabs">
 										<ul class="nav nav-tabs" id="myTab" role="tablist">
   											<li class="nav-item" role="presentation">
     											<a class="nav-link active" id="SUMMARY-tab" data-toggle="tab" href="#SUMMARY" role="tab" aria-controls="SUMMARY" aria-selected="true">SUMMARY</a>
@@ -102,7 +102,41 @@ include('./header.php')
   											<div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">...</div>
   											<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
 										</div>
-									</div>
+									</div> -->
+<!-- ===================================================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\page-tabs-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=================================================================================================== -->
+<!-- Tab links -->
+<div class="page-tab">
+  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+
+<!-- ===================================================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\page-tabs-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=================================================================================================== -->
+ 
+
+
+
 								</div>
 							</div>
                                 
