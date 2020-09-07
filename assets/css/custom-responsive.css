@@ -1,0 +1,55 @@
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\responsive-start////////////////////////////////////
+=========================================================================== */
+@media(max-width: 1024px) {
+    .buttons {
+        float: none;
+        margin-top: 21px;
+    }
+
+    .sreach_box input {
+        width: 100%;
+    }
+}
+
+@media(max-width: 769px) {
+.sticker{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e-logo img{
+    max-width: 50%;
+    width: 100%;
+    
+}
+.sticker_1 {
+    margin-top: 11px;
+}
+.logo-decription {
+    text-align: center;
+}
+
+}
+
+
+
+@media(max-width: 500px) {
+    .step-container{
+        display: block;
+    }
+    .step{
+        margin-top: 5px;
+    }
+    .card_my{
+        margin-top: 60px;
+    }
+}

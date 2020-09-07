@@ -85,39 +85,41 @@ include('./header.php')
                             </div>
 							<div class="row">
 								<div class="col-md-12">
-									<div class="summery_tabs">
-										<ul class="nav nav-tabs" id="myTab" role="tablist">
-  											<li class="nav-item" role="presentation">
-												<!-- Shayan -->
-    											<a class="nav-link active" id="SUMMARY-tab" data-toggle="tab" href="#SUMMARY" role="tab" aria-controls="SUMMARY" aria-selected="true">SUMMARY</a>
-											  	<!-- Shayan -->
-											</li>
-  											<li class="nav-item" role="presentation">
-    											<a class="nav-link" id="basc-profile-tab" data-toggle="tab" href="#basc-profile" role="tab" aria-controls="basc-profile" aria-selected="false">BASIC PROFILE</a>
-  											</li>
-  											<li class="nav-item" role="presentation">
-    											<a class="nav-link" id="contact-tab" data-toggle="tab" href="#contact" role="tab" aria-controls="contact" aria-selected="false">Contact</a>
-  											</li>
-										</ul>
-										<div class="tab-content" id="myTabContent">
-											<!-- Shayan -->
-  											<div class="tab-pane fade show active" id="SUMMARY" role="tabpanel" aria-labelledby="SUMMARY-tab">...</div>
-											<!-- Shayan -->  
-											<div class="tab-pane fade" id="basc-profile" role="tabpanel" aria-labelledby="basc-profile-tab">
-												<div class="row">
-													<div class="col-md-6">
-														<div class="Basic-Profile">
-															<div class="basic_heading">
-																<h3>Basic Profile</h3>
-																<a href="#"><i class="fas fa-pen"></i>Edit</a>
-															</div>
-														</div>
-													</div>
-												</div>
-											</div>
-  											<div class="tab-pane fade" id="contact" role="tabpanel" aria-labelledby="contact-tab">...</div>
-										</div>
-									</div>
+<!-- ===================================================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\page-tabs-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=================================================================================================== -->
+<!-- Tab links -->
+
+<div class="page-tab">
+  <button class="tablinks active" onclick="openCity(event, 'London')">SUMMARY</button>
+  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
+  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
+</div>
+
+<!-- Tab content -->
+<div id="London" class="tabcontent">
+  <h3>London</h3>
+  <p>London is the capital city of England.</p>
+</div>
+
+<div id="Paris" class="tabcontent">
+  <h3>Paris</h3>
+  <p>Paris is the capital of France.</p>
+</div>
+
+<div id="Tokyo" class="tabcontent">
+  <h3>Tokyo</h3>
+  <p>Tokyo is the capital of Japan.</p>
+</div>
+
+
+<!-- ===================================================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\page-tabs-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\
+=================================================================================================== -->
+ 
+
+
+
 								</div>
 							</div>
                                 
@@ -128,6 +130,7 @@ include('./header.php')
 			</div>
         </div>
 	</div>
+</div>
 </div>
 			<!-- [ table Content ] start -->	
 			<!-- <div class="row">

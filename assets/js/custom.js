@@ -1,6 +1,9 @@
 
 
 
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\organization-step-form-start////////////////////////////////////
+=========================================================================== */
 
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
@@ -16,9 +19,9 @@ function showTab(n) {
     document.getElementById("prevBtn").style.display = "inline";
   }
   if (n == (x.length - 1)) {
-    document.getElementById("nextBtn").innerHTML = "Submit";
+    document.getElementById("nextBtn").innerHTML = "Save & Finish";
   } else {
-    document.getElementById("nextBtn").innerHTML = "Next";
+    document.getElementById("nextBtn").innerHTML = "Save & Continue";
   }
   // ... and run a function that displays the correct step indicator:
   fixStepIndicator(n)
@@ -75,9 +78,63 @@ function fixStepIndicator(n) {
   x[n].className += " active";
 }
 
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\organization-step-form-start////////////////////////////////////
+=========================================================================== */
+
+
+
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Add-organization-and-close-wor-start////////////////////////////////////
+=========================================================================== */
 
 $("#add-organization").on('click', function (){
 $('.step-form-overlay').css("opacity", "1")
 $('.step-form-overlay').css("pointer-events", "all")
 $('.main-step-form-container').css("right", "0")
 });
+
+$("#close-organization-form").on('click', function (){
+  $('.step-form-overlay').css("opacity", "0")
+  $('.step-form-overlay').css("pointer-events", "none")
+  $('.main-step-form-container').css("right", "-100%")
+  });
+
+
+  /* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Add-organization-and-close-work-end////////////////////////////////////
+=========================================================================== */
+
+
+
+
+  /* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-start////////////////////////////////////
+=========================================================================== */
+function openCity(evt, cityName) {
+  // Declare all variables
+  var i, tabcontent, tablinks;
+
+  // Get all elements with class="tabcontent" and hide them
+  tabcontent = document.getElementsByClassName("tabcontent");
+  for (i = 0; i < tabcontent.length; i++) {
+    tabcontent[i].style.display = "none";
+  }
+
+  // Get all elements with class="tablinks" and remove the class "active"
+  tablinks = document.getElementsByClassName("tablinks");
+  for (i = 0; i < tablinks.length; i++) {
+    tablinks[i].className = tablinks[i].className.replace(" active", "");
+  }
+
+  // Show the current tab, and add an "active" class to the button that opened the tab
+  document.getElementById(cityName).style.display = "block";
+  evt.currentTarget.className += " active";
+}
+
+
+
+  /* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-end////////////////////////////////////
+=========================================================================== */
