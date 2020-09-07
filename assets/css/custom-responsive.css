@@ -13,6 +13,32 @@
     }
 }
 
+@media(max-width: 769px) {
+.sticker{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e-logo{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.e-logo img{
+    max-width: 50%;
+    width: 100%;
+    
+}
+.sticker_1 {
+    margin-top: 11px;
+}
+.logo-decription {
+    text-align: center;
+}
+
+}
 
 
 
