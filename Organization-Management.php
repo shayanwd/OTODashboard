@@ -108,7 +108,7 @@ include('./header.php')
 =================================================================================================== -->
 <!-- Tab links -->
 <div class="page-tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
+  <button class="tablinks active" onclick="openCity(event, 'London')">London</button>
   <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
   <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
 </div>
@@ -147,6 +147,7 @@ include('./header.php')
 			</div>
         </div>
 	</div>
+</div>
 </div>
 			<!-- [ table Content ] start -->	
 			<!-- <div class="row">
