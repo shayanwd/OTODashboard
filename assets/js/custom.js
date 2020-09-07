@@ -74,3 +74,10 @@ function fixStepIndicator(n) {
   //... and adds the "active" class to the current step:
   x[n].className += " active";
 }
+
+
+$("#add-organization").on('click', function (){
+$('.step-form-overlay').css("opacity", "1")
+$('.step-form-overlay').css("pointer-events", "all")
+$('.main-step-form-container').css("right", "0")
+});

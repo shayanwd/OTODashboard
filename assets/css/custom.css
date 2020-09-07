@@ -1,152 +1,33 @@
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-colors-start////////////////////////////////////
 =========================================================================== */
-.yellow-t{
+.yellow-t {
     color: #ffed00 !important;
 }
-.yellow-b{
+
+.yellow-b {
     background: #ffed00 !important;
 }
-.red-t{
+
+.red-t {
     color: #d90a20 !important;
 }
-.red-b{
+
+.red-b {
     background: #d90a20 !important;
 }
-.aliceblue{
+
+.aliceblue {
     background: aliceblue;
 }
-.relative{
+
+.relative {
     position: relative;
 }
-.step-form-overlay{
-    width: 100%;
-    max-width: 100%;
-    height: 100%;
-    position: fixed;
-    right: 0;
-    background: rgba(65, 65, 65, 0.253);
-    z-index: 9999 !important;
-    float: left;
-}
-.main-step-form-holder{
-    width: 500px;
-    max-width: 100%;
-    height: 100%;
-    float: right;
-}
-.main-step-form-container{
-    width: 100%;
-    background: white;
-    position: absolute;
-    right: 0%;
-    height: 100%;
-    overflow: scroll;
-    padding: 20px 30px;
-}
-.add-organization-heading h2{
-    font-size: 18px;
-    font-weight: bold;
-}
 
-
-
-/* Style the form */
-#regForm {
-    /* background-color: #ffffff; */
-    margin: 100px auto;
-    /* padding: 40px; */
-    width: 100%;
-    min-width: 300px;
-  }
-  
-  /* Style the input fields */
-  input {
-    padding: 10px;
-    width: 100%;
-    font-size: 17px;
-    font-family: Raleway;
-    border: 1px solid #aaaaaa;
-  }
-  
-  /* Mark input boxes that gets an error on validation: */
-  input.invalid {
-    background-color: #ffdddd;
-  }
-  
-  /* Hide all steps by default: */
-  .tab {
-    display: none;
-  }
-  
-  .step-container{
-      display: inline-block;
-      text-align: center;
-      width: 100%;
-      display: flex;
-      justify-content: center;
-      align-items: center;
-  }
-
-  /* Make circles that indicate the steps of the form: */
-  .step {
-   padding: 7px;
-    margin: 0 2px;
-    /* background-color: #bbbbbb; */
-    border: 1px solid black !important;
-    border: none;
-    border-top-right-radius: 25px;
-    border-top-left-radius: 25px;
-    border-bottom-right-radius: 25px;
-    border-bottom-left-radius: 25px;
-    display: inline-block;
-    opacity: 0.5;
-    text-align: center;
-    cursor: pointer;
-  }
-.step p{
-    margin: 0px !important;
-    color: black;
-    font-weight: 600;
-    font-size: 12px;
+::-webkit-scrollbar {
+    width: 0px;
 }
-.step p span{
-    margin-right: 4px;
-    width: 13px;
-    height: 13px;
-    background: black;
-    color: white;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    float: left;
-    padding: 7px;
-    border-radius: 50%;
-    margin-top:1px ;
-    font-size: 12px;
-}
-  
-  /* Mark the active step: */
-  .step.active {
-    opacity: 1;
-  }
-  
-  /* Mark the steps that are finished and valid: */
-  .step.finish {
-    color: #4CAF50!important;
-    opacity: 1;
-    border: 1px solid #4CAF50 !important;
-  }
-  .step.finish p{
-    color: #4CAF50!important;
-    opacity: 1;
-  }
-  .step.finish p span{
-    background-color: #4CAF50;
-    color: white!important;
-    opacity: 1;
-  }
-
 
 
 
@@ -159,9 +40,11 @@
 .heading {
     margin-bottom: 22px;
 }
-.sreach_box{
+
+.sreach_box {
     position: relative;
 }
+
 .sreach_box i {
     color: lightgray;
     font-size: initial;
@@ -169,53 +52,75 @@
     left: -7px;
     top: -4px;
 }
+
 .sreach_box input {
-    width:50%;
+    width: 50%;
     border-radius: 3px;
     color: lightgray;
     border: 1px solid lightgray;
 }
+
 .buttons {
     float: right;
 }
-.buttons a{
+
+.buttons a {
     border-radius: 3px;
 }
+
 .buttons a i {
     width: auto;
     font-size: 10px;
 }
+
 a.btn_light {
-    margin-right:10px;
+    margin-right: 10px;
     padding: 10px 20px;
     color: #4b4b4b;
     background: #fff;
     box-shadow: 0px 4px 10px #cccccc;
 }
+
 a.btn_light i {
     margin: 0px 5px;
 }
+
 a.btn_dark {
     color: #fff;
     background: #000;
     padding: 10px 20px;
+    transition: 0.3s;
+    border: 1px solid transparent;
 }
+
+a.btn_dark:hover {
+    color: black;
+    background: #fff;
+    padding: 10px 20px;
+    border: 1px solid black;
+}
+
 a.btn_dark i {
     margin: 0px 5px 0px 0px;
 }
+
 .sreach_box.col-md-6 {
     padding: 0px;
 }
+
 .my_table {
     width: 100%;
 }
-.my_table  table tbody tr th {
+
+.my_table table tbody tr th {
     padding: 14px 0px;
 }
+
 .card_my {
     box-shadow: 0 2px 6px -1px rgba(0, 0, 0, 0.1);
     transition: box-shadow 0.2s ease-in-out;
 }
+
 .card_my {
     position: relative;
     display: flex;
@@ -227,27 +132,35 @@ a.btn_dark i {
     border: 0px solid rgba(0, 0, 0, 0.125);
     border-radius: 4px 4px 0px 0px;
 }
+
 .card-body_my {
     flex: 1 1 auto;
     min-height: 1px;
 }
+
 .user-profile-list {
     background: #fff;
     box-shadow: none;
 }
+
 .card {
     border-radius: 0px 0px 4px 4px;
 }
+
 table.my_table th {
     padding: 15px;
-  }
-  table.my_table tr, td {
+}
+
+table.my_table tr,
+td {
     padding: 15px;
     font-weight: 500;
 }
-  table.my_table tr td a img {
+
+table.my_table tr td a img {
     width: 20px !important;
 }
+
 .org_activ {
     background: #0fc12e;
     color: #fff;
@@ -255,6 +168,7 @@ table.my_table th {
     width: fit-content;
     border-radius: 3px;
 }
+
 .org_deactiv {
     background: #ff7a09;
     color: #fff;
@@ -262,15 +176,17 @@ table.my_table th {
     width: fit-content;
     border-radius: 3px;
 }
+
 tr.blod {
     background: aliceblue;
 
 }
-tr.blod td{
+
+tr.blod td {
     font-weight: 700 !important;
 }
 
-  
+
 
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_list-end////////////////////////////////////
@@ -283,53 +199,65 @@ tr.blod td{
 .sticker img {
     width: 100%;
 }
+
 .heading_Id p {
     margin-top: 10px;
     font-size: 19px;
     margin-bottom: 0px;
 }
+
 .heading_Id p span {
     font-weight: 600;
     font-size: 25px;
 }
+
 .card-head .col-md-4 {
     padding: 3px;
 }
+
 a.btn_light_1 p {
     padding: 3px 12px 0px;
     margin: 0px;
     color: gray;
 }
+
 a.btn_light_1 i {
     float: right;
     font-size: smaller;
     color: black;
     padding: 0px;
 }
+
 a.btn_light_1 span {
     padding: 0px 12px 3px;
     font-size: 16px;
     color: #10b42b;
     font-weight: 600;
 }
+
 .sticker_1 {
-    border-radius:3px;
+    border-radius: 3px;
     height: 46px;
     box-shadow: 0px 4px 10px #cccccc;
 }
+
 .e-logo img {
-    border-radius:100%;
+    border-radius: 100%;
     width: 100%;
 }
+
 .logo-decription {
     margin-top: 30px;
 }
+
 .logo_dec h5 {
     font-size: 20px;
 }
-.dec .col-md-10{
+
+.dec .col-md-10 {
     padding-left: 0px;
 }
+
 .logo_dec h5 span {
     padding: 6px;
     background: #ededed;
@@ -338,18 +266,21 @@ a.btn_light_1 span {
     margin-left: 22px;
     border-radius: 3px;
 }
-.contact-info ul{
+
+.contact-info ul {
     padding: 0px;
     float: left;
-    width:100%;
-    margin:0px;
+    width: 100%;
+    margin: 0px;
 }
+
 .contact-info ul li {
     list-style: none;
     float: left;
     margin-left: 26px;
 }
-.contact-info ul li:first-child{
+
+.contact-info ul li:first-child {
     margin-left: 0px;
 }
 
@@ -359,22 +290,321 @@ a.btn_light_1 span {
 }
 
 
-
-
-
-
-
-
-
-
-
-
-
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_managment-end////////////////////////////////////
 =========================================================================== */
 
 
+
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Step_form-start////////////////////////////////////
+=========================================================================== */
+
+
+.step-form-overlay {
+    width: 100%;
+    max-width: 100%;
+    height: 100%;
+    position: fixed;
+    right: 0;
+    background: rgba(65, 65, 65, 0.253);
+    z-index: 9999 !important;
+    float: left;
+    pointer-events: none;
+    opacity: 0;
+    transition-duration: 0.4s;
+}
+
+.main-step-form-holder {
+    width: 500px;
+    max-width: 100%;
+    height: 100%;
+    float: right;
+}
+
+.main-step-form-container {
+    width: 100%;
+    background: white;
+    position: absolute;
+    right: -100%;
+    height: 100%;
+    overflow: scroll;
+    padding: 20px 30px;
+    transition-duration: 0.8s;
+}
+
+.add-organization-heading h2 {
+    font-size: 18px;
+    font-weight: bold;
+}
+
+
+
+/* Style the form */
+#regForm {
+    /* background-color: #ffffff; */
+    margin: 0 auto;
+    padding: 15px 0 40px 0;
+    /* padding: 40px; */
+    width: 100%;
+    min-width: 300px;
+}
+
+/* Style the input fields */
+.input-fields {
+    width: 100%;
+}
+
+.input-fields p {
+    margin: 0px !important;
+}
+
+.input-fields p select {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    height: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.input-fields input {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    height: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.input-fields textarea {
+    width: 100%;
+    border: none;
+    background: none;
+    outline: none;
+    height: 100%;
+    padding: 5px;
+    border-radius: 3px;
+    border: 1px solid lightgray;
+}
+
+.step-label {
+    font-weight: bold;
+    font-size: 14px;
+    margin-top: 5px;
+}
+
+/* Mark input boxes that gets an error on validation: */
+input.invalid {
+    /* background-color: #ffdddd; */
+    border: 2px solid #ffbebe;
+}
+
+
+/* Hide all steps by default: */
+.tab {
+    display: none;
+}
+
+.step-container {
+    display: inline-block;
+    text-align: center;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Make circles that indicate the steps of the form: */
+.step {
+    padding: 7px;
+    margin: 0 2px;
+    /* background-color: #bbbbbb; */
+    border: 1px solid black !important;
+    border: none;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    display: inline-block;
+    opacity: 0.5;
+    text-align: center;
+    cursor: pointer;
+}
+
+.step p {
+    margin: 0px !important;
+    color: black;
+    font-weight: 600;
+    font-size: 12px;
+}
+
+.step p span {
+    margin-right: 4px;
+    width: 13px;
+    height: 13px;
+    background: black;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    padding: 7px;
+    border-radius: 50%;
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+/* Mark the active step: */
+.step.active {
+    opacity: 1;
+}
+
+/* Mark the steps that are finished and valid: */
+.step.finish {
+    color: #4CAF50 !important;
+    opacity: 1;
+    border: 1px solid #4CAF50 !important;
+}
+
+.step.finish p {
+    color: #4CAF50 !important;
+    opacity: 1;
+}
+
+.step.finish p span {
+    background-color: #4CAF50;
+    color: white !important;
+    opacity: 1;
+}
+
+.upload-image {
+    max-width: 110px;
+    max-height: 110px;
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    position: relative;
+}
+
+.upload-image img {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.image-upload-field input[type="file"] {
+    display: none;
+}
+
+.custom-file-upload {
+    border: 2px solid white;
+    display: inline-block;
+    padding: 4px;
+    background: black;
+    border-radius: 50%;
+    color: white;
+    font-size: 9px;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+    position: absolute;
+    z-index: 1;
+    bottom: 12px;
+    right: 5px;
+
+}
+
+
+.input-fields ul {
+    list-style-type: none;
+    margin: 0px !important;
+    padding:0px !important;
+}
+
+.input-fields ul li {
+    display: inline-block;
+}
+.input-fields ul li h6{
+   text-align: center;
+   font-size: 15px;
+   font-weight: 600 ;
+   color: #6d6d75;
+}
+
+.input-fields ul li input[type="checkbox"][id^="myCheckbox"] {
+    display: none;
+}
+
+.input-fields ul li label {
+    border: 2px solid rgb(221, 221, 221);
+    padding: 15px;
+    display: block;
+    position: relative;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 50%;
+    width: 80px;
+    height:80px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.input-fields ul li label:before {
+    background-color: yellow;
+    color: white;
+    content: " ";
+    display: block;
+    border-radius: 50%;
+    /* border: 1px solid grey; */
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    line-height: 28px;
+    transition-duration: 0.4s;
+    transform: scale(0);
+}
+
+label img {
+    /* height: 100%; */
+    width: 100%;
+    transition-duration: 0.2s;
+    transform-origin: 50% 50%;
+}
+
+.input-fields ul li :checked+label {
+    border: none;
+}
+
+.input-fields ul li :checked+label:before {
+    /* content: "✓"; */
+    background-color:yellow;
+    transform: scale(1);
+}
+
+.input-fields ul li  :checked+label img {
+    transform: scale(0.9);
+    /* box-shadow: 0 0 5px #333; */
+    /* z-index: -1; */
+}
+
+
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Step_form-end////////////////////////////////////
+=========================================================================== */
 
 
 
@@ -385,22 +615,24 @@ a.btn_light_1 span {
 
 
 
-.notification-number{
+.notification-number {
     border-radius: 7px;
     border: 1px solid #61615e;
     padding: 2px 8px;
-    color: #EA4D4D ;
+    color: #EA4D4D;
 }
-.profile-icon{
-font-size: 10px !important;
+
+.profile-icon {
+    font-size: 10px !important;
 }
+
 li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
     background: #0f2d48;
     border-radius: 10px;
     padding-bottom: 4px;
 }
 
-.header-profile-img{
+.header-profile-img {
     max-width: 130px;
     width: 100%;
     max-height: 130px;
@@ -410,60 +642,73 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
     margin: 0 auto;
     text-align: center;
 }
-.header-profile-img img{
+
+.header-profile-img img {
     width: 100%;
     height: 100%;
     border-radius: 50%;
 }
-.header-profile-content{
+
+.header-profile-content {
     width: 100%;
     text-align: center;
 }
-.header-profile-content h2{
-    font-size:22px;
+
+.header-profile-content h2 {
+    font-size: 22px;
     font-weight: 600;
-    margin-top:10px;
+    margin-top: 10px;
     color: #323740;
 }
-.header-profile-content h3{
-    font-size:18px;
+
+.header-profile-content h3 {
+    font-size: 18px;
     font-weight: 500;
-    color:#616672;
+    color: #616672;
 }
-.header-profile-content h4{
-    font-size:14px;
+
+.header-profile-content h4 {
+    font-size: 14px;
     font-weight: 500;
 }
-.header-profile-content h4 a{
-    font-size:14px;
+
+.header-profile-content h4 a {
+    font-size: 14px;
     font-weight: 500;
-    color:#8f9399;
+    color: #8f9399;
 }
-.whats-new h2{
-font-size: 25px;
-font-weight: 600;
-color: #323740;
+
+.whats-new h2 {
+    font-size: 25px;
+    font-weight: 600;
+    color: #323740;
 }
-.notification-boxes{
+
+.notification-boxes {
     padding: 16px 24px;
 }
-.notification-boxes h1{
+
+.notification-boxes h1 {
     font-size: 21px;
     font-weight: 600;
     color: black;
 }
-.notification-boxes h2{
+
+.notification-boxes h2 {
     font-size: 17px;
     color: rgb(27, 27, 27);
 }
-.notification-boxes h3{
+
+.notification-boxes h3 {
     font-size: 16px;
-    color:#616672;
+    color: #616672;
 }
-.notification-boxes p{
+
+.notification-boxes p {
     margin: 0px !important;
     font-size: 18px;
 }
+
 .new-badge {
     width: 61px;
     max-width: 100%;
@@ -471,11 +716,12 @@ color: #323740;
     background: #7d3cf8;
     border-radius: 3px;
 }
-.new-badge p{
-   color: white;
-   font-size: 16px;
-   margin: 0px !important;
-   text-align: center;
+
+.new-badge p {
+    color: white;
+    font-size: 16px;
+    margin: 0px !important;
+    text-align: center;
 }
 
 
@@ -488,14 +734,13 @@ color: #323740;
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\responsive-start////////////////////////////////////
 =========================================================================== */
-@media(max-width: 1024px){
+@media(max-width: 1024px) {
     .buttons {
         float: none;
         margin-top: 21px;
     }
+
     .sreach_box input {
-        width:100%;
+        width: 100%;
     }
 }
-
-
