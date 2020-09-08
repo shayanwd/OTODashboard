@@ -102,6 +102,7 @@
 														<th class="no-padding"><button class="tablinks active" onclick="openCity(event, 'page-tab-content1')">SUMMARY</button></th>
 														<th class="no-padding"><button class="tablinks" onclick="openCity(event, 'page-tab-content2')">BASIC PROFILE</button></th>
 														<th class="no-padding"><button class="tablinks" onclick="openCity(event, 'page-tab-content3')">ASSIGNED FLEETS</button></th>
+														<th class="no-padding"><button class="tablinks" onclick="openCity(event, 'page-tab-content4')">VEHICLES LISTS</button></th>
 														<th class="no-padding">Country</th>
 														<th class="no-padding">Active Status</th>
 														<th class="no-padding">Action</th>
@@ -639,6 +640,11 @@
 					</div>
 				</div>
 			</div>
+		</div>
+
+
+		<div id="page-tab-content3" class="tabcontent">
+
 		</div>
 
 	</div>

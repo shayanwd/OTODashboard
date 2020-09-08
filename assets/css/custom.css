@@ -338,6 +338,10 @@ a.btn_light_1 span {
     height: 46px;
     box-shadow: 0px 4px 10px #cccccc;
 }
+.e-logo{
+max-width: 74%;
+width: 100%;
+}
 .e-logo img {
     border-radius:100%;
     width: 100%;
