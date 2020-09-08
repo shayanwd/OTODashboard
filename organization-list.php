@@ -546,7 +546,7 @@
 																	</div>
 																</div>
 															</div>
-												
+
 															<div class="col-md-12 mt-4">
 																<label class="step-label">Default Currancy</label>
 																<div class="input-fields-url">
@@ -568,7 +568,7 @@
 																	</div>
 																</div>
 															</div>
-												
+
 															<div class="col-md-12 mt-4">
 																<label class="step-label">Email</label>
 																<div class="input-fields-url">
@@ -580,7 +580,7 @@
 															</div>
 														</div>
 
-														
+
 
 
 												</div>
@@ -594,52 +594,52 @@
 												======================================================================================= -->
 
 												<div class="tab">
-												<div class="row mt-4">
-															<div class="col-md-6">
-																<label class="step-label">Full Name</label>
-																<div class="input-fields">
-																	<p><input  class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																</div>
-															</div>
-															<div class="col-md-6">
-																<label class="step-label">User Name</label>
-																<div class="input-fields">
-																	<p><input  class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																</div>
+													<div class="row mt-4">
+														<div class="col-md-6">
+															<label class="step-label">Full Name</label>
+															<div class="input-fields">
+																<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
 															</div>
 														</div>
-											
+														<div class="col-md-6">
+															<label class="step-label">User Name</label>
+															<div class="input-fields">
+																<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+															</div>
+														</div>
+													</div>
 
-												<div class="row mt-4">
-															<div class="col-md-6">
-																<label class="step-label">Phone Number</label>
-																<div class="input-fields">
-																	<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																</div>
-															</div>
-															<div class="col-md-6">
-																<label class="step-label">Email</label>
-																<div class="input-fields">
-																	<p><input type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																</div>
-															</div>
-														</div>
-												
 
-												<div class="row mt-4">
-															<div class="col-md-6">
-																<label class="step-label">Password</label>
-																<div class="input-fields">
-																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																</div>
-															</div>
-															<div class="col-md-6">
-																<label class="step-label">Confirm Password</label>
-																<div class="input-fields">
-																	<p><input type="password" type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																</div>
+													<div class="row mt-4">
+														<div class="col-md-6">
+															<label class="step-label">Phone Number</label>
+															<div class="input-fields">
+																<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
 															</div>
 														</div>
+														<div class="col-md-6">
+															<label class="step-label">Email</label>
+															<div class="input-fields">
+																<p><input type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+															</div>
+														</div>
+													</div>
+
+
+													<div class="row mt-4">
+														<div class="col-md-6">
+															<label class="step-label">Password</label>
+															<div class="input-fields">
+																<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<label class="step-label">Confirm Password</label>
+															<div class="input-fields">
+																<p><input type="password" type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+															</div>
+														</div>
+													</div>
 												</div>
 
 												<!-- =======================================================================================
@@ -647,9 +647,9 @@
 												======================================================================================= -->
 
 												<div class="main-form-btn-container">
-												<button id="close-organization-form" class="step-form-close" type="reset">Cancle</button>
+													<button id="close-organization-form" class="step-form-close" type="reset">Cancle</button>
 													<div class="next-prev-btns">
-														<button class="form-previous-btn"  type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
+														<button class="form-previous-btn" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
 														<button class="form-save-btn" type="button" id="nextBtn" onclick="nextPrev(1)">Save & Continue</button>
 													</div>
 												</div>
@@ -685,8 +685,12 @@
 												<i class="fas fa-search"></i>
 											</div>
 											<div class="col-md-6">
-												<div class="buttons">
-													<a class="btn_light" href="#"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>
+												<div class="buttons dropdown">
+													<a class="btn_light" href="#!" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>
+													<div class="dropdown-menu export-dropdown">
+														<a class="dropdown-item" href="#">Export as CSV</a>
+														<a class="dropdown-item" href="#">Export as PDF</a>
+													</div>
 													<a class="btn_dark" id="add-organization" href="#"><i class="fas fa-plus"></i> Add</a>
 												</div>
 											</div>
