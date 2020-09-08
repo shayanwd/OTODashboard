@@ -1075,11 +1075,12 @@ color: #323740;
     }
 }
 .filter a {
+    font-weight: 800;
     display: block;
-    padding: 5px;
-    background: lightgrey;
+    padding: 5px 5px 5px 15px;
+    background: #f1f1f1;
     width: 100%;
-    color: #616672;
+    color: #321d1d;
     border-radius: 3px;
 }
 .filter a i {
