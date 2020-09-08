@@ -1,0 +1,63 @@
+
+var options = {
+  series: [{
+    name: "Desktops",
+    data: [10, 41, 35, 51, 49, 62, 69, 91, 148]
+}],
+  chart: {
+  height: 350,
+  type: 'line',
+  zoom: {
+    enabled: false
+  }
+},
+dataLabels: {
+  enabled: false
+},
+stroke: {
+  curve: 'straight'
+},
+title: {
+  text: 'Product Trends by Month',
+  align: 'left'
+},
+grid: {
+  row: {
+    colors: ['#f3f3f3', 'transparent'], // takes an array which will be repeated on columns
+    opacity: 0.5
+  },
+},
+xaxis: {
+  categories: ['Jan', 'Feb', 'Mar', 'Apr', 'May', 'Jun', 'Jul', 'Aug', 'Sep'],
+}
+};
+
+var chart = new ApexCharts(document.querySelector("#LineChart"), options);
+chart.render();
+
+
+
+
+var ctx = document.getElementById('meterChart').getContext('2d');
+var chart = new Chart(ctx, {
+	// The type of chart we want to create
+	type: 'doughnut',
+
+	// The data for our dataset
+	data: {
+		labels: ["January", "February", "March", "April", "May"],
+		datasets: [{
+			label: "My First dataset",
+			backgroundColor: ['rgb(0, 99, 132)', 'green', 'red', 'yellow', 'orange'],
+			borderColor: '#fff',
+			data: [5, 10, 5, 2, 20],
+		}]
+	},
+
+	// Configuration options go here
+	options: {
+		circumference: 1 * Math.PI,
+		rotation: 1 * Math.PI,
+		cutoutPercentage: 90
+	}
+});

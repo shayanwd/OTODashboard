@@ -132,7 +132,15 @@
 					<div class="card_my prod-p-card background-pattern">
 						<div class="card-body">
 							<div class="card-head">
-								<h1 class="text-center">Graphs-pending....</h1>
+								<!-- <h1 class="text-center">Graphs-pending....</h1> -->
+								<div class="row">
+									<div class="col-md-6">
+										<div id="LineChart"></div>
+									</div>
+									<div class="col-md-6">
+										<canvas id="meterChart"></canvas>
+									</div>
+								</div>
 							</div>
 						</div>
 					</div>
@@ -643,8 +651,47 @@
 		</div>
 
 
-		<div id="page-tab-content3" class="tabcontent">
-
+		<div id="page-tab-content4" class="tabcontent">
+			<div class="row">
+				<div class="col-md-12 col-xl-12 mt-1">
+					<div class="card_my prod-p-card background-pattern">
+						<div class="card-body">
+							<div class="card-head">
+								<div class="row">
+									<div class="col-md-8">
+										<div class="row">
+											<div class="col-md-4">
+												<div class="vehical-card yellow-b">
+													<h2>TOTAL VEHICLES</h2>
+													<h3>500</h3>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="vehical-card blue-b">
+													<h2 class="white-t">TOTAL VEHICLES</h2>
+													<h3 class="white-t">500</h3>
+												</div>
+											</div>
+											<div class="col-md-4">
+												<div class="vehical-card orange-b ">
+													<h2 class="white-t">TOTAL VEHICLES</h2>
+													<h3 class="white-t">500</h3>
+												</div>
+											</div>
+										</div>
+									</div>
+									<div class="col-md-4">
+										<div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
+											<i class="fa fa-calendar"></i>&nbsp;
+											<span></span> <i class="fa fa-caret-down"></i>
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
 		</div>
 
 	</div>
@@ -745,18 +792,29 @@
 			</div>				 -->
 
 	<!-- [ table Content ] end -->
-	<script src="assets/js/vendor-all.min.js"></script>
-	<script src="assets/js/plugins/bootstrap.min.js"></script>
-	<script src="assets/js/plugins/feather.min.js"></script>
-	<script src="assets/js/pcoded.min.js"></script>
-	<script src="https://cdnjs.cloudflare.com/ajax/libs/highlight.js/9.12.0/highlight.min.js"></script>
-	<script src="assets/js/plugins/clipboard.min.js"></script>
-	<script src="assets/js/uikit.min.js"></script>
 
+
+
+
+	
+
+
+
+
+	
 	<!-- Apex Chart -->
-	<script src="assets/js/plugins/apexcharts.min.js"></script>
-	<!-- custom-chart js -->
-	<script src="assets/js/pages/dashboard.js"></script>
+	 
+
 </body>
 
 </html>
+
+
+
+
+
+
+
+
+
+<?php include('footer.php') ?>
