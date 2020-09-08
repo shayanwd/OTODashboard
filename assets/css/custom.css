@@ -53,7 +53,9 @@
     padding:4px 10px;
     font-weight: 600;
 }
-
+.remove-pb{
+    padding-bottom: 0px !important;
+}
 
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-colors-end////////////////////////////////////
@@ -555,64 +557,6 @@ label img {
 
 
 /* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-start////////////////////////////////////
-=========================================================================== */
-
-
-/* Style the tab */
-.page-tab {
-    overflow: hidden;
-    border: 1px solid #ccc;
-    background-color: #f1f1f1;
-  }
-  
-  /* Style the buttons that are used to open the tab content */
-  .page-tab button {
-    background-color: inherit;
-    float: left;
-    border: none;
-    outline: none;
-    cursor: pointer;
-    padding: 14px 16px;
-    transition: 0.3s;
-  }
-  
-  /* Change background color of buttons on hover */
-  .page-tab button:hover {
-    background-color: #ddd;
-  }
-  
-  /* Create an active/current tablink class */
-  .page-tab button.active {
-    background-color: #ccc;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
-    display: none;
-    padding: 6px 12px;
-    border: 1px solid #ccc;
-    border-top: none;
-  }
-
-
-
-
-
-
-
-
-
-/* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-end////////////////////////////////////
-=========================================================================== */
-
-
-
-
-
-
-/* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Header-start////////////////////////////////////
 =========================================================================== */
 
@@ -714,22 +658,83 @@ color: #323740;
 
 
 
-
-
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Header-end////////////////////////////////////
 =========================================================================== */
+
+
+
 /* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\responsive-start////////////////////////////////////
-@media(max-width: 1024px){
-    .buttons {
-        float: none;
-        margin-top: 21px;
-    }
-    .sreach_box input {
-        width:100%;
-    }
+\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-start////////////////////////////////////
+=========================================================================== */
+
+
+/* Style the tab */
+.page-tab {
+    overflow-x:hidden;
+    overflow-y: scroll;
+    margin-top: 20px;
+  }
+  
+  /* Style the buttons that are used to open the tab content */
+  .page-tab button {
+    background-color: inherit;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    transition: 0.3s;
+    color: #616672;
+    font-weight: bold;
+    font-size: 12px;
+    border-bottom:3px solid transparent;
+  }
+  
+  /* Change background color of buttons on hover */
+  .page-tab button:hover {
+    border-bottom:3px solid #616672;
+  }
+  
+  /* Create an active/current tablink class */
+  .page-tab button.active {
+    color:black;
+    border-bottom:3px solid black;
+  }
+  
+  /* Style the tab content */
+  .tabcontent {
+    display: none;
+    padding: 6px 30px;
+    border-top: none;
+    background: #f0f2f8;
+    margin-top: 3px;
+  }
+
+  .tabcontent:nth-child(2) {
+    display: block;
 }
 
 
-=======
+.tabcontent {
+    animation: fadeEffect 1s;
+}
+
+/* Go from zero to full opacity */
+
+@keyframes fadeEffect {
+    from {
+        opacity: 0;
+    }
+
+    to {
+        opacity: 1;
+    }
+}
+
+/* tab-end */
+
+
+
+
+
