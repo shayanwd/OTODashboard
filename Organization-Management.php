@@ -446,14 +446,23 @@
 									<div class="sreach_row col-md-12">
 										<div class="row">
 											<div class="col-md-6">
-												<div class="fleet-search-box">
+												<!-- <div class="fleet-search-box">
 													<div class="fleet-search-icon">
 														<i class="fas fa-search"></i>
 													</div>
 													<div class="fleet-seacrh-field">
 														<input type="text" placeholder="search">
 													</div>
+												</div> -->
+												<div class="row">
+												<div class="sreach_box1 col-md-6">
+												<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
+												<i class="fas fa-search"></i>
+											</div>
+												<div class="filter col-md-6">
+													<a href="#">Filter <i class="fas fa-chevron-down"></i></a>
 												</div>
+											</div>
 											</div>
 											<div class="col-md-6">
 												<div class="buttons dropdown">

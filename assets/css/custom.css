@@ -200,7 +200,7 @@
     top: -4px;
 }
 .sreach_box input {
-    width:50%;
+    width: 52%;
     border-radius: 3px;
     color: lightgray;
     border: 1px solid lightgray;
@@ -1069,7 +1069,22 @@ color: #323740;
     color: black;
     border-bottom: 3px solid black;
 }
-
+.sreach_box1{
+    position: relative;
+}
+.sreach_box1 i {
+    color: lightgray;
+    font-size: initial;
+    position: absolute;
+    left: 9px;
+    top: -4px;
+}
+.sreach_box1 input {
+    width: 100%;
+    border-radius: 3px;
+    color: lightgray;
+    border: 1px solid lightgray;
+}
 /* Style the tab content */
 .tabcontent {
     display: none;
@@ -1098,6 +1113,20 @@ color: #323740;
     to {
         opacity: 1;
     }
+}
+.filter a {
+    font-weight: 800;
+    display: block;
+    padding: 5px 5px 5px 15px;
+    background: #f1f1f1;
+    width: 100%;
+    color: #321d1d;
+    border-radius: 3px;
+}
+.filter a i {
+    float: right;
+    font-size: 10px;
+    line-height: 0px;
 }
 
 /* tab-end */
