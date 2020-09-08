@@ -95,7 +95,7 @@
 						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">ORGANIZATION MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href="organization-list.php"><span class="pc-micon"></span>Organization List </a></li>
-							<li class="pc-item"><a class="pc-link" href="purchase.php"><span class="pc-micon"></span>Admin User List</a></li>
+							<li class="pc-item"><a class="pc-link" href="Organization-Management.php"><span class="pc-micon"></span>Admin User List</a></li>
 						</ul>
 					</li>
 
@@ -246,9 +246,9 @@
 										<h1>Tab Update</h1>
 										<h2>Sample description or summary description or
 											summary i in max row</h2>
-											<p class="mb-1">1. Sample description</p>
-											<p class="mb-1">2. Sample description</p>
-											<p class="mb-2">3. Sample description</p>
+										<p class="mb-1">1. Sample description</p>
+										<p class="mb-1">2. Sample description</p>
+										<p class="mb-2">3. Sample description</p>
 
 										<h3 class="mt-2">23 July 2020</h3>
 									</div>

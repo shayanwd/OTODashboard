@@ -1,6 +1,10 @@
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-colors-start////////////////////////////////////
 =========================================================================== */
+.pc-container {
+    overflow: hidden !important;
+}
+
 .yellow-t {
     color: #ffed00 !important;
 }
@@ -28,28 +32,30 @@
 ::-webkit-scrollbar {
     width: 0px;
 }
-.form-save-btn{
+
+.form-save-btn {
     background: none;
     outline: none;
     border: none;
     color: white;
     background: black;
-    padding:4px 10px;
+    padding: 4px 10px;
     border-radius: 3px;
     font-weight: 600;
 }
 
-.form-previous-btn{
+.form-previous-btn {
     background: none;
     outline: none;
     border: none;
     color: white;
     background: black;
-    padding:4px 10px;
+    padding: 4px 10px;
     border-radius: 3px;
     font-weight: 600;
 }
-.step-form-close{
+
+.step-form-close {
     background: none;
     float: left;
     outline: none;
@@ -57,12 +63,37 @@
     border-radius: 3px;
     color: #6a6a6a;
     background: #f2f2f2;
-    padding:4px 10px;
+    padding: 4px 10px;
     font-weight: 600;
+    border: 1px solid transparent;
+    transition: 0.3s;
 }
-.remove-pb{
+.step-form-close:hover{
+    color: black;
+    border: 1px solid black;
+    background: none;
+}
+
+.remove-pb {
     padding-bottom: 0px !important;
 }
+
+.no-padding-l {
+    padding-left: 4px;
+}
+
+.no-padding-r {
+    padding-right: 4px;
+}
+
+.no-padding {
+    padding: 0px !important;
+}
+.shadow{
+    box-shadow: 0px 4px 10px #cccccc;
+}
+
+
 
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-colors-end////////////////////////////////////
@@ -117,6 +148,7 @@ a.btn_light {
 a.btn_light i {
     margin: 0px 5px;
 }
+
 
 a.btn_dark {
     color: #fff;
@@ -218,6 +250,13 @@ tr.blod {
 tr.blod td {
     font-weight: 700 !important;
 }
+.export-dropdown .dropdown-item{
+    color: black !important;
+    font-weight: 600;
+}
+.export-dropdown .dropdown-item:hover{
+    color: black !important;
+}
 
 
 
@@ -274,6 +313,11 @@ a.btn_light_1 span {
     box-shadow: 0px 4px 10px #cccccc;
 }
 
+.e-logo {
+    width: 120px;
+    border-radius: 50%;
+}
+
 .e-logo img {
     border-radius: 100%;
     width: 100%;
@@ -322,6 +366,143 @@ a.btn_light_1 span {
     margin-right: 7px;
 }
 
+.basic-profile-info-box {
+    width: 100%;
+    margin-top: 30px;
+}
+
+.basic-profile-info-box h2 {
+    font-size: 16px;
+    font-weight: 600;
+}
+
+.basic-profile-info-box h3 {
+    font-size: 14px;
+    margin: 0px;
+    color: #736e75;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+
+.card-edit-heading {
+    float: left;
+}
+
+.card-heading-and-edit-button {
+    float: left;
+    width: 100%;
+}
+
+.card-edit-heading h2 {
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.card-edit-btn {
+    float: right;
+}
+
+.card-edit-btn a {
+    color: black;
+    font-size: 15px;
+    font-weight: 700;
+    border-top-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-bottom-left-radius: 25px;
+    padding-left: 4px;
+    padding-right: 13px;
+    background: #f3f3f3;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    text-align: center;
+}
+
+.card-edit-btn a i {
+    font-size: 17px;
+    padding: 0px;
+}
+
+.subscription-plan-vehical {
+    max-width: 90px;
+    margin: 0 auto;
+}
+
+.subscription-plan-vehical img {
+    width: 100%;
+}
+
+.subscription-plan-vehical-info {
+    width: 100%;
+    text-align: center;
+    margin-top: 14px;
+}
+
+.subscription-plan-vehical-info h1 {
+    font-size: 25px;
+    font-weight: bold;
+    color: #099b3f;
+}
+
+.subscription-plan-vehical-info h2 {
+    font-size: 15px;
+    color: #6d6d75;
+}
+.subscription-plan-vehical-info h3 {
+    font-size: 16px;
+}
+.subscription-plan-vehical-info h3 span {
+    font-size: 16px;
+    font-weight: 600;
+}
+.web-links-edit{
+    width: 100%;
+    margin-top:15px ;
+}
+.web-links-edit ul{
+margin: 0px;
+padding: 0px !important;
+}
+.web-links-edit ul li{
+    list-style: none;
+    display: inline-block;
+}
+.web-links-social-icons{
+    float: right;
+    width: 30px;
+    margin-top: 4px;
+}
+.web-links-social-icons img{
+    width: 100%;
+}
+.web-links-edit ul li h2{
+   font-size: 14px;
+   font-weight: bold;
+   margin: 0px !important;
+}
+.web-links-edit ul li h3{
+    font-size: 14px;
+    margin: 0px !important;
+ }
+ .web-links-edit ul li h3 a{
+    color: #5044c8;
+    font-weight: bold;
+ }
+ .basic-profile-setting-content{
+     width: 100%;
+     margin-top: 40px;
+ }
+.basic-profile-setting-content h1{
+    font-size: 13px;
+    color: #2e2e39;
+    font-weight: bold;
+}
+.basic-profile-setting-content h2{
+    font-size: 12px;
+    color: #6d6d75;
+}
+ 
 
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_managment-end////////////////////////////////////
@@ -414,21 +595,24 @@ a.btn_light_1 span {
     border-radius: 3px;
     border: 1px solid lightgray;
 }
-.input-fields-url{
+
+.input-fields-url {
     margin: 0px !important;
     width: 100%;
     float: left;
 }
-.input-social-icons{
+
+.input-social-icons {
     float: right;
     width: 30px;
     margin-top: -16px;
 }
-.input-social-icons img{
+
+.input-social-icons img {
     width: 100%;
 }
 
-.input-fields-url input{
+.input-fields-url input {
     width: 80%;
     border: none;
     background: none;
@@ -584,17 +768,18 @@ input.invalid {
 .input-fields ul {
     list-style-type: none;
     margin: 0px !important;
-    padding:0px !important;
+    padding: 0px !important;
 }
 
 .input-fields ul li {
     display: inline-block;
 }
-.input-fields ul li h6{
-   text-align: center;
-   font-size: 15px;
-   font-weight: 600 ;
-   color: #6d6d75;
+
+.input-fields ul li h6 {
+    text-align: center;
+    font-size: 15px;
+    font-weight: 600;
+    color: #6d6d75;
 }
 
 .input-fields ul li input[type="checkbox"][id^="myCheckbox"] {
@@ -610,7 +795,7 @@ input.invalid {
     cursor: pointer;
     border-radius: 50%;
     width: 80px;
-    height:80px;
+    height: 80px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -648,29 +833,33 @@ label img {
 
 .input-fields ul li :checked+label:before {
     /* content: "✓"; */
-    background-color:yellow;
+    background-color: yellow;
     transform: scale(1);
 }
 
-.input-fields ul li  :checked+label img {
+.input-fields ul li :checked+label img {
     transform: scale(0.9);
     /* box-shadow: 0 0 5px #333; */
     /* z-index: -1; */
 }
-.web-links-seperator{
+
+.web-links-seperator {
     width: 100%;
     margin: 20px 0;
 }
-.web-links-seperator h3{
+
+.web-links-seperator h3 {
     font-size: 13px;
     color: #ababb0;
     font-weight: 600;
 }
-.main-form-btn-container{
-    overflow:auto;
+
+.main-form-btn-container {
+    overflow: auto;
     margin-top: 50px;
 }
-.next-prev-btns{
+
+.next-prev-btns {
     float: right;
 }
 
@@ -814,13 +1003,13 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
 
 /* Style the tab */
 .page-tab {
-    overflow-x:hidden;
+    overflow-x: hidden;
     overflow-y: scroll;
     margin-top: 20px;
-  }
-  
-  /* Style the buttons that are used to open the tab content */
-  .page-tab button {
+}
+
+/* Style the buttons that are used to open the tab content */
+.page-tab button {
     background-color: inherit;
     float: left;
     border: none;
@@ -831,30 +1020,30 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
     color: #616672;
     font-weight: bold;
     font-size: 12px;
-    border-bottom:3px solid transparent;
-  }
-  
-  /* Change background color of buttons on hover */
-  .page-tab button:hover {
-    border-bottom:3px solid #616672;
-  }
-  
-  /* Create an active/current tablink class */
-  .page-tab button.active {
-    color:black;
-    border-bottom:3px solid black;
-  }
-  
-  /* Style the tab content */
-  .tabcontent {
+    border-bottom: 3px solid transparent;
+}
+
+/* Change background color of buttons on hover */
+.page-tab button:hover {
+    border-bottom: 3px solid #616672;
+}
+
+/* Create an active/current tablink class */
+.page-tab button.active {
+    color: black;
+    border-bottom: 3px solid black;
+}
+
+/* Style the tab content */
+.tabcontent {
     display: none;
-    padding: 6px 30px;
+    padding: 6px 7px;
     border-top: none;
     background: #f0f2f8;
-    margin-top: 3px;
-  }
+    margin-top: -6px;
+}
 
-  .tabcontent:nth-child(2) {
+.tabcontent:nth-child(2) {
     display: block;
 }
 
@@ -878,11 +1067,22 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
 /* tab-end */
 
 
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-end////////////////////////////////////
+=========================================================================== */
+
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-content-start////////////////////////////////////
+=========================================================================== */
+
+
+
+
 
 
 
 
 /* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-end////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-content-end////////////////////////////////////
 =========================================================================== */
-

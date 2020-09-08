@@ -13150,9 +13150,9 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
     }
 
     .pc-container .pcoded-content {
-        padding-left: 30px;
-        padding-right: 30px;
-        padding-top: 30px;
+        padding-left: 7px;
+        padding-right: 7px;
+        padding-top: 7px;
     }
 
     .pc-container .page-header + .row {

@@ -3,11 +3,7 @@
 \\\\\\\\\\\\\\\\\\\\\\\\\responsive-start////////////////////////////////////
 =========================================================================== */
 @media(max-width: 1024px) {
-    .buttons {
-        float: none;
-        margin-top: 21px;
-    }
-
+   
     .sreach_box input {
         width: 100%;
     }
@@ -36,6 +32,17 @@
 }
 .logo-decription {
     text-align: center;
+}
+.no-padding-l{
+    padding-left: 15px;
+}
+.no-padding-r{
+    padding-right: 15px ;
+}
+
+.buttons {
+    float: none;
+    margin-top: 21px;
 }
 
 }
