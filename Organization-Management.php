@@ -437,9 +437,13 @@
 									<div class="sreach_row col-md-12">
 										<div class="row">
 											<div class="col-md-6">
-												<div class="sreach_box">
-													<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
-													<i class="fas fa-search"></i>
+												<div class="fleet-search-box">
+													<div class="fleet-search-icon">
+														<i class="fas fa-search"></i>
+													</div>
+													<div class="fleet-seacrh-field">
+														<input type="text" placeholder="search">
+													</div>
 												</div>
 											</div>
 											<div class="col-md-6">
@@ -482,17 +486,35 @@
 											<td>27 June, 2019</td>
 											<td>Bangladesh</td>
 											<td>
-												<div class="org_activ">Active</div>
+												<div class="org_activ">Public</div>
+											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
 											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
-										<tr class="blod">
+										<tr>
 											<td>2</td>
 											<td>Drop Bike</td>
 											<td>26 May, 2019</td>
 											<td>United State</td>
 											<td>
-												<div class="org_deactiv">Deactive</div>
+												<div class="org_deactiv">Private</div>
+											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox" checked>
+													<span class="slider round"></span>
+												</label>
 											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
@@ -504,6 +526,15 @@
 											<td>
 												<div class="org_activ">Active</div>
 											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
 										<tr>
@@ -513,6 +544,15 @@
 											<td>Australia</td>
 											<td>
 												<div class="org_activ">Active</div>
+											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
 											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
@@ -524,15 +564,33 @@
 											<td>
 												<div class="org_activ">Active</div>
 											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
-										<tr class="blod">
+										<tr>
 											<td>2</td>
 											<td>Drop Bike</td>
 											<td>26 May, 2019</td>
 											<td>United State</td>
 											<td>
 												<div class="org_activ">Active</div>
+											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
 											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
@@ -544,6 +602,15 @@
 											<td>
 												<div class="org_activ">Active</div>
 											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
 										<tr>
@@ -553,6 +620,15 @@
 											<td>Australia</td>
 											<td>
 												<div class="org_activ">Active</div>
+											</td>
+											<td><a href="mymail@yahoo.com">mymail@yahoo.com</a></td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
 											</td>
 											<td><a href="#"><img src="assets/images/edit.png"></a></td>
 										</tr>
