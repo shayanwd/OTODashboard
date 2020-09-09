@@ -13,14 +13,11 @@
 		</div>
 	</div>
 	<!-- [ Pre-loader ] End -->
-	<!-- [ Mobile header ] start -->
 
 	<?php
 	include('./header.php')
 	?>
 
-
-	<!-- [ Header ] end -->
 
 	<!-- [ Main Content ] start -->
 	<div class="pc-container relative">
