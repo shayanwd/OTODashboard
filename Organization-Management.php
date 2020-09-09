@@ -564,7 +564,7 @@
 														<i class="fas fa-search"></i>
 													</div>
 													<div class="filter col-md-6 dropdown">
-														<a href="#!" class="dropdown-toggle" data-toggle="dropdown">Filter</a>
+														<a href="#!" data-toggle="dropdown">Filter <i class="fas fa-chevron-down"></i></a>
 														<div class="dropdown-menu export-dropdown">
 															<a class="dropdown-item" href="#">Export as CSV</a>
 															<a class="dropdown-item" href="#">Export as PDF</a>
