@@ -145,15 +145,71 @@
 															</div>
 														</div>
 														<div class="filter col-md-6 dropdown">
-															<a href="#" class="dropdown-toggle" data-toggle="dropdown">All Fleets <i class="fas fa-chevron-down"></i></a>
+															<a href="#" data-toggle="dropdown">All Fleets <i class="fas fa-chevron-down"></i></a>
 
 															<div class="dropdown-menu export-dropdown">
 																<div class="fleet-dropdown-checkbox">
 																	<h6>Fleets</h6>
-																	<ul>
+																	<ul class="mt-3">
 																		<li><input type="checkbox"></li>
 																		<li>
 																			<h5>All Fleets</h5>
+																		</li>
+																	</ul>
+
+																	<ul class="mt-3">
+																		<li><input type="checkbox" checked></li>
+																		<li>
+																			<h5>Gulshan 1</h5>
+																		</li>
+																	</ul>
+
+																	<ul class="mt-3">
+																		<li><input type="checkbox" checked></li>
+																		<li>
+																			<h5>Gulshan 2</h5>
+																		</li>
+																	</ul>
+
+																	<ul class="mt-3">
+																		<li><input type="checkbox"></li>
+																		<li>
+																			<h5>Baridhara</h5>
+																		</li>
+																	</ul>
+
+																	<ul class="mt-3">
+																		<li><input type="checkbox" checked></li>
+																		<li>
+																			<h5>Badda</h5>
+																		</li>
+																	</ul>
+
+																	<ul class="mt-3">
+																		<li><input type="checkbox"></li>
+																		<li>
+																			<h5>Rampura</h5>
+																		</li>
+																	</ul>
+																	
+																	<ul class="mt-3">
+																		<li><input type="checkbox" checked></li>
+																		<li>
+																			<h5>Mouchak</h5>
+																		</li>
+																	</ul>
+																	
+																	<ul class="mt-3">
+																		<li><input type="checkbox"></li>
+																		<li>
+																			<h5>Merul</h5>
+																		</li>
+																	</ul>
+
+																	<ul class="mt-3">
+																		<li><input type="checkbox" checked></li>
+																		<li>
+																			<h5>Link Road</h5>
 																		</li>
 																	</ul>
 																</div>

@@ -1,4 +1,3 @@
-
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-classes-start////////////////////////////////////
 =========================================================================== */
@@ -142,13 +141,6 @@
     background: white;
 }
 
-.daterangepicker .calendar-table {
-    overflow-y: scroll !important;
-}
-
-.daterangepicker {
-    z-index: 1;
-}
 
 .logo-lg {
     max-width: 45px !important;
@@ -234,21 +226,70 @@ input:checked+.slider:before {
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\fleet-dropdown-start\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 .fleet-dropdown-checkbox {
     padding: 5px 5px 5px 15px;
-    
+
 }
-.fleet-dropdown-checkbox h6{
-font-size: 16px;
-font-weight: bolder;
+
+.fleet-dropdown-checkbox h6 {
+    font-size: 16px;
+    font-weight: bolder;
 }
-.fleet-dropdown-checkbox ul{
+
+.fleet-dropdown-checkbox ul {
     padding: 0px !important;
     margin: 0px !important;
 }
-.fleet-dropdown-checkbox ul li{
-display: inline-block;
+
+.fleet-dropdown-checkbox ul li {
+    display: inline-block;
+    margin-top: 12px;
 }
 
+.fleet-dropdown-checkbox ul li input[type='checkbox']{
+-webkit-appearance: none;position: relative;
+width: 18px;
+height: 18px;
+background: #fafafa;
+cursor: pointer;
+border-radius:3px ;
+border: 1px solid #75787c;
+}
+.fleet-dropdown-checkbox ul li input[type='checkbox']::before{
+    content: '';
+    width: 13px;
+    height: 13px;
+    background: black;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    border-radius:1px ;
+    transform: translate(-50%,-50%);
+    opacity: 0;
+    visibility: hidden;
+    transition: .3s ease-in-out 0s;
+ 
+}
+.fleet-dropdown-checkbox ul li input[type='checkbox']:checked::before{
+    opacity: 1;
+    visibility: visible;
+}
+.fleet-dropdown-checkbox ul li h5{
+    font-size: 17px;
+    color: #75787c;
+    margin-left: 10px;
+}
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\fleet-dropdown-end\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\data-range-picker-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.daterangepicker .calendar-table {
+    overflow-y: scroll !important;
+}
+
+.daterangepicker {
+    z-index: 1 !important;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\data-range-picker-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
 
@@ -409,7 +450,7 @@ tr.blod td {
     color: black !important;
 }
 
-.margin-minus{
+.margin-minus {
     margin-top: -42px;
 }
 
@@ -577,13 +618,15 @@ a.btn_light_1 span {
     font-size: 17px;
     padding: 0px;
 }
-.sumary-heading{
-    padding-left:25px ;
+
+.sumary-heading {
+    padding-left: 25px;
 }
-.sumary-heading h1{
-font-size: 17px;
-font-weight:bold;
-margin-top: 5px;
+
+.sumary-heading h1 {
+    font-size: 17px;
+    font-weight: bold;
+    margin-top: 5px;
 }
 
 .subscription-plan-vehical {
@@ -806,22 +849,27 @@ margin-top: 5px;
     height: 22px;
     margin-left: 20px;
 }
-.entries-pagination{
+
+.entries-pagination {
     padding-right: 36px;
 }
+
 .entries-pagination ul {
     margin: 0px !important;
     padding: 0px !important;
 }
-.entries-pagination ul li{
-    list-style:none;
+
+.entries-pagination ul li {
+    list-style: none;
     display: inline-block;
     cursor: pointer;
 }
-.entries-pagination ul li i{
-color: #bababa;
+
+.entries-pagination ul li i {
+    color: #bababa;
 }
-.pagination-number{
+
+.pagination-number {
     width: 30px;
     height: 30px;
     border-radius: 3px;
@@ -831,20 +879,24 @@ color: #bababa;
     display: flex;
     background: #455964;
 }
-.pagination-number p{
+
+.pagination-number p {
     margin: 0px !important;
     color: white;
     font-size: 10px;
 }
-.show-entries{
+
+.show-entries {
     padding-left: 10px;
     margin-top: 2px;
 }
-.show-entries h2{
+
+.show-entries h2 {
     color: #2e2e39;
     font-size: 14px;
 }
-.show-entries h2 span{
+
+.show-entries h2 span {
     color: #2e2e39;
     font-size: 14px;
     font-weight: bold;
@@ -1441,5 +1493,3 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-end////////////////////////////////////
 =========================================================================== */
-
-
