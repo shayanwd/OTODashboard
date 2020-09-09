@@ -386,9 +386,9 @@
 									<div class="input-fields">
 										<p>
 											<select>
-													<option value="Testing 1">Testing 1</option>
-													<option value="Testing 2">Testing 2</option>
-												</select>
+												<option value="Testing 1">Testing 1</option>
+												<option value="Testing 2">Testing 2</option>
+											</select>
 										</p>
 									</div>
 								</div>
@@ -411,7 +411,9 @@
 
 							<div class=" row mt-4">
 													<div class="col-md-12">
-														<label class="step-label">Addres</label>
+														<label class="step-label">
+															Addres
+														</label>
 														<div class="input-fields">
 															<p><textarea class="form-control" placeholder="Test" required></textarea></p>
 														</div>
@@ -475,7 +477,6 @@
 						======================================================================================= -->
 
 									<div class=" tab">
-
 
 														<div class="row mt-4">
 															<div class="col-md-6">
@@ -807,7 +808,6 @@
 							</div>
 						</div>
 					</div>
-
 				</div>
 
 </body>

@@ -11,9 +11,6 @@
 	<meta name="keywords" content="">
 	<meta name="author" content="Phoenixcoded" />
 
-	<!-- Favicon icon -->
-	<link rel="icon" href="assets/images/favicon.png" type="image/x-icon">
-
 	<!-- font css -->
 	<link rel="stylesheet" href="assets/fonts/font-awsome-pro/css/pro.min.css">
 	<link rel="stylesheet" href="assets/fonts/feather.css">
@@ -21,7 +18,6 @@
 
 	<!-- vendor css -->
 	<link rel="stylesheet" href="assets/css/style.css">
-	<link rel="stylesheet" href="assets/css/customizer.css">
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/custom-responsive.css">
 
@@ -37,6 +33,7 @@
 		</div>
 	</div>
 	<!-- [ Pre-loader ] End -->
+
 	<!-- [ Mobile header ] start -->
 	<div class="pc-mob-header pc-header">
 		<div class="pcm-logo">
@@ -49,11 +46,7 @@
 						<div class="hamburger-inner"></div>
 					</div>
 				</div>
-				<!-- <i data-feather="menu"></i> -->
 			</a>
-			<!-- <a href="#!" class="pc-head-link" id="headerdrp-collapse">
-				<i data-feather="align-right"></i>
-			</a> -->
 			<a href="#!" class="pc-head-link" id="header-collapse">
 				<i data-feather="more-vertical"></i>
 			</a>
@@ -65,19 +58,15 @@
 	<nav class="pc-sidebar ">
 		<div class="navbar-wrapper">
 			<div class="m-header">
-				<a href="dashboard.php" class="b-brand">
+				<a href="#!" class="b-brand">
 					<!-- ========   change your logo hear   ============ -->
 					<img src="assets/images/logo.png" alt="" class="logo logo-lg">
 					<img src="assets/images/logo-sm.png" alt="" class="logo logo-sm">
 				</a>
+
 			</div>
 			<div class="navbar-content">
 				<ul class="pc-navbar">
-
-
-					<!-- <li class="pc-item pc-hasmenu">
-						<a href="dashboard.php" class="pc-link"><span class="pc-micon"><i class="fas fa-home"></i></span><span class="pc-mtext">Home</span></a>
-					</li> -->
 
 					<li class="pc-item pc-hasmenu">
 						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tachometer-alt mr-3"></i><span class="pc-mtext">DASHBOARD</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
@@ -193,9 +182,6 @@
 						</ul>
 					</li>
 
-					
-
-
 					<li class="pc-item pc-hasmenu mt-2">
 						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-gift mr-3"></i><span class="pc-mtext">OFFER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
@@ -211,15 +197,11 @@
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-sliders-h"></i><span class="pc-mtext">Setting</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-sliders-h mr-3"></i><span class="pc-mtext">Setting</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
-
-
-
-
 
 				</ul>
 			</div>
@@ -233,7 +215,6 @@
 			<div class="ml-auto">
 				<ul class="list-unstyled">
 
-
 					<li class="pc-h-item" id="flash">
 						<a class="pc-head-link mr-0 border-left border-right" href="#">
 							<i class="fas fa-bolt"></i>
@@ -241,7 +222,7 @@
 					</li>
 
 					<li class="pc-h-item">
-						<a class="pc-head-link mr-0 border-right" dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+						<a class="pc-head-link mr-0 border-right dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
 							<span class="notification-number">2</span>
 							<span class="badge badge-danger pc-h-badge dots"><span class="sr-only"></span></span>
 						</a>
@@ -278,7 +259,6 @@
 										<p class="mb-1">1. Sample description</p>
 										<p class="mb-1">2. Sample description</p>
 										<p class="mb-2">3. Sample description</p>
-
 										<h3 class="mt-2">23 July 2020</h3>
 									</div>
 
@@ -325,12 +305,8 @@
 
 				</ul>
 			</div>
-
 		</div>
 	</header>
-
-
-	
 
 
 

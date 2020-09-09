@@ -13,20 +13,19 @@
 		</div>
 	</div>
 	<!-- [ Pre-loader ] End -->
-	<!-- [ Mobile header ] start -->
 
 	<?php
 	include('./header.php')
 	?>
 
 
-	<!-- [ Header ] end -->
 
 	<!-- [ Main Content ] start -->
 	<div class="pc-container">
+		
 		<div class="pcoded-content ">
+
 			<div class="row">
-				<!-- support-section start -->
 				<div class="col-xl-12 col-md-12">
 					<div class="row">
 						<div class="col-md-12">
@@ -60,7 +59,7 @@
 															<a href="#" class="btn_light_1" class="btn btn-primary dropdown-toggle" data-toggle="dropdown">
 																<p>Profile Status</p><span>Active</span><i class="fas fa-chevron-down"></i>
 															</a>
-															<div class="dropdown-menu export-dropdown">
+															<div class="dropdown-menu export-dropdown margin-minus">
 																<a class="dropdown-item" href="#">Active</a>
 																<a class="dropdown-item" href="#">Un Active</a>
 															</div>
@@ -123,31 +122,80 @@
 					</div>
 				</div>
 			</div>
+
 		</div>
 
-		<!-- Tab content -->
+		<!-- Tab content-start -->
 		<div id="page-tab-content1" class="tabcontent active">
 			<div class="row">
 				<div class="col-md-12 col-xl-12 mt-1">
 					<div class="card_my prod-p-card background-pattern">
 						<div class="card-body">
 							<div class="card-head">
-								<!-- <h1 class="text-center">Graphs-pending....</h1> -->
+
+								<div class="row ">
+									<div class="col-md-12">
+										<div class="sreach_row col-md-12">
+											<div class="row">
+												<div class="col-md-6">
+													<div class="row">
+														<div class="sreach_box1 col-md-3 no-padding-l">
+															<div class="sumary-heading">
+																<h1> Summary</h1>
+															</div>
+														</div>
+														<div class="filter col-md-6 dropdown">
+															<a href="#" class="dropdown-toggle" data-toggle="dropdown">All Fleets <i class="fas fa-chevron-down"></i></a>
+
+															<div class="dropdown-menu export-dropdown">
+																<div class="fleet-dropdown-checkbox">
+																	<h6>Fleets</h6>
+																	<ul>
+																		<li><input type="checkbox"></li>
+																		<li>
+																			<h5>All Fleets</h5>
+																		</li>
+																	</ul>
+																</div>
+															</div>
+														</div>
+														<div class="col-md-3">
+															<!-- Empty -->
+														</div>
+													</div>
+												</div>
+												<div class="col-md-6 no-padding-r">
+													<div id="reportrange2" class="clender">
+														<i class="fas fa-calendar-alt mr-2"></i></i>&nbsp;
+														<span></span> <i class="fa fa-caret-down"></i>
+													</div>
+												</div>
+											</div>
+										</div>
+									</div>
+								</div>
+
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-md-12">
 										<div id="LineChart"></div>
 									</div>
+								</div>
+								<div class="row">
 									<div class="col-md-6">
 										<canvas id="meterChart"></canvas>
 									</div>
 								</div>
+
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
 		</div>
+		<!-- Tab content-end -->
 
+
+		<!-- Tab content-start -->
 		<div id="page-tab-content2" class="tabcontent">
 			<div class="row">
 				<div class="col-md-12 col-xl-12">
@@ -230,8 +278,6 @@
 												</div>
 											</div>
 										</div>
-
-
 									</div>
 								</div>
 							</div>
@@ -432,14 +478,16 @@
 
 		</div>
 
+		<!-- Tab content-end -->
 
 
 
 
+		<!-- Tab content-start -->
 		<div id="page-tab-content3" class="tabcontent">
 			<div class="row">
 				<div class="col-xl-12 col-md-12">
-					<div class="row">
+					<div class="row mt-1">
 						<div class="col-md-12">
 							<div class="card_my prod-p-card background-pattern">
 								<div class="card-body">
@@ -459,8 +507,12 @@
 														<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
 														<i class="fas fa-search"></i>
 													</div>
-													<div class="filter col-md-6">
-														<a href="#">Filter <i class="fas fa-chevron-down"></i></a>
+													<div class="filter col-md-6 dropdown">
+														<a href="#!" class="dropdown-toggle" data-toggle="dropdown">Filter</a>
+														<div class="dropdown-menu export-dropdown">
+															<a class="dropdown-item" href="#">Export as CSV</a>
+															<a class="dropdown-item" href="#">Export as PDF</a>
+														</div>
 													</div>
 												</div>
 											</div>
@@ -671,7 +723,7 @@
 									<li><i class="fas fa-long-arrow-alt-left"></i></li>
 									<li>
 										<div class="pagination-number">
-												<p>1</p>
+											<p>1</p>
 										</div>
 									</li>
 									<li><i class="fas fa-long-arrow-alt-right"></i></li>
@@ -684,8 +736,10 @@
 			</div>
 
 		</div>
+		<!-- Tab content-end -->
 
 
+		<!-- Tab content-start -->
 		<div id="page-tab-content4" class="tabcontent">
 			<div class="row">
 				<div class="col-md-12 col-xl-12 mt-1">
@@ -1048,7 +1102,7 @@
 									<li><i class="fas fa-long-arrow-alt-left"></i></li>
 									<li>
 										<div class="pagination-number">
-												<p>1</p>
+											<p>1</p>
 										</div>
 									</li>
 									<li><i class="fas fa-long-arrow-alt-right"></i></li>
@@ -1062,128 +1116,13 @@
 
 
 		</div>
+		<!-- Tab content-emd -->
 
 	</div>
-	<!-- [ table Content ] start -->
-
-
-
-
-
-
-
-	<!-- <div class="row">
-			<div class="col-xl-12 col-md-12">
-				<div class="card">
-					<div class="card-body_my">
-						<div class="dt-responsive table-responsive">
-							<table class="my_table">
-								<thead>
-									<tr class="shadow">
-										<th>Organizatione ID</th>
-										<th>Name</th>
-										<th>Created Date</th>
-										<th>Country</th>
-										<th>Active Status</th>
-										<th>Action</th>
-									</tr>
-								</thead>
-								<tbody>
-									<tr>
-										<td>1</td>
-										<td>Jump Ride</td>
-										<td>27 June, 2019</td>
-										<td>Bangladesh</td>
-										<td><div class="org_activ">Active</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-									<tr class="blod">
-									<td>2</td>
-										<td>Drop Bike</td>
-										<td>26 May, 2019</td>
-										<td>United State</td>
-										<td ><div class="org_deactiv">Deactive</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-									<tr>
-										<td>3</td>
-										<td>Glide</td>
-										<td>23 April, 2018</td>
-										<td>AUE</td>
-										<td><div class="org_activ">Active</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-									<tr>
-										<td>4</td>
-										<td>OtoRide</td>
-										<td>21 January, 2018</td>
-										<td>Australia</td>
-										<td><div class="org_activ">Active</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-									<tr>
-										<td>1</td>
-										<td>Jump Ride</td>
-										<td>27 June, 2019</td>
-										<td>Bangladesh</td>
-										<td><div class="org_activ">Active</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-									<tr class="blod">
-									<td>2</td>
-										<td>Drop Bike</td>
-										<td>26 May, 2019</td>
-										<td>United State</td>
-										<td ><div class="org_activ">Active</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-									<tr>
-										<td>3</td>
-										<td>Glide</td>
-										<td>23 April, 2018</td>
-										<td>AUE</td>
-										<td><div class="org_activ">Active</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-									<tr>
-										<td>4</td>
-										<td>OtoRide</td>
-										<td>21 January, 2018</td>
-										<td>Australia</td>
-										<td><div class="org_activ">Active</div></td>
-										<td><a href="#"><img src="assets/images/edit.png"></a></td>
-									</tr>
-								</tbody>
-							</table>
-						</div>
-					</div>
-				</div>
-			</div>				 -->
-
-	<!-- [ table Content ] end -->
-
-
-
-
-
-
-
-
-
-
-	<!-- Apex Chart -->
-
 
 </body>
 
 </html>
-
-
-
-
-
-
-
 
 
 <?php include('footer.php') ?>

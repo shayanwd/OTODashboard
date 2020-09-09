@@ -1,5 +1,6 @@
+
 /* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-colors-start////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-classes-start////////////////////////////////////
 =========================================================================== */
 .pc-container {
     overflow: hidden !important;
@@ -28,8 +29,6 @@
 .green-b {
     background: #0ac84b;
 }
-
-
 
 .yellow-t {
     color: #ffed00 !important;
@@ -229,7 +228,27 @@ input:checked+.slider:before {
 
 
 
-/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\-switch-checkbox-\\\\\\\\\\\\\\\\\\\ */
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\-switch-checkbox-end\\\\\\\\\\\\\\\\\\\ */
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\fleet-dropdown-start\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.fleet-dropdown-checkbox {
+    padding: 5px 5px 5px 15px;
+    
+}
+.fleet-dropdown-checkbox h6{
+font-size: 16px;
+font-weight: bolder;
+}
+.fleet-dropdown-checkbox ul{
+    padding: 0px !important;
+    margin: 0px !important;
+}
+.fleet-dropdown-checkbox ul li{
+display: inline-block;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\fleet-dropdown-end\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
 
@@ -390,6 +409,9 @@ tr.blod td {
     color: black !important;
 }
 
+.margin-minus{
+    margin-top: -42px;
+}
 
 
 /* ===========================================================================
@@ -554,6 +576,14 @@ a.btn_light_1 span {
 .card-edit-btn a i {
     font-size: 17px;
     padding: 0px;
+}
+.sumary-heading{
+    padding-left:25px ;
+}
+.sumary-heading h1{
+font-size: 17px;
+font-weight:bold;
+margin-top: 5px;
 }
 
 .subscription-plan-vehical {
@@ -1393,6 +1423,10 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
     width: 100%;
     color: #321d1d;
     border-radius: 3px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
 }
 
 .filter a i {
@@ -1409,17 +1443,3 @@ li.pc-item.pc-hasmenu.mt-2.active.pc-trigger {
 =========================================================================== */
 
 
-/* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-content-start////////////////////////////////////
-=========================================================================== */
-
-
-
-
-
-
-
-
-/* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Page-tabs-content-end////////////////////////////////////
-=========================================================================== */
