@@ -21,3 +21,4 @@
 <script src="assets/js/plugins/clipboard.min.js"></script>
 <script src="assets/js/date-pick.js"></script>
 <script src="assets/js/step-form.js"></script>
+	<script src="assets/js/date-pick.js"></script>

@@ -80,7 +80,7 @@
 					</li> -->
 
 					<li class="pc-item pc-hasmenu">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">DASHBOARD</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tachometer-alt mr-3"></i><span class="pc-mtext">DASHBOARD</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href="add-funds.php"><span class="pc-micon"></span>Super Admin</a></li>
 							<li class="pc-item"><a class="pc-link" href="purchase.php"><span class="pc-micon"></span>Organization</a></li>
@@ -88,7 +88,7 @@
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">ORGANIZATION MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-users-cog mr-3"></i><span class="pc-mtext">ORGANIZATION MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href="organization-list.php"><span class="pc-micon"></span>Organization List </a></li>
 							<li class="pc-item"><a class="pc-link" href="Organization-Management.php"><span class="pc-micon"></span>Admin User List</a></li>
@@ -96,14 +96,14 @@
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">PERMISSION MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-key mr-3"></i><span class="pc-mtext">PERMISSION MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Admin User Roles</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">VEHICLE MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-bicycle mr-3"></i><span class="pc-mtext">VEHICLE MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>IOT </a></li>
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Bikes </a></li>
@@ -112,14 +112,14 @@
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">MAP VIEW </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-map-marked-alt mr-3"></i><span class="pc-mtext">MAP VIEW </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Map</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">GEOFENCE MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-street-view mr-3"></i><span class="pc-mtext">GEOFENCE MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Parkings</a></li>
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Restricted Areas</a></li>
@@ -129,56 +129,89 @@
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">TRIP MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-sitemap mr-3"></i><span class="pc-mtext">TRIP MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">OPERATION MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tools mr-3"></i><span class="pc-mtext">OPERATION MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">REPORT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-copy mr-3"></i><span class="pc-mtext">REPORT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">USER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-users mr-3"></i><span class="pc-mtext">USER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">PAYMENT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-receipt mr-3"></i><span class="pc-mtext">PAYMENT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">	
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="fas fa-user-friends"></i></span>User balance Adjustment</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="fas fa-money-bill-wave-alt"></i></span>Payment to Agent</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon">exchange-alt</span>Transaction</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-shopping-bag mr-3"></i><span class="pc-mtext">Payment MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>	
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="far fa-money-bill-alt mr-3"></i><span class="pc-mtext">Price MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">OFFER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tags mr-3"></i><span class="pc-mtext">TAX MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">POIN MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-percent mr-3"></i><span class="pc-mtext">Promo Code Management </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					
+
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-gift mr-3"></i><span class="pc-mtext">OFFER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><span class="pc-mtext">Setting</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-trophy mr-3"></i><span class="pc-mtext">POIN MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-sliders-h"></i><span class="pc-mtext">Setting</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>

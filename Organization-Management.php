@@ -455,14 +455,14 @@
 													</div>
 												</div> -->
 												<div class="row">
-												<div class="sreach_box1 col-md-6">
-												<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
-												<i class="fas fa-search"></i>
-											</div>
-												<div class="filter col-md-6">
-													<a href="#">Filter <i class="fas fa-chevron-down"></i></a>
+													<div class="sreach_box1 col-md-6 no-padding-l">
+														<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
+														<i class="fas fa-search"></i>
+													</div>
+													<div class="filter col-md-6">
+														<a href="#">Filter <i class="fas fa-chevron-down"></i></a>
+													</div>
 												</div>
-											</div>
 											</div>
 											<div class="col-md-6">
 												<div class="buttons dropdown">
@@ -480,7 +480,7 @@
 							</div>
 						</div>
 					</div>
-					<div class="card">
+					<div class="card remove-mb">
 						<div class="card-body_my">
 							<div class="dt-responsive table-responsive">
 								<table class="my_table">
@@ -657,6 +657,32 @@
 					</div>
 				</div>
 			</div>
+			<div class="row mt-1">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-body_my pt-3 pb-2">
+
+							<div class="show-entries float-left">
+								<h2>Showing <span>11 Entries</span></h2>
+							</div>
+
+							<div class="entries-pagination float-right">
+								<ul>
+									<li><i class="fas fa-long-arrow-alt-left"></i></li>
+									<li>
+										<div class="pagination-number">
+												<p>1</p>
+										</div>
+									</li>
+									<li><i class="fas fa-long-arrow-alt-right"></i></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
 		</div>
 
 
@@ -690,9 +716,42 @@
 										</div>
 									</div>
 									<div class="col-md-4">
-										<div id="reportrange" style="background: #fff; cursor: pointer; padding: 5px 10px; border: 1px solid #ccc; width: 100%">
-											<i class="fa fa-calendar"></i>&nbsp;
+										<div id="reportrange" class="clender">
+											<i class="fas fa-calendar-alt mr-2"></i></i>&nbsp;
 											<span></span> <i class="fa fa-caret-down"></i>
+										</div>
+									</div>
+								</div>
+
+								<div class="sreach_row col-md-12 mt-4">
+									<div class="row">
+										<div class="col-md-6">
+											<!-- <div class="fleet-search-box">
+													<div class="fleet-search-icon">
+														<i class="fas fa-search"></i>
+													</div>
+													<div class="fleet-seacrh-field">
+														<input type="text" placeholder="search">
+													</div>
+												</div> -->
+											<div class="row">
+												<div class="sreach_box1 col-md-6 no-padding-l">
+													<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
+													<i class="fas fa-search"></i>
+												</div>
+												<div class="filter col-md-6">
+													<a href="#">Filter <i class="fas fa-chevron-down"></i></a>
+												</div>
+											</div>
+										</div>
+										<div class="col-md-6 no-padding-r">
+											<div class="buttons dropdown">
+												<a class="btn_light" href="#!" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>
+												<div class="dropdown-menu export-dropdown">
+													<a class="dropdown-item" href="#">Export as CSV</a>
+													<a class="dropdown-item" href="#">Export as PDF</a>
+												</div>
+											</div>
 										</div>
 									</div>
 								</div>
@@ -701,6 +760,307 @@
 					</div>
 				</div>
 			</div>
+
+			<div class="row mt-1">
+				<div class="col-md-12">
+					<div class="card remove-mb">
+						<div class="card-body_my">
+							<div class="dt-responsive table-responsive">
+								<table class="my_table">
+									<thead>
+										<tr>
+											<th>Vehicle ID</th>
+											<th>QR COde</th>
+											<th>Model</th>
+											<th>Battery Charge</th>
+											<th>Last Location Update</th>
+											<th>Is Active</th>
+											<th>Action</th>
+										</tr>
+									</thead>
+									<tbody>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-orange">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox" checked>
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-green">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-orange">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-green">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-orange">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-green">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-orange">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+										<tr>
+											<td>123124</td>
+											<td>3243</td>
+											<td>Gulshan</td>
+											<td>
+												<div class="table-battery">
+													<div class="battery-fill-green">
+
+													</div>
+												</div>
+												<div class="table-percenteage">
+													<p>85%</p>
+												</div>
+											</td>
+											<td>22 January, 2020, 11:20 PM</td>
+											<td>
+												<!-- Rounded switch -->
+												<label class="switch">
+													<input type="checkbox">
+													<span class="slider round"></span>
+												</label>
+											</td>
+											<td>
+												<div class="table-edit-icons">
+													<ul>
+														<li><a href="#"><img class="edit-pencil" src="assets/images/edit.png"></li>
+														<li><a href="#"><img class="delet-bin" src="assets/images/delet.png"></li>
+													</ul>
+												</div>
+											</td>
+										</tr>
+									</tbody>
+								</table>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="row mt-1">
+				<div class="col-md-12">
+					<div class="card">
+						<div class="card-body_my pt-3 pb-2">
+
+							<div class="show-entries float-left">
+								<h2>Showing <span>11 Entries</span></h2>
+							</div>
+
+							<div class="entries-pagination float-right">
+								<ul>
+									<li><i class="fas fa-long-arrow-alt-left"></i></li>
+									<li>
+										<div class="pagination-number">
+												<p>1</p>
+										</div>
+									</li>
+									<li><i class="fas fa-long-arrow-alt-right"></i></li>
+								</ul>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+
+
 		</div>
 
 	</div>
@@ -805,14 +1165,14 @@
 
 
 
-	
 
 
 
 
-	
+
+
 	<!-- Apex Chart -->
-	 
+
 
 </body>
 

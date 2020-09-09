@@ -12416,8 +12416,8 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
     /* ================================    Blockquote End  ===================== */
     .pc-sidebar {
         background: #141414;
+        width: 314px;
         box-shadow: 0 1px 20px 0 rgba(69, 90, 100, 0.08);
-        width: 280px;
         position: fixed;
         top: 0;
         bottom: 0;
@@ -12458,8 +12458,9 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
     }
 
     .pc-sidebar .pc-micon i {
-        font-size: 18px;
-        color: #b3aee4;
+        font-size: 12px;
+        color: #ced4dc;
+        margin-left:7px;
     }
 
     .pc-sidebar .pc-micon > svg {
@@ -12473,7 +12474,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         display: block;
         padding: 14px 10px;
         color: #ced4dc;
-        font-size: 13px;
+        font-size: 12px;
         font-weight: 500;
         background: #282828;
         border-radius: 10px;
@@ -12700,9 +12701,12 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
 
     @media (max-width: 1024px) {
         .pc-sidebar {
-            left: -280px;
+            left: -320px;
             box-shadow: none;
             transition: all 0.15s ease-in-out;
+        }
+        .pc-container{
+            padding-left:0 !important;
         }
 
         .pc-sidebar.mob-sidebar-active {
@@ -13147,6 +13151,7 @@ nsed under MIT (https: //github.com/twbs/bootstrap/blob/master/LICENSE)
         background-size:cover;
         background-repeat:no-repeat;
         background-attachment:fixed;
+        padding-left: 34px;
     }
 
     .pc-container .pcoded-content {

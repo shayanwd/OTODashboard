@@ -385,10 +385,10 @@
 									<label class="step-label">Type</label>
 									<div class="input-fields">
 										<p>
-											<p><select>
+											<select>
 													<option value="Testing 1">Testing 1</option>
 													<option value="Testing 2">Testing 2</option>
-												</select></p>
+												</select>
 										</p>
 									</div>
 								</div>
