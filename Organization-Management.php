@@ -14,6 +14,7 @@
 	</div>
 	<!-- [ Pre-loader ] End -->
 
+
 	<?php
 	include('./header.php')
 	?>
@@ -651,119 +652,120 @@
 
 
 										<div class="main-mega-dropdown shadow">
-											<div class="row">
-												<div class="col-md-2">
-													<div class="fleet-dropdown-checkbox">
-														<h6>Fleets</h6>
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>All Fleets</h5>
-															</li>
-														</ul>
+											<form>
+												<div class="row">
+													<div class="col-md-2">
+														<div class="fleet-dropdown-checkbox">
+															<h6>Fleets</h6>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>All Fleets</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>Gulshan 1</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>Gulshan 1</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>Gulshan 2</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>Gulshan 2</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>Baridhara</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>Baridhara</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>Badda</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>Badda</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>Rampura</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>Rampura</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>Mouchak</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>Mouchak</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>Merul</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>Merul</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>Link Road</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>Link Road</h5>
+																</li>
+															</ul>
+														</div>
 													</div>
-												</div>
 
-												<div class="col-md-2">
-													<div class="fleet-dropdown-checkbox">
-														<h6>currency</h6>
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>All</h5>
-															</li>
-														</ul>
+													<div class="col-md-2">
+														<div class="fleet-dropdown-checkbox">
+															<h6>currency</h6>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>All</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>USD</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>USD</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>EURO</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>EURO</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>USD</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>USD</h5>
+																</li>
+															</ul>
 
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>EURO</h5>
-															</li>
-														</ul>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>EURO</h5>
+																</li>
+															</ul>
+														</div>
 													</div>
-												</div>
 
-												<div class="col-md-2">
-													<div class="fleet-dropdown-checkbox">
-														<h6>Rating</h6>
-														<form>
+													<div class="col-md-2">
+														<div class="fleet-dropdown-checkbox">
+															<h6>Rating</h6>
+
 															<ul class="mt-3">
 																<li><input type="radio" name="optradio"></li>
 																<li>
@@ -785,110 +787,118 @@
 																</li>
 															</ul>
 
-														</form>
-
-													</div>
 
 
-													<div class="fleet-dropdown-checkbox mt-4">
-														<form>
+														</div>
+
+
+														<div class="fleet-dropdown-checkbox mt-4">
 															<h6>Gender</h6>
 															<ul class="mt-3">
-																<li><input type="radio" name="optradio"></li>
+																<li><input type="radio" name="gender"></li>
 																<li>
 																	<h5>All</h5>
 																</li>
 															</ul>
 
 															<ul class="mt-3">
-																<li><input type="radio" name="optradio" checked></li>
+																<li><input type="radio" name="gender" checked></li>
 																<li>
 																	<h5>Male</h5>
 																</li>
 															</ul>
 
 															<ul class="mt-3">
-																<li><input type="radio" name="optradio" checked></li>
+																<li><input type="radio" name="gender" checked></li>
 																<li>
 																	<h5>female</h5>
 																</li>
 															</ul>
-
-														</form>
-													</div>
-												</div>
-
-												<div class="col-md-2">
-													<div class="fleet-dropdown-checkbox">
-														<h6>Range</h6>
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>All Range</h5>
-															</li>
-														</ul>
-
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>10 → 20 </h5>
-															</li>
-														</ul>
-
-														<ul class="mt-3">
-															<li><input type="checkbox" checked></li>
-															<li>
-																<h5>20 → 30</h5>
-															</li>
-														</ul>
-
-														<ul class="mt-3">
-															<li><input type="checkbox"></li>
-															<li>
-																<h5>30 → 40 </h5>
-															</li>
-														</ul>
-													</div>
-												</div>
-
-												<div class="col-md-4">
-
-													<div class="main-price-range-container">
-
-														<div class="row">
-															<div class="col-sm-12 col-md-12">
-																<div id="slider-range"></div>
-															</div>
 														</div>
-														<div class="row slider-labels">
-															<div class="col-xs-6 col-md-6 caption">
-																<div class="range-price-box">
-																	<strong>Min:</strong>
-																	<br>
-																	<span id="slider-range-value1"></span>
+													</div>
+
+													<div class="col-md-2">
+														<div class="fleet-dropdown-checkbox">
+															<h6>Range</h6>
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>All Range</h5>
+																</li>
+															</ul>
+
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>10 → 20 </h5>
+																</li>
+															</ul>
+
+															<ul class="mt-3">
+																<li><input type="checkbox" checked></li>
+																<li>
+																	<h5>20 → 30</h5>
+																</li>
+															</ul>
+
+															<ul class="mt-3">
+																<li><input type="checkbox"></li>
+																<li>
+																	<h5>30 → 40 </h5>
+																</li>
+															</ul>
+														</div>
+													</div>
+
+													<div class="col-md-4">
+
+														<div class="main-price-range-container mt-2">
+															<h6>Custom Range</h6>
+															<div class="row">
+																<div class="col-sm-12 col-md-12">
+																	<div id="slider-range"></div>
 																</div>
 															</div>
-															<div class="col-xs-6 col-md-6 text-right caption">
-																<div class="range-price-box">
-																	<strong>Max:</strong>
-																	<br>
-																	<span id="slider-range-value2"></span>
+															<div class="row slider-labels">
+																<div class="col-xs-6 col-md-6 caption">
+																	<div class="range-price-box">
+																		Min Ammount
+																		<br>
+																		<span id="slider-range-value1"></span>
+																	</div>
+																</div>
+																<div class="col-xs-6 col-md-6 text-right caption">
+																	<div class="range-price-box">
+																		Max Ammount
+																		<br>
+																		<span id="slider-range-value2"></span>
+																	</div>
+																</div>
+															</div>
+															<div class="row">
+																<div class="col-sm-12 col-md-12">
+																	<form>
+																		<input type="hidden" name="min-value" value="">
+																		<input type="hidden" name="max-value" value="">
+																	</form>
 																</div>
 															</div>
 														</div>
-														<div class="row">
-															<div class="col-sm-12 col-md-12">
-																<form>
-																	<input type="hidden" name="min-value" value="">
-																	<input type="hidden" name="max-value" value="">
-																</form>
-															</div>
-														</div>
+
 													</div>
 
 												</div>
+												<div class="row">
+													<div class="col-md-12">
+														<div class="filter-apply">
 
-											</div>
+															<button class="apply-filter mr-2" type="submit">APPLY FILTER</button>
+															<button id="close-organization-form" class="step-form-close mr-2" type="reset">Cancle</button>
+
+														</div>
+													</div>
+												</div>
+											</form>
 										</div>
 
 

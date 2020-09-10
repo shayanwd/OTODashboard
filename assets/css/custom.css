@@ -48,7 +48,21 @@
 .aliceblue {
     background: aliceblue;
 }
-
+.apply-filter{
+    background: none;
+    border: none;
+    outline: none;
+    float: left;
+    outline: none;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    background: #0ac84b;
+    padding: 4px 10px;
+    font-weight: 600;
+    border: 1px solid transparent;
+    transition: 0.3s;
+}
 
 ::-webkit-scrollbar {
     width: 0px;
@@ -351,9 +365,14 @@ input:checked+.slider:before {
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\price-range-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
-.main-price-range-container{
-    margin-top:30px ;
+.main-price-range-container h6{
+    font-size: 16px;
+    font-weight: bolder;
+    margin-bottom: 35px;
 }
+.main-price-range-container{
+    padding-right: 10px;
+} 
 
 .slider-labels {
     margin-top: 10px;
@@ -361,10 +380,18 @@ input:checked+.slider:before {
 .range-price-box{
     width: 100%;
     text-align: left;
-    border: 1px solid black;
+    border: 1px solid rgb(219, 219, 219);
     border-radius: 3px;
-    padding: 10px;
+    padding: 5px 10px;
     margin-top: 10px;
+}
+#slider-range-value1{
+    font-weight: bold !important;
+    color: black;
+}
+#slider-range-value2{
+    font-weight: bold !important;
+    color: black;
 }
 
   
@@ -487,6 +514,13 @@ input:checked+.slider:before {
     border: 1px solid #d6d6d6;
     position: relative;
   }
+  .noUi-handle::before{
+    position: absolute;
+    top: -77%;
+    left: 12%;
+    content: '-';
+    font-size: 29px;
+  }
   
   .noUi-handle:active {
     border: 1px solid #000000;
@@ -506,11 +540,19 @@ input:checked+.slider:before {
     cursor: not-allowed;
   }
 
-
-
-
-
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\price-range-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\filter-buttons-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.filter-apply{
+float: right;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\filter-buttons-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
 
 
 
