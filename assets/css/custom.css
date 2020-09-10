@@ -351,9 +351,22 @@ input:checked+.slider:before {
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\price-range-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
+.main-price-range-container{
+    margin-top:30px ;
+}
+
 .slider-labels {
     margin-top: 10px;
-  }
+}
+.range-price-box{
+    width: 100%;
+    text-align: left;
+    border: 1px solid black;
+    border-radius: 3px;
+    padding: 10px;
+    margin-top: 10px;
+}
+
   
   /* Functional styling;
    * These styles are required for noUiSlider to function.
@@ -412,9 +425,7 @@ input:checked+.slider:before {
     cursor: inherit !important;
   }
   
-  /* Painting and performance;
-   * Browsers can paint handles in their own layer.
-   */
+  
   .noUi-base,.noUi-handle {
     -webkit-transform: translate3d(0,0,0);
     transform: translate3d(0,0,0);
@@ -432,7 +443,7 @@ input:checked+.slider:before {
     border-radius: 50%;
     left: -7px;
     top: -7px;
-    background-color: #345DBB;
+    background-color: white;
   }
   
   /* Styling;
@@ -442,7 +453,7 @@ input:checked+.slider:before {
   }
   
   .noUi-connect {
-    background: #345DBB;
+    background: black;
     -webkit-transition: background 450ms;
     transition: background 450ms;
   }
@@ -473,15 +484,16 @@ input:checked+.slider:before {
     -webkit-box-sizing: content-box !important;
     -moz-box-sizing: content-box !important;
     box-sizing: content-box !important;
+    border: 1px solid #d6d6d6;
+    position: relative;
   }
   
   .noUi-handle:active {
-    border: 8px solid #345DBB;
-    border: 8px solid rgba(53,93,187,0.38);
+    border: 1px solid #000000;
     -webkit-background-clip: padding-box;
     background-clip: padding-box;
-    left: -14px;
-    top: -14px;
+    left: -7px;
+    top: -7px;
   }
   
   /* Disabled state;
