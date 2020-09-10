@@ -244,16 +244,18 @@ input:checked+.slider:before {
     margin-top: 12px;
 }
 
-.fleet-dropdown-checkbox ul li input[type='checkbox']{
--webkit-appearance: none;position: relative;
-width: 18px;
-height: 18px;
-background: #fafafa;
-cursor: pointer;
-border-radius:3px ;
-border: 1px solid #75787c;
+.fleet-dropdown-checkbox ul li input[type='checkbox'] {
+    -webkit-appearance: none;
+    position: relative;
+    width: 18px;
+    height: 18px;
+    background: #fafafa;
+    cursor: pointer;
+    border-radius: 3px;
+    border: 1px solid #75787c;
 }
-.fleet-dropdown-checkbox ul li input[type='checkbox']::before{
+
+.fleet-dropdown-checkbox ul li input[type='checkbox']::before {
     content: '';
     width: 13px;
     height: 13px;
@@ -261,18 +263,20 @@ border: 1px solid #75787c;
     position: absolute;
     top: 50%;
     left: 50%;
-    border-radius:1px ;
-    transform: translate(-50%,-50%);
+    border-radius: 1px;
+    transform: translate(-50%, -50%);
     opacity: 0;
     visibility: hidden;
     transition: .3s ease-in-out 0s;
- 
+
 }
-.fleet-dropdown-checkbox ul li input[type='checkbox']:checked::before{
+
+.fleet-dropdown-checkbox ul li input[type='checkbox']:checked::before {
     opacity: 1;
     visibility: visible;
 }
-.fleet-dropdown-checkbox ul li h5{
+
+.fleet-dropdown-checkbox ul li h5 {
     font-size: 17px;
     color: #75787c;
     margin-left: 10px;
@@ -293,10 +297,200 @@ border: 1px solid #75787c;
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\data-range-picker-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\header-search-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.header-input {
+    max-width: 200px;
+    width: 100%;
+    height: 30px;
+    border: 1px solid #c3c3d1;
+    margin-top: 20px;
+    position: relative;
+    margin-left: 30px;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    border-top-left-radius: 25px;
+    border-bottom-left-radius: 25px;
+    overflow: hidden;
+}
+
+.header-input input {
+    max-width: 170px;
+    width: 100%;
+    border: none;
+    margin-left: 30px !important;
+    background: none;
+    outline: none;
+    height: 100%;
+}
+
+.header-input i {
+    position: absolute;
+    top: 25%;
+    left: 5%;
+}
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\header-search-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\appex-chart-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.apexcharts-toolbar {
+    display: none;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\appex-chart-send\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\meter-chart-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+.meter {
+    max-width: 50px;
+    width: 100%;
+    position: absolute;
+    left: 45%;
+    bottom: 0;
+}
+
+.meter img {
+    width: 100%;
+    transform: rotate(50deg);
+}
+
+.meter-chart h1 {
+    font-size: 25px;
+    font-weight: bold;
+    margin-bottom: 30px;
+}
+
+.meter-chart {
+    position: relative;
+}
+
+.meter-chart::before {
+    content: 'Bad';
+    position: absolute;
+    left: 45%;
+    top: 42%;
+    font-size: 26px;
+    font-weight: bold;
+}
+
+.main-meter-container {
+    padding: 0 20px;
+}
+
+#meterChart {
+    width: 10px;
+}
+.meter-good{
+    margin-top: 40px;
+    width: 100%;
+}
+.meter-good ul {
+    padding: 0px !important;
+    margin: 0px !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meter-good ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.good-img {
+    max-width: 60px;
+    width: 100%;
+}
+
+.good-img img {
+    width: 100%;
+}
+
+.meter-good ul li h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    color: black;
+}
+.meter-good ul li h3 {
+    font-size: 20px;
+    margin-bottom: 0px !important;
+    color: #989898;
+}
+.main-good-bad-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    float: left;
+    width: 100%;
+}
+.meter-bad{
+    margin-top: 40px;
+    width: 100%;
+    float: right;
+    text-align: right;
+    flex-direction: row-reverse;
+}
+.meter-bad ul {
+    padding: 0px !important;
+    margin: 0px !important;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.meter-bad ul li {
+    list-style: none;
+    display: inline-block;
+}
+
+.bad-img {
+    max-width: 60px;
+    width: 100%;
+}
+
+.bad-img img {
+    width: 100%;
+}
+
+.meter-bad ul li h2 {
+    font-size: 27px;
+    font-weight: bold;
+    margin-bottom: 0px !important;
+    color: black;
+    text-align: left;
+}
+.meter-bad ul li h3 {
+    font-size: 20px;
+    margin-bottom: 0px !important;
+    color: #989898;
+    text-align: left;
+}
+
+.fleet-review h1{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\meter-chart-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
 
 
 /* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-colors-end////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\Pre-define-classes-end////////////////////////////////////
+
+
+
+
 =========================================================================== */
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_list-start////////////////////////////////////

@@ -3,7 +3,7 @@
 
 <head>
 	<title>OTO</title>
-	
+
 	<meta charset="utf-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=0, minimal-ui">
 	<meta http-equiv="X-UA-Compatible" content="IE=edge" />
@@ -147,7 +147,7 @@
 
 					<li class="pc-item pc-hasmenu mt-2">
 						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-receipt mr-3"></i><span class="pc-mtext">PAYMENT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
-						<ul class="pc-submenu">	
+						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="fas fa-user-friends"></i></span>User balance Adjustment</a></li>
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="fas fa-money-bill-wave-alt"></i></span>Payment to Agent</a></li>
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon">exchange-alt</span>Transaction</a></li>
@@ -159,7 +159,7 @@
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
-					</li>	
+					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
 						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="far fa-money-bill-alt mr-3"></i><span class="pc-mtext">Price MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
@@ -211,6 +211,10 @@
 	<!-- [ Header ] start -->
 	<header class="pc-header ">
 		<div class="header-wrapper">
+			<div class="header-input">
+				<input type="text" placeholder="Search Name, ID… ">
+				<i class="fas fa-search"></i>
+			</div>
 
 			<div class="ml-auto">
 				<ul class="list-unstyled">

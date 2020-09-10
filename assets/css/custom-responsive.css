@@ -62,6 +62,37 @@
     }
 }
 
+@media(max-width: 400px) {
+    .meter-chart::before {
+        left: 43%;
+        top: 31%;
+        font-size: 22px;
+    }
+
+    .meter {
+        left: 41%;
+    }
+    .good-img {
+        max-width: 50px;
+    }
+    .bad-img {
+        max-width: 50px;
+    }
+    .meter-good ul li h2 {
+        font-size: 23px;
+    }
+    .meter-good ul li h3 {
+        font-size: 16px;
+    }
+    .meter-bad ul li h2 {
+        font-size: 23px;
+    }
+    .meter-bad ul li h3 {
+        font-size: 16px;
+    }
+}
+
+
 @media (max-width: 767.98px) {
     .tabcontent {
         padding: 6px 20px;

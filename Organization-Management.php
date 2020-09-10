@@ -22,7 +22,7 @@
 
 	<!-- [ Main Content ] start -->
 	<div class="pc-container">
-		
+
 		<div class="pcoded-content ">
 
 			<div class="row">
@@ -191,14 +191,14 @@
 																			<h5>Rampura</h5>
 																		</li>
 																	</ul>
-																	
+
 																	<ul class="mt-3">
 																		<li><input type="checkbox" checked></li>
 																		<li>
 																			<h5>Mouchak</h5>
 																		</li>
 																	</ul>
-																	
+
 																	<ul class="mt-3">
 																		<li><input type="checkbox"></li>
 																		<li>
@@ -238,7 +238,49 @@
 								</div>
 								<div class="row">
 									<div class="col-md-6">
-										<canvas id="meterChart"></canvas>
+										<div class="fleet-review">
+											<h1>Fleet Review</h1>
+										</div>
+										<div class=" meter-chart">
+											<canvas id="meterChart"></canvas>
+
+											<div class="meter">
+												<img src="assets/images/meter.png">
+											</div>
+										</div>
+
+										<div class="main-good-bad-container">
+											<div class="meter-good">
+												<ul>
+													<li>
+														<div class="good-img">
+															<img src="assets/images/good-thumb.png">
+														</div>
+													</li>
+													<li class="ml-4">
+														<h2>73%</h2>
+														<h3>Good</h3>
+													</li>
+												</ul>
+											</div>
+
+
+
+											<div class="meter-bad">
+												<ul>
+													<li>
+														<div class="bad-img">
+															<img src="assets/images/bad-thumb.png">
+														</div>
+													</li>
+													<li class="ml-4">
+														<h2>23%</h2>
+														<h3>bad</h3>
+													</li>
+												</ul>
+											</div>
+										</div>
+
 									</div>
 								</div>
 
