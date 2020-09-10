@@ -901,22 +901,12 @@
 											</form>
 										</div>
 
-
-
-
-
-
-
-
-
-
-
-
 									</div>
 								</div>
 							</div>
 						</div>
 					</div>
+
 					<div class="card remove-mb">
 						<div class="card-body_my">
 							<div class="dt-responsive table-responsive">
@@ -1504,10 +1494,6 @@
 		<!-- Tab content-emd -->
 
 	</div>
-
-</body>
-
-</html>
 
 
 <?php include('footer.php') ?>
