@@ -1,18 +1,8 @@
-<!DOCTYPE html>
-<html lang="en">
 
-<head>
-	<title>OTO| Organization-list</title>
-</head>
 
-<body class="">
-	<!-- [ Pre-loader ] start -->
-	<div class="loader-bg">
-		<div class="loader-track">
-			<div class="loader-fill"></div>
-		</div>
-	</div>
-	<!-- [ Pre-loader ] End -->
+
+
+
 
 	<?php
 	include('./header.php')
@@ -808,4 +798,4 @@
 				</div>
 
 
-<?php include "footer.php" ?>
+				<?php include "footer.php" ?>
