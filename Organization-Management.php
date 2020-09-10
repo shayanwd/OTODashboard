@@ -236,8 +236,20 @@
 										<div id="LineChart"></div>
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+
+
+			<div class="row">
+				<div class="col-md-6 col-xl-6 mt-1">
+					<div class="card_my prod-p-card background-pattern">
+						<div class="card-body">
+							<div class="card-head">
 								<div class="row">
-									<div class="col-md-6">
+									<div class="col-md-12">
 										<div class="fleet-review">
 											<h1>Fleet Review</h1>
 										</div>
@@ -283,12 +295,34 @@
 
 									</div>
 								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 
+				<div class="col-md-6 col-xl-6 mt-1">
+					<div class="card_my prod-p-card background-pattern">
+						<div class="card-body">
+							<div class="card-head">
+								
+							
 							</div>
 						</div>
 					</div>
 				</div>
 			</div>
+
+
+
+
+
+
+
+
+
+
+
+			
 		</div>
 		<!-- Tab content-end -->
 
