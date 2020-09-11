@@ -1,3 +1,26 @@
+
+
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Add-organization-and-close-wor-start////////////////////////////////////
+=========================================================================== */
+
+$("#add-organization").on('click', function (){
+  $('.step-form-overlay').css("opacity", "1")
+  $('.step-form-overlay').css("pointer-events", "all")
+  $('.main-step-form-container').css("right", "0")
+  });
+  
+  $("#close-organization-form").on('click', function (){
+    $('.step-form-overlay').css("opacity", "0")
+    $('.step-form-overlay').css("pointer-events", "none")
+    $('.main-step-form-container').css("right", "-100%")
+    });
+  
+
+
+
+
 var currentTab = 0; // Current tab is set to be the first tab (0)
 showTab(currentTab); // Display the current tab
 
@@ -70,3 +93,37 @@ function fixStepIndicator(n) {
   //... and adds the "active" class to the current step:
   x[n].className += " active";
 }
+
+
+  
+    /* ===========================================================================
+  \\\\\\\\\\\\\\\\\\\\\\\\\Add-organization-and-close-work-end////////////////////////////////////
+  =========================================================================== */
+
+
+
+
+      /* ===========================================================================
+  \\\\\\\\\\\\\\\\\\\\\\\\\Add-fleet-and-close-work-start////////////////////////////////////
+  =========================================================================== */
+
+
+
+
+
+  $("#add-fleet").on('click', function (){
+    $('.step-form-overlay').css("opacity", "1")
+    $('.step-form-overlay').css("pointer-events", "all");
+    $('.main-step-form-container').css("right", "0");
+    });
+    
+    $("#close-organization-form").on('click', function (){
+      $('.step-form-overlay').css("opacity", "0")
+      $('.step-form-overlay').css("pointer-events", "none")
+      $('.main-step-form-container').css("right", "-100%")
+      });
+    
+
+            /* ===========================================================================
+  \\\\\\\\\\\\\\\\\\\\\\\\\Add-fleet-and-close-work-end////////////////////////////////////
+  =========================================================================== */

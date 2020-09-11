@@ -1,5 +1,64 @@
 
 
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\menu-collapse-start////////////////////////////////////
+=========================================================================== */
+
+$(".collapse-header").on('click', function(){
+
+  if ($(window).width() > 1025) {
+    $('.body').addClass('minimenu');
+  } else {
+    $('.body').removeClass('minimenu');
+  }
+
+
+$(".collapse-header").css("display", "none");
+$(".uncollapse-header").css("display", "block");
+$(".logo-lg").css("position", "absolute");
+$(".logo-lg").css("top", "-100%");
+$(".pc-micon").css("margin-left", "-22px");
+$(".header-switch").css("display", "none");
+
+});
+
+
+
+// =============================================
+// ===========================================
+
+
+$(".uncollapse-header").on('click', function(){
+
+  if ($(window).width() > 1025) {
+    $('.body').removeClass('minimenu');
+  } else {
+    $('.body').addClass('minimenu');
+  }
+
+  $(".collapse-header").css("display", "block");
+  $(".uncollapse-header").css("display", "none");
+  $(".logo-lg").css("position", "initial");
+  $(".logo-lg").css("top", "0");
+  $(".pc-sidebar .pc-micon").css("margin-left", "0px");
+  $(".header-switch").css("display", "block");
+  });
+
+
+
+  if ($(window).width() < 1025) {
+    $('.body').removeClass('minimenu');
+    $(".collapse-header").css("display", "none");
+$(".uncollapse-header").css("display", "none");
+
+  } else {
+    $(".collapse-header").css("display", "block");
+  }
+
+
+
+
+
 
 
 
@@ -8,25 +67,67 @@
 
 
 /* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Add-organization-and-close-wor-start////////////////////////////////////
+\\\\\\\\\\\\\\\\\\\\\\\\\menu-collapse-end////////////////////////////////////
 =========================================================================== */
 
-$("#add-organization").on('click', function (){
-$('.step-form-overlay').css("opacity", "1")
-$('.step-form-overlay').css("pointer-events", "all")
-$('.main-step-form-container').css("right", "0")
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Mega-dropdown-start////////////////////////////////////
+=========================================================================== */
+$("#filter1").on('click', function (){
+$('.main-mega-dropdown').css("opacity", "1")
+$('.main-mega-dropdown').css("visibility", "visible")
+$('.main-mega-dropdown').css("pointer-events", "all")
+$('.main-mega-dropdown').css("transform", "translateY(0)")
 });
 
-$("#close-organization-form").on('click', function (){
-  $('.step-form-overlay').css("opacity", "0")
-  $('.step-form-overlay').css("pointer-events", "none")
-  $('.main-step-form-container').css("right", "-100%")
+$("#cancle-filter1").on('click', function (){
+  $('.main-mega-dropdown').css("opacity", "0")
+  $('.main-mega-dropdown').css("visibility", "hidden")
+  $('.main-mega-dropdown').css("pointer-events", "none")
+  $('.main-mega-dropdown').css("transform", "translateY(-30px)")
   });
 
+  $("#filter2").on('click', function (){
+    $('.main-mega-dropdown2').css("opacity", "1")
+    $('.main-mega-dropdown2').css("visibility", "visible")
+    $('.main-mega-dropdown2').css("pointer-events", "all")
+    $('.main-mega-dropdown2').css("transform", "translateY(0)")
+    });
+    
+    $("#cancle-filter2").on('click', function (){
+      $('.main-mega-dropdown2').css("opacity", "0")
+      $('.main-mega-dropdown2').css("visibility", "hidden")
+      $('.main-mega-dropdown2').css("pointer-events", "none")
+      $('.main-mega-dropdown2').css("transform", "translateY(-30px)")
+      });
 
-  /* ===========================================================================
-\\\\\\\\\\\\\\\\\\\\\\\\\Add-organization-and-close-work-end////////////////////////////////////
+
+      $("#filter3").on('click', function (){
+        $('.main-mega-dropdown3').css("opacity", "1")
+        $('.main-mega-dropdown3').css("visibility", "visible")
+        $('.main-mega-dropdown3').css("pointer-events", "all")
+        $('.main-mega-dropdown3').css("transform", "translateY(0)")
+        });
+        
+        $("#cancle-filter3").on('click', function (){
+          $('.main-mega-dropdown3').css("opacity", "0")
+          $('.main-mega-dropdown3').css("visibility", "hidden")
+          $('.main-mega-dropdown3').css("pointer-events", "none")
+          $('.main-mega-dropdown3').css("transform", "translateY(-30px)")
+          });
+
+
+
+
+
+
+/* ===========================================================================
+\\\\\\\\\\\\\\\\\\\\\\\\\Mega-dropdown-end////////////////////////////////////
 =========================================================================== */
+
+
+
 
 
 

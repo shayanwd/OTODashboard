@@ -15,6 +15,7 @@
 	<link rel="stylesheet" href="assets/fonts/font-awsome-pro/css/pro.min.css">
 	<link rel="stylesheet" href="assets/fonts/feather.css">
 	<link rel="stylesheet" href="assets/fonts/fontawesome.css">
+	<link rel="stylesheet" href="assets/css/step-form.css">
 
 	<!-- vendor css -->
 	<link rel="stylesheet" href="assets/css/style.css">
@@ -25,7 +26,7 @@
 
 </head>
 
-<body class="">
+<body class="body">
 	<!-- [ Pre-loader ] start -->
 	<div class="loader-bg">
 		<div class="loader-track">
@@ -56,12 +57,36 @@
 
 	<!-- [ navigation menu ] start -->
 	<nav class="pc-sidebar ">
+
+
+
 		<div class="navbar-wrapper">
 			<div class="m-header">
+
+				<div class="collapse-header">
+					<i class="fas fa-bars"></i>
+				</div>
+
+				<!-- ============================== -->
+
+				<div class="uncollapse-header">
+					<i class="fas fa-bars"></i>
+				</div>
+
+				<!-- ============================== -->
+				<div class="header-switch">
+					<label class="switch">
+						<input type="checkbox">
+						<span class="slider round"></span>
+					</label>
+				</div>
+
+				<!-- ============================== -->
+
 				<a href="#!" class="b-brand">
 					<!-- ========   change your logo hear   ============ -->
 					<img src="assets/images/logo.png" alt="" class="logo logo-lg">
-					<img src="assets/images/logo-sm.png" alt="" class="logo logo-sm">
+					<img src="assets/images/logo.png" alt="" class="logo logo-sm">
 				</a>
 
 			</div>
@@ -69,135 +94,184 @@
 				<ul class="pc-navbar">
 
 					<li class="pc-item pc-hasmenu">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tachometer-alt mr-3"></i><span class="pc-mtext">DASHBOARD</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-tachometer-alt mr-3"></i><span class="pc-mtext">DASHBOARD</span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href="#!"><span class="pc-micon"></span>Super Admin</a></li>
-							<li class="pc-item"><a class="pc-link" href="#!"><span class="pc-micon"></span>Organization</a></li>
+							<li class="pc-item"><a class="pc-link" href="#!"><span class="pc-micon"></span>Super
+									Admin</a></li>
+							<li class="pc-item"><a class="pc-link" href="#!"><span
+										class="pc-micon"></span>Organization</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-users-cog mr-3"></i><span class="pc-mtext">ORGANIZATION MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-users-cog mr-3"></i><span class="pc-mtext">ORGANIZATION
+								MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href="index.html"><span class="pc-micon"></span>Organization List </a></li>
-							<li class="pc-item"><a class="pc-link" href="Organization-Management.html"><span class="pc-micon"></span>Admin User List</a></li>
+							<li class="pc-item"><a class="pc-link" href="index.html"><span
+										class="pc-micon"></span>Organization List </a></li>
+							<li class="pc-item"><a class="pc-link" href="Organization-Management.html"><span
+										class="pc-micon"></span>Admin User List</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-key mr-3"></i><span class="pc-mtext">PERMISSION MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-key mr-3"></i><span
+								class="pc-mtext">PERMISSION MANAGEMENT </span><span class="pc-arrow"><i
+									data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Admin User Roles</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Admin User
+									Roles</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-bicycle mr-3"></i><span class="pc-mtext">VEHICLE MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-bicycle mr-3"></i><span class="pc-mtext">VEHICLE MANAGEMENT </span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>IOT </a></li>
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Bikes </a></li>
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Scooter</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Scooter</a>
+							</li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-map-marked-alt mr-3"></i><span class="pc-mtext">MAP VIEW </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-map-marked-alt mr-3"></i><span class="pc-mtext">MAP VIEW </span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Map</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-street-view mr-3"></i><span class="pc-mtext">GEOFENCE MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-street-view mr-3"></i><span class="pc-mtext">GEOFENCE
+								MANAGEMENT</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Parkings</a></li>
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Restricted Areas</a></li>
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Service Areas</a></li>
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Geofence</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Parkings</a>
+							</li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Restricted
+									Areas</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Service
+									Areas</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Geofence</a>
+							</li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-sitemap mr-3"></i><span class="pc-mtext">TRIP MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
-						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
-						</ul>
-					</li>
-
-					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tools mr-3"></i><span class="pc-mtext">OPERATION MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
-						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
-						</ul>
-					</li>
-
-					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-copy mr-3"></i><span class="pc-mtext">REPORT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-sitemap mr-3"></i><span class="pc-mtext">TRIP MANAGEMENT </span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-users mr-3"></i><span class="pc-mtext">USER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-tools mr-3"></i><span class="pc-mtext">OPERATION MANAGEMENT </span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-receipt mr-3"></i><span class="pc-mtext">PAYMENT MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
-						<ul class="pc-submenu">
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="fas fa-user-friends"></i></span>User balance Adjustment</a></li>
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i class="fas fa-money-bill-wave-alt"></i></span>Payment to Agent</a></li>
-							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon">exchange-alt</span>Transaction</a></li>
-						</ul>
-					</li>
-
-					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-shopping-bag mr-3"></i><span class="pc-mtext">Payment MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-copy mr-3"></i><span
+								class="pc-mtext">REPORT MANAGEMENT </span><span class="pc-arrow"><i
+									data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="far fa-money-bill-alt mr-3"></i><span class="pc-mtext">Price MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-users mr-3"></i><span class="pc-mtext">USER MANAGEMENT </span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tags mr-3"></i><span class="pc-mtext">TAX MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-receipt mr-3"></i><span class="pc-mtext">PAYMENT MANAGEMENT </span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i
+											class="fas fa-user-friends"></i></span>User balance Adjustment</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"><i
+											class="fas fa-money-bill-wave-alt"></i></span>Payment to Agent</a></li>
+							<li class="pc-item"><a class="pc-link" href=""><span
+										class="pc-micon">exchange-alt</span>Transaction</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-shopping-bag mr-3"></i><span class="pc-mtext">Payment MANAGEMENT
+							</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-percent mr-3"></i><span class="pc-mtext">Promo Code Management </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="far fa-money-bill-alt mr-3"></i><span class="pc-mtext">Price MANAGEMENT
+							</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-gift mr-3"></i><span class="pc-mtext">OFFER MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-tags mr-3"></i><span
+								class="pc-mtext">TAX MANAGEMENT </span><span class="pc-arrow"><i
+									data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-trophy mr-3"></i><span class="pc-mtext">POIN MANAGEMENT </span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-percent mr-3"></i><span class="pc-mtext">Promo Code Management
+							</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
 					</li>
 
 					<li class="pc-item pc-hasmenu mt-2">
-						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-sliders-h mr-3"></i><span class="pc-mtext">Setting</span><span class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i class="fas fa-gift mr-3"></i><span
+								class="pc-mtext">OFFER MANAGEMENT </span><span class="pc-arrow"><i
+									data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-trophy mr-3"></i><span class="pc-mtext">POIN MANAGEMENT </span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
+						<ul class="pc-submenu">
+							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
+						</ul>
+					</li>
+
+					<li class="pc-item pc-hasmenu mt-2">
+						<a href="#!" class="pc-link"><span class="pc-micon"></span><i
+								class="fas fa-sliders-h mr-3"></i><span class="pc-mtext">Setting</span><span
+								class="pc-arrow"><i data-feather="chevron-right"></i></span></a>
 						<ul class="pc-submenu">
 							<li class="pc-item"><a class="pc-link" href=""><span class="pc-micon"></span>Trips</a></li>
 						</ul>
@@ -226,7 +300,8 @@
 					</li>
 
 					<li class="pc-h-item">
-						<a class="pc-head-link mr-0 border-right dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+						<a class="pc-head-link mr-0 border-right dropdown-toggle arrow-none mr-0" data-toggle="dropdown"
+							href="#" role="button" aria-haspopup="false" aria-expanded="false">
 							<span class="notification-number">2</span>
 							<span class="badge badge-danger pc-h-badge dots"><span class="sr-only"></span></span>
 						</a>
@@ -241,8 +316,7 @@
 								<div class="row">
 									<div class="col-md-9">
 										<h1>Tab Update</h1>
-										<h2>Sample description or summary description or
-											summary i in max row</h2>
+										<h2>Sample description or summary description or summary i in max row</h2>
 										<h3>23 July 2020</h3>
 									</div>
 
@@ -258,8 +332,7 @@
 								<div class="row">
 									<div class="col-md-9">
 										<h1>Tab Update</h1>
-										<h2>Sample description or summary description or
-											summary i in max row</h2>
+										<h2>Sample description or summary description or summary i in max row</h2>
 										<p class="mb-1">1. Sample description</p>
 										<p class="mb-1">2. Sample description</p>
 										<p class="mb-2">3. Sample description</p>
@@ -272,7 +345,8 @@
 					</li>
 
 					<li class="dropdown pc-h-item">
-						<a class="pc-head-link dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#" role="button" aria-haspopup="false" aria-expanded="false">
+						<a class="pc-head-link dropdown-toggle arrow-none mr-0" data-toggle="dropdown" href="#"
+							role="button" aria-haspopup="false" aria-expanded="false">
 
 							<i class="fas fa-chevron-down mr-2  profile-icon"></i>
 
@@ -374,13 +448,15 @@
 								<div class="col-md-6">
 									<label class="step-label">Name</label>
 									<div class="input-fields">
-										<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+										<p><input class="form-control" placeholder="" oninput="this.className = ''"
+												required></p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<label class="step-label">Phone Number</label>
 									<div class="input-fields">
-										<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+										<p><input class="form-control" placeholder="" oninput="this.className = ''"
+												required></p>
 									</div>
 								</div>
 							</div>
@@ -389,7 +465,8 @@
 								<div class="col-md-6">
 									<label class="step-label">Alies</label>
 									<div class="input-fields">
-										<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+										<p><input class="form-control" placeholder="" oninput="this.className = ''"
+												required></p>
 									</div>
 								</div>
 								<div class="col-md-6">
@@ -428,7 +505,8 @@
 												<option value="Botswana">Botswana</option>
 												<option value="Bouvet Island">Bouvet Island</option>
 												<option value="Brazil">Brazil</option>
-												<option value="British Indian Ocean Territory">British Indian Ocean Territory</option>
+												<option value="British Indian Ocean Territory">British Indian Ocean
+													Territory</option>
 												<option value="Brunei Darussalam">Brunei Darussalam</option>
 												<option value="Bulgaria">Bulgaria</option>
 												<option value="Burkina Faso">Burkina Faso</option>
@@ -438,7 +516,8 @@
 												<option value="Canada">Canada</option>
 												<option value="Cape Verde">Cape Verde</option>
 												<option value="Cayman Islands">Cayman Islands</option>
-												<option value="Central African Republic">Central African Republic</option>
+												<option value="Central African Republic">Central African Republic
+												</option>
 												<option value="Chad">Chad</option>
 												<option value="Chile">Chile</option>
 												<option value="China">China</option>
@@ -447,7 +526,8 @@
 												<option value="Colombia">Colombia</option>
 												<option value="Comoros">Comoros</option>
 												<option value="Congo">Congo</option>
-												<option value="Congo, The Democratic Republic of The">Congo, The Democratic Republic of The</option>
+												<option value="Congo, The Democratic Republic of The">Congo, The
+													Democratic Republic of The</option>
 												<option value="Cook Islands">Cook Islands</option>
 												<option value="Costa Rica">Costa Rica</option>
 												<option value="Cote D'ivoire">Cote D'ivoire</option>
@@ -466,14 +546,16 @@
 												<option value="Eritrea">Eritrea</option>
 												<option value="Estonia">Estonia</option>
 												<option value="Ethiopia">Ethiopia</option>
-												<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)</option>
+												<option value="Falkland Islands (Malvinas)">Falkland Islands (Malvinas)
+												</option>
 												<option value="Faroe Islands">Faroe Islands</option>
 												<option value="Fiji">Fiji</option>
 												<option value="Finland">Finland</option>
 												<option value="France">France</option>
 												<option value="French Guiana">French Guiana</option>
 												<option value="French Polynesia">French Polynesia</option>
-												<option value="French Southern Territories">French Southern Territories</option>
+												<option value="French Southern Territories">French Southern Territories
+												</option>
 												<option value="Gabon">Gabon</option>
 												<option value="Gambia">Gambia</option>
 												<option value="Georgia">Georgia</option>
@@ -491,15 +573,18 @@
 												<option value="Guinea-bissau">Guinea-bissau</option>
 												<option value="Guyana">Guyana</option>
 												<option value="Haiti">Haiti</option>
-												<option value="Heard Island and Mcdonald Islands">Heard Island and Mcdonald Islands</option>
-												<option value="Holy See (Vatican City State)">Holy See (Vatican City State)</option>
+												<option value="Heard Island and Mcdonald Islands">Heard Island and
+													Mcdonald Islands</option>
+												<option value="Holy See (Vatican City State)">Holy See (Vatican City
+													State)</option>
 												<option value="Honduras">Honduras</option>
 												<option value="Hong Kong">Hong Kong</option>
 												<option value="Hungary">Hungary</option>
 												<option value="Iceland">Iceland</option>
 												<option value="India">India</option>
 												<option value="Indonesia">Indonesia</option>
-												<option value="Iran, Islamic Republic of">Iran, Islamic Republic of</option>
+												<option value="Iran, Islamic Republic of">Iran, Islamic Republic of
+												</option>
 												<option value="Iraq">Iraq</option>
 												<option value="Ireland">Ireland</option>
 												<option value="Isle of Man">Isle of Man</option>
@@ -512,11 +597,13 @@
 												<option value="Kazakhstan">Kazakhstan</option>
 												<option value="Kenya">Kenya</option>
 												<option value="Kiribati">Kiribati</option>
-												<option value="Korea, Democratic People's Republic of">Korea, Democratic People's Republic of</option>
+												<option value="Korea, Democratic People's Republic of">Korea, Democratic
+													People's Republic of</option>
 												<option value="Korea, Republic of">Korea, Republic of</option>
 												<option value="Kuwait">Kuwait</option>
 												<option value="Kyrgyzstan">Kyrgyzstan</option>
-												<option value="Lao People's Democratic Republic">Lao People's Democratic Republic</option>
+												<option value="Lao People's Democratic Republic">Lao People's Democratic
+													Republic</option>
 												<option value="Latvia">Latvia</option>
 												<option value="Lebanon">Lebanon</option>
 												<option value="Lesotho">Lesotho</option>
@@ -526,7 +613,8 @@
 												<option value="Lithuania">Lithuania</option>
 												<option value="Luxembourg">Luxembourg</option>
 												<option value="Macao">Macao</option>
-												<option value="Macedonia, The Former Yugoslav Republic of">Macedonia, The Former Yugoslav Republic of</option>
+												<option value="Macedonia, The Former Yugoslav Republic of">Macedonia,
+													The Former Yugoslav Republic of</option>
 												<option value="Madagascar">Madagascar</option>
 												<option value="Malawi">Malawi</option>
 												<option value="Malaysia">Malaysia</option>
@@ -539,7 +627,8 @@
 												<option value="Mauritius">Mauritius</option>
 												<option value="Mayotte">Mayotte</option>
 												<option value="Mexico">Mexico</option>
-												<option value="Micronesia, Federated States of">Micronesia, Federated States of</option>
+												<option value="Micronesia, Federated States of">Micronesia, Federated
+													States of</option>
 												<option value="Moldova, Republic of">Moldova, Republic of</option>
 												<option value="Monaco">Monaco</option>
 												<option value="Mongolia">Mongolia</option>
@@ -560,12 +649,14 @@
 												<option value="Nigeria">Nigeria</option>
 												<option value="Niue">Niue</option>
 												<option value="Norfolk Island">Norfolk Island</option>
-												<option value="Northern Mariana Islands">Northern Mariana Islands</option>
+												<option value="Northern Mariana Islands">Northern Mariana Islands
+												</option>
 												<option value="Norway">Norway</option>
 												<option value="Oman">Oman</option>
 												<option value="Pakistan">Pakistan</option>
 												<option value="Palau">Palau</option>
-												<option value="Palestinian Territory, Occupied">Palestinian Territory, Occupied</option>
+												<option value="Palestinian Territory, Occupied">Palestinian Territory,
+													Occupied</option>
 												<option value="Panama">Panama</option>
 												<option value="Papua New Guinea">Papua New Guinea</option>
 												<option value="Paraguay">Paraguay</option>
@@ -583,8 +674,10 @@
 												<option value="Saint Helena">Saint Helena</option>
 												<option value="Saint Kitts and Nevis">Saint Kitts and Nevis</option>
 												<option value="Saint Lucia">Saint Lucia</option>
-												<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon</option>
-												<option value="Saint Vincent and The Grenadines">Saint Vincent and The Grenadines</option>
+												<option value="Saint Pierre and Miquelon">Saint Pierre and Miquelon
+												</option>
+												<option value="Saint Vincent and The Grenadines">Saint Vincent and The
+													Grenadines</option>
 												<option value="Samoa">Samoa</option>
 												<option value="San Marino">San Marino</option>
 												<option value="Sao Tome and Principe">Sao Tome and Principe</option>
@@ -599,7 +692,8 @@
 												<option value="Solomon Islands">Solomon Islands</option>
 												<option value="Somalia">Somalia</option>
 												<option value="South Africa">South Africa</option>
-												<option value="South Georgia and The South Sandwich Islands">South Georgia and The South Sandwich Islands</option>
+												<option value="South Georgia and The South Sandwich Islands">South
+													Georgia and The South Sandwich Islands</option>
 												<option value="Spain">Spain</option>
 												<option value="Sri Lanka">Sri Lanka</option>
 												<option value="Sudan">Sudan</option>
@@ -609,9 +703,11 @@
 												<option value="Sweden">Sweden</option>
 												<option value="Switzerland">Switzerland</option>
 												<option value="Syrian Arab Republic">Syrian Arab Republic</option>
-												<option value="Taiwan, Province of China">Taiwan, Province of China</option>
+												<option value="Taiwan, Province of China">Taiwan, Province of China
+												</option>
 												<option value="Tajikistan">Tajikistan</option>
-												<option value="Tanzania, United Republic of">Tanzania, United Republic of</option>
+												<option value="Tanzania, United Republic of">Tanzania, United Republic
+													of</option>
 												<option value="Thailand">Thailand</option>
 												<option value="Timor-leste">Timor-leste</option>
 												<option value="Togo">Togo</option>
@@ -621,14 +717,16 @@
 												<option value="Tunisia">Tunisia</option>
 												<option value="Turkey">Turkey</option>
 												<option value="Turkmenistan">Turkmenistan</option>
-												<option value="Turks and Caicos Islands">Turks and Caicos Islands</option>
+												<option value="Turks and Caicos Islands">Turks and Caicos Islands
+												</option>
 												<option value="Tuvalu">Tuvalu</option>
 												<option value="Uganda">Uganda</option>
 												<option value="Ukraine">Ukraine</option>
 												<option value="United Arab Emirates">United Arab Emirates</option>
 												<option value="United Kingdom">United Kingdom</option>
 												<option value="United States">United States</option>
-												<option value="United States Minor Outlying Islands">United States Minor Outlying Islands</option>
+												<option value="United States Minor Outlying Islands">United States Minor
+													Outlying Islands</option>
 												<option value="Uruguay">Uruguay</option>
 												<option value="Uzbekistan">Uzbekistan</option>
 												<option value="Vanuatu">Vanuatu</option>
@@ -651,13 +749,15 @@
 								<div class="col-md-6">
 									<label class="step-label">City</label>
 									<div class="input-fields">
-										<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+										<p><input class="form-control" placeholder="" oninput="this.className = ''"
+												required></p>
 									</div>
 								</div>
 								<div class="col-md-6">
 									<label class="step-label">Postal/Zip</label>
 									<div class="input-fields">
-										<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+										<p><input class="form-control" placeholder="" oninput="this.className = ''"
+												required></p>
 									</div>
 								</div>
 							</div>
@@ -694,22 +794,23 @@
 								</div>
 								<div class=" col-md-6">
 											<label class="step-label">Port</label>
-											<div class="input-fields">
-												<p><input class="form-control placeholder="" oninput=" this.className=''" required></p>
+										<div class="input-fields">
+											<p><input class="form-control placeholder="" oninput=" this.className=''" required></p>
 									</div>
 								</div>
 							</div>
 
 							<div class=" row mt-4">
-													<div class="col-md-12">
-														<label class="step-label">
-															Addres
-														</label>
-														<div class="input-fields">
-															<p><textarea class="form-control" placeholder="Test" required></textarea></p>
-														</div>
-													</div>
+											<div class="col-md-12">
+												<label class="step-label">
+													Addres
+												</label>
+												<div class="input-fields">
+													<p><textarea class="form-control" placeholder="Test"
+															required></textarea></p>
+												</div>
 											</div>
+										</div>
 
 									</div>
 
@@ -720,14 +821,18 @@
 												<div class="input-fields">
 													<ul>
 														<li>
-															<input type="radio" name="optradio" checked id="myCheckbox1" / required>
-															<label for="myCheckbox1"><img src="assets/images/scooter.png" /></label>
+															<input type="radio" name="optradio" checked id="myCheckbox1"
+																/ required>
+															<label for="myCheckbox1"><img
+																	src="assets/images/scooter.png" /></label>
 															<h6>Scooter</h6>
 														</li>
 														<li>
 
-															<input type="radio" name="optradio" id="myCheckbox2" / required>
-															<label for="myCheckbox2"><img src="assets/images/bike.png" /></label>
+															<input type="radio" name="optradio" id="myCheckbox2" /
+																required>
+															<label for="myCheckbox2"><img
+																	src="assets/images/bike.png" /></label>
 															<h6>Bike</h6>
 														</li>
 													</ul>
@@ -750,7 +855,8 @@
 													Per Vehicle Rate
 												</label>
 												<div class="input-fields">
-													<p><input class="form-control placeholder="" oninput=" this.className=''" required></p>
+													<p><input class="form-control placeholder="" oninput="
+															this.className=''" required></p>
 									</div>
 								</div>
 							</div>
@@ -769,108 +875,122 @@
 
 									<div class=" tab">
 
-														<div class="row mt-4">
-															<div class="col-md-6">
-																<label class="step-label">Default Payment Gatway</label>
-																<div class="input-fields">
-																	<p><select required>
-																			<option value="Stripe">Stripe</option>
-																			<option value="Stripe 2">Stripe 2</option>
-																		</select></p>
-																</div>
+													<div class="row mt-4">
+														<div class="col-md-6">
+															<label class="step-label">Default Payment Gatway</label>
+															<div class="input-fields">
+																<p><select required>
+																		<option value="Stripe">Stripe</option>
+																		<option value="Stripe 2">Stripe 2</option>
+																	</select></p>
 															</div>
-															<div class="col-md-6">
-																<label class="step-label">Gateway Name</label>
-																<div class="input-fields">
-																	<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+														</div>
+														<div class="col-md-6">
+															<label class="step-label">Gateway Name</label>
+															<div class="input-fields">
+																<p><input class="form-control" placeholder=""
+																		oninput="this.className = ''" required></p>
+															</div>
+														</div>
+													</div>
+
+													<div class="row mt-4">
+														<div class="col-md-6">
+															<label class="step-label">Stripe Client ID</label>
+															<div class="input-fields">
+																<p><input type="password" class="form-control"
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<label class="step-label">Strip Publisable Key</label>
+															<div class="input-fields">
+																<p><input type="password" class="form-control"
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
+															</div>
+														</div>
+													</div>
+
+													<div class="row mt-4">
+														<div class="col-md-6">
+															<label class="step-label">Stripe Secrate Key</label>
+															<div class="input-fields">
+																<p><input type="password" class="form-control"
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
+															</div>
+														</div>
+														<div class="col-md-6">
+															<label class="step-label">Default Currancy</label>
+															<div class="input-fields">
+																<p><select required>
+																		<option value="USD">USD</option>
+																		<option value="Dollar">Dollar</option>
+																	</select></p>
+															</div>
+														</div>
+													</div>
+
+													<div class="clearfix"></div>
+
+													<div class="web-links-seperator">
+														<h3>Web Links</h3>
+													</div>
+
+													<div class="clearfix"></div>
+
+													<div class="row mt-4">
+														<div class="col-md-12">
+															<label class="step-label">Stripe Secrate Key</label>
+															<div class="input-fields-url">
+																<p><input type="url" class="form-control "
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
+																<div class="input-social-icons">
+																	<img src="assets/images/play-store-icon.png">
 																</div>
 															</div>
 														</div>
 
-														<div class="row mt-4">
-															<div class="col-md-6">
-																<label class="step-label">Stripe Client ID</label>
-																<div class="input-fields">
-																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+														<div class="col-md-12 mt-4">
+															<label class="step-label">Default Currancy</label>
+															<div class="input-fields-url">
+																<p><input type="url" class="form-control" placeholder=""
+																		oninput="this.className = ''" required></p>
+																<div class="input-social-icons">
+																	<img src="assets/images/apple-icon.png">
 																</div>
 															</div>
-															<div class="col-md-6">
-																<label class="step-label">Strip Publisable Key</label>
-																<div class="input-fields">
-																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+														</div>
+													</div>
+
+													<div class="row mt-4">
+														<div class="col-md-12">
+															<label class="step-label">WebSite</label>
+															<div class="input-fields-url">
+																<p><input type="url" class="form-control "
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
+																<div class="input-social-icons">
+																	<img src="assets/images/website-icon.png">
 																</div>
 															</div>
 														</div>
 
-														<div class="row mt-4">
-															<div class="col-md-6">
-																<label class="step-label">Stripe Secrate Key</label>
-																<div class="input-fields">
-																	<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																</div>
-															</div>
-															<div class="col-md-6">
-																<label class="step-label">Default Currancy</label>
-																<div class="input-fields">
-																	<p><select required>
-																			<option value="USD">USD</option>
-																			<option value="Dollar">Dollar</option>
-																		</select></p>
+														<div class="col-md-12 mt-4">
+															<label class="step-label">Email</label>
+															<div class="input-fields-url">
+																<p><input type="email" class="form-control"
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
+																<div class="input-social-icons">
+																	<img src="assets/images/email-icon.png">
 																</div>
 															</div>
 														</div>
-
-														<div class="clearfix"></div>
-
-														<div class="web-links-seperator">
-															<h3>Web Links</h3>
-														</div>
-
-														<div class="clearfix"></div>
-
-														<div class="row mt-4">
-															<div class="col-md-12">
-																<label class="step-label">Stripe Secrate Key</label>
-																<div class="input-fields-url">
-																	<p><input type="url" class="form-control " placeholder="" oninput="this.className = ''" required></p>
-																	<div class="input-social-icons">
-																		<img src="assets/images/play-store-icon.png">
-																	</div>
-																</div>
-															</div>
-
-															<div class="col-md-12 mt-4">
-																<label class="step-label">Default Currancy</label>
-																<div class="input-fields-url">
-																	<p><input type="url" class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																	<div class="input-social-icons">
-																		<img src="assets/images/apple-icon.png">
-																	</div>
-																</div>
-															</div>
-														</div>
-
-														<div class="row mt-4">
-															<div class="col-md-12">
-																<label class="step-label">WebSite</label>
-																<div class="input-fields-url">
-																	<p><input type="url" class="form-control " placeholder="" oninput="this.className = ''" required></p>
-																	<div class="input-social-icons">
-																		<img src="assets/images/website-icon.png">
-																	</div>
-																</div>
-															</div>
-
-															<div class="col-md-12 mt-4">
-																<label class="step-label">Email</label>
-																<div class="input-fields-url">
-																	<p><input type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
-																	<div class="input-social-icons">
-																		<img src="assets/images/email-icon.png">
-																	</div>
-																</div>
-															</div>
-														</div>
+													</div>
 
 
 
@@ -890,13 +1010,15 @@
 														<div class="col-md-6">
 															<label class="step-label">Full Name</label>
 															<div class="input-fields">
-																<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																<p><input class="form-control" placeholder=""
+																		oninput="this.className = ''" required></p>
 															</div>
 														</div>
 														<div class="col-md-6">
 															<label class="step-label">User Name</label>
 															<div class="input-fields">
-																<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																<p><input class="form-control" placeholder=""
+																		oninput="this.className = ''" required></p>
 															</div>
 														</div>
 													</div>
@@ -906,13 +1028,16 @@
 														<div class="col-md-6">
 															<label class="step-label">Phone Number</label>
 															<div class="input-fields">
-																<p><input class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																<p><input class="form-control" placeholder=""
+																		oninput="this.className = ''" required></p>
 															</div>
 														</div>
 														<div class="col-md-6">
 															<label class="step-label">Email</label>
 															<div class="input-fields">
-																<p><input type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																<p><input type="email" class="form-control"
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
 															</div>
 														</div>
 													</div>
@@ -922,13 +1047,17 @@
 														<div class="col-md-6">
 															<label class="step-label">Password</label>
 															<div class="input-fields">
-																<p><input type="password" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																<p><input type="password" class="form-control"
+																		placeholder="" oninput="this.className = ''"
+																		required></p>
 															</div>
 														</div>
 														<div class="col-md-6">
 															<label class="step-label">Confirm Password</label>
 															<div class="input-fields">
-																<p><input type="password" type="email" class="form-control" placeholder="" oninput="this.className = ''" required></p>
+																<p><input type="password" type="email"
+																		class="form-control" placeholder=""
+																		oninput="this.className = ''" required></p>
 															</div>
 														</div>
 													</div>
@@ -939,10 +1068,13 @@
 												======================================================================================= -->
 
 												<div class="main-form-btn-container">
-													<button id="close-organization-form" class="step-form-close" type="reset">Cancle</button>
+													<button id="close-organization-form" class="step-form-close"
+														type="reset">Cancle</button>
 													<div class="next-prev-btns">
-														<button class="form-previous-btn" type="button" id="prevBtn" onclick="nextPrev(-1)">Previous</button>
-														<button class="form-save-btn" type="button" id="nextBtn" onclick="nextPrev(1)">Save & Continue</button>
+														<button class="form-previous-btn" type="button" id="prevBtn"
+															onclick="nextPrev(-1)">Previous</button>
+														<button class="form-save-btn" type="button" id="nextBtn"
+															onclick="nextPrev(1)">Save & Continue</button>
 													</div>
 												</div>
 
@@ -978,12 +1110,16 @@
 											</div>
 											<div class="col-md-6">
 												<div class="buttons dropdown">
-													<a class="btn_light" href="#!" class="btn btn-primary dropdown-toggle" data-toggle="dropdown"><i class="fas fa-download"></i> Export As <i class="fas fa-chevron-down"></i></a>
+													<a class="btn_light" href="#!"
+														class="btn btn-primary dropdown-toggle"
+														data-toggle="dropdown"><i class="fas fa-download"></i> Export As
+														<i class="fas fa-chevron-down"></i></a>
 													<div class="dropdown-menu export-dropdown">
 														<a class="dropdown-item" href="#">Export as CSV</a>
 														<a class="dropdown-item" href="#">Export as PDF</a>
 													</div>
-													<a class="btn_dark" id="add-organization" href="#"><i class="fas fa-plus"></i> Add</a>
+													<a class="btn_dark" id="add-organization" href="#"><i
+															class="fas fa-plus"></i> Add</a>
 												</div>
 											</div>
 										</div>

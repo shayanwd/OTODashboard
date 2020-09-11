@@ -50,6 +50,15 @@
         margin-top: 21px;
     }
 
+    .main-mega-dropdown {
+        top: 48%;
+        height: 400px;
+        overflow: scroll;
+    }
+    .filter-apply {
+        margin-top: 15px;
+    }
+
 }
 
 @media(max-width: 500px) {
@@ -72,21 +81,27 @@
     .meter {
         left: 41%;
     }
+
     .good-img {
         max-width: 50px;
     }
+
     .bad-img {
         max-width: 50px;
     }
+
     .meter-good ul li h2 {
         font-size: 23px;
     }
+
     .meter-good ul li h3 {
         font-size: 16px;
     }
+
     .meter-bad ul li h2 {
         font-size: 23px;
     }
+
     .meter-bad ul li h3 {
         font-size: 16px;
     }
