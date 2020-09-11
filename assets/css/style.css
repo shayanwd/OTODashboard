@@ -12833,7 +12833,7 @@ pre[class*="language-"] {
     font-size: 12px;
     font-weight: 500;
     background: #282828;
-    border-radius: 10px;
+    border-radius: 3px;
 }
 
 .pc-sidebar .pc-link:active,
@@ -12899,8 +12899,8 @@ pre[class*="language-"] {
 .pc-sidebar .pc-item.active>.pc-link,
 .pc-sidebar .pc-item:focus>.pc-link,
 .pc-sidebar .pc-item:hover>.pc-link {
-    color: #fff;
-    background: #256baa;
+    color: #3a4048;
+    background: #ffffff;
 }
 
 .pc-sidebar .pc-item.active>.pc-link .pc-micon i,
@@ -12915,7 +12915,8 @@ pre[class*="language-"] {
 .pc-sidebar .pc-navbar>.pc-item.active>.pc-link,
 .pc-sidebar .pc-navbar>.pc-item:focus>.pc-link,
 .pc-sidebar .pc-navbar>.pc-item:hover>.pc-link {
-    background: #0f2d48;
+    background: #3e3f49;
+    color:#ffffff;
 }
 
 .pc-sidebar .pc-hasmenu.pc-trigger>.pc-submenu {
@@ -13026,7 +13027,7 @@ body:not(.minimenu) .pc-sidebar .pc-submenu .pc-submenu>.pc-item:before {
 }
 
 .minimenu .pc-sidebar .pc-submenu .pc-link {
-    padding: 8px 30px;
+    padding: 8px 0px 8px 45px;
 }
 
 .minimenu .pc-sidebar .pc-item {
