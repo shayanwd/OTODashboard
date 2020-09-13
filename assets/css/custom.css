@@ -10,8 +10,16 @@
     color: #0053ff;
 }
 
+.border-seprator {
+    margin-bottom: 2px;
+}
+
 .blue-b {
     background: #0053ff;
+}
+
+.bold-font {
+    font-weight: bold !important;
 }
 
 /* .orange-t {
@@ -21,6 +29,14 @@
 .orange-b {
     background: #ff8600;
 } */
+
+.black-t {
+    color: black;
+}
+
+.black-b {
+    background: black;
+}
 
 .orange-t {
     color: #e8561b;
@@ -38,6 +54,13 @@
     color: #e8561b;
 }
 
+.pink-b {
+    background: #fb1b57;
+}
+
+.pink-l {
+    color: #fb1b57;
+}
 
 .green-l {
     color: #0ac84b;
@@ -48,11 +71,11 @@
 }
 
 .yellow-t {
-    color: #ffed00 !important;
+    color: #ffb800 !important;
 }
 
 .yellow-b {
-    background: #ffed00 !important;
+    background: #ffb800 !important;
 }
 
 .red-t {
@@ -65,6 +88,19 @@
 
 .aliceblue {
     background: aliceblue;
+}
+
+.minus-padding {
+    padding-top: -11px !important;
+}
+
+.relative {
+    position: relative;
+}
+
+.close {
+    margin: 0px !important;
+    padding: 0px !important;
 }
 
 .apply-filter {
@@ -185,6 +221,21 @@
     width: 100%;
     height: 100%;
     margin-left: 24px;
+}
+
+.bar-content-left {
+    float: left;
+    max-width: 211px;
+    width: 100%;
+}
+
+.bar-content-right {
+    float: right;
+    max-width: 253px;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 
@@ -397,7 +448,7 @@ input:checked+.slider:before {
 }
 
 .main-price-range-container {
-    padding-right: 10px;
+    padding-right: 37px;
 }
 
 .slider-labels {
@@ -608,6 +659,7 @@ input:checked+.slider:before {
     background: #2f303a;
     border: solid 1px #686979;
 }
+
 .header-switch .slider::before {
     bottom: 2px;
 }
@@ -615,6 +667,7 @@ input:checked+.slider:before {
 .header-switch input:checked+.slider {
     background-color: #1bca09;
 }
+
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\header-switch\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
 
 
@@ -813,7 +866,8 @@ input:checked+.slider:before {
 
 .main-mega-dropdown,
 .main-mega-dropdown2,
-.main-mega-dropdown3 {
+.main-mega-dropdown3,
+.main-mega-dropdown4 {
     position: absolute;
     top: 80%;
     max-width: 1100px;
@@ -863,6 +917,280 @@ input:checked+.slider:before {
 
 
 /* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\header-collapse-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\modal-header-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.my-modal-header-1 {
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+    padding-left: 10px !important;
+    padding-right: 10px !important;
+}
+
+button.close {
+    color: black !important;
+}
+
+.PDF-Viewer {
+    font-family: Roboto;
+    font-size: 24px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: rgb(29, 29, 29);
+    margin-left: 10px !important;
+    margin-bottom: 0px !important;
+}
+
+.pdf-viwer-btns button {
+    background: none;
+    outline: none;
+    border: none;
+    color: white;
+    background: black;
+    font-size: 14px;
+    text-align: center;
+    font-weight: 500;
+    border-radius: 3px;
+    padding: 5px 10px;
+}
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\modal-header-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\modal-body-start\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+.pdf-modal-top-left h1 {
+    font-size: 22px;
+    font-weight: 500;
+    color: #00a64d;
+    margin-bottom: 5px !important;
+}
+
+.pdf-modal-top-left h2 {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    letter-spacing: normal;
+    color: #3c3d4b;
+}
+
+
+.pdf-modal-top-right {
+    max-width: 171px;
+    height: 48px;
+    width: 100%;
+    text-align: center;
+    float: right;
+}
+
+.pdf-modal-top-right img {
+    width: 171px !important;
+    text-align: center;
+    float: right;
+}
+
+.my-modal-body {
+    padding: 30px !important;
+}
+
+.magnus-img {
+    width: 171px !important;
+    float: right;
+}
+
+.bill-left {
+    float: left;
+}
+
+.bill-left h1 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #27292d;
+}
+
+.bill-right h1 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    color: #27292d;
+    margin-top: 25px;
+    text-align: right;
+}
+
+.bill-left h1 span {
+    font-size: 17px;
+    font-weight: bold;
+}
+
+.pdf-center h1 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.75;
+    letter-spacing: normal;
+    color: #27292d;
+    margin-bottom: 0px;
+}
+
+.pdf-center h1 span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pdf-center h2 {
+    font-family: Roboto;
+    font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #00a94e;
+}
+
+.pdf-table-th {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #27292d;
+    padding: 10px !important;
+}
+
+.pdf-table-td {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.83;
+    letter-spacing: normal;
+    color: #27292d;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    padding-left: 0px;
+}
+
+.after-table-text h6 {
+    font-size: 12px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.77;
+    letter-spacing: normal;
+    text-align: right;
+    color: #27292d;
+}
+
+.my-modal-content {
+    max-width: 634px !important;
+    width: 100% !important;
+    margin: 0 auto;
+}
+
+.pdf-modal-footer-left h1 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.67;
+    letter-spacing: normal;
+    color: #27292d;
+}
+
+.pdf-modal-footer {
+    margin-top: 40px;
+}
+
+.pdf-modal-footer-left h1 span {
+    font-size: 13px;
+    font-weight: bold;
+}
+
+.pdf-modal-footer-right {
+    text-align: right;
+}
+
+.pdf-modal-footer-right h2 {
+    font-family: Roboto;
+    font-size: 13px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.77;
+    letter-spacing: normal;
+    text-align: right;
+    color: #27292d;
+    margin: 0px !important;
+}
+
+.signature {
+    width: 82px !important;
+    height: 49px !important;
+}
+
+.pdf-modal-footer-right h3 {
+    font-family: Roboto;
+    font-size: 12px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 1.5;
+    letter-spacing: normal;
+    text-align: right;
+    color: #27292d;
+    margin: 0px;
+}
+
+.modal-footer-bottom {
+    margin-top: 60px;
+}
+
+.modal-footer-bottom h6 {
+    font-family: Roboto;
+    font-size: 11px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: 2;
+    letter-spacing: normal;
+    text-align: center;
+    color: #92959f;
+}
+
+
+
+
+
+
+
+
+
+/* \\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\modal-body-end\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\\ */
+
+
+
 
 
 
@@ -921,10 +1249,13 @@ input:checked+.slider:before {
 
 a.btn_light {
     margin-right: 10px;
-    padding: 10px 20px;
+    padding: 8px 15px 8px 15px;
     color: #4b4b4b;
-    background: #fff;
-    box-shadow: 0px 4px 10px #cccccc;
+    /* box-shadow: 0px 4px 10px #cccccc; */
+    max-width: 155px;
+    width: 100%;
+    border-radius: 17.5px;
+    border: solid 1px #323841;
 }
 
 a.btn_light i {
@@ -951,6 +1282,15 @@ a.btn_dark i {
 
 .my_table table tbody tr th {
     padding: 14px 0px;
+}
+
+.table-map-icon i {
+    border-radius: 5px;
+    background-color: #ff598a;
+    padding: 6px;
+    bottom: 2px;
+    color: white;
+    cursor: pointer;
 }
 
 .card_my {
@@ -984,6 +1324,68 @@ a.btn_dark i {
     border-radius: 0px 0px 4px 4px;
 }
 
+table.gridjs-table tbody>tr>td>span>a>img {
+    width: 22px !important;
+    height: 22px !important;
+}
+
+/* table.gridjs-table tbody > tr{
+    background: #00a64d;
+} */
+table.gridjs-table {
+    max-width: 100%;
+    border-collapse: collapse;
+    text-align: left;
+    display: table;
+    margin: 0;
+    padding: 0;
+    overflow: auto;
+    table-layout: auto !important;
+}
+
+.my-custom-input-class {
+    display: none !important;
+}
+
+input.gridjs-input {
+    max-width: 198px;
+    width: 100%;
+    height: 35px;
+    color: rgb(131, 131, 131);
+    padding-left: 30px !important;
+    border: 1px solid lightgray;
+    border-radius: 17.5px !important;
+    outline: none;
+    line-height: 1.45;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.gridjs-container {
+    overflow: visible;
+    margin-top: -10px !important;
+}
+
+.gridjs-footer {
+    display: block;
+    position: relative;
+    z-index: 5;
+    padding: 12px 24px;
+    background-color: #fff;
+    box-shadow: none !important;
+    border-radius: 0 0 0 0 !important;
+    border-bottom-width: 1px;
+    border-color: #e5e7eb !important;
+    border-top: 4px solid #f0f2f8 !important;
+}
+
+.gridjs-container {
+    padding: 0px !important;
+}
+
+
+
 table.my_table th {
     padding: 15px;
 }
@@ -996,7 +1398,7 @@ td {
 }
 
 table.my_table tr td a img {
-    width: 22px !important;
+    width: 22px;
 }
 
 .org_activ {
@@ -1092,19 +1494,54 @@ tr.blod td {
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_managment-start////////////////////////////////////
 =========================================================================== */
 
+.sticker {
+    max-width: 136px;
+    width: 100%;
+    height: 45px;
+    margin: 0 auto;
+    display: none;
+}
+
 .sticker img {
     width: 100%;
+    height: 100%;
+}
+
+.apple-sticker {
+    margin-left: -40px;
+}
+
+.play-store-sticker {
+    margin-left: -16px;
+}
+
+.heading_Id {
+    float: left;
 }
 
 .heading_Id p {
     margin-top: 10px;
-    font-size: 19px;
     margin-bottom: 0px;
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #9393a2;
 }
 
 .heading_Id p span {
-    font-weight: 600;
+    font-family: Roboto;
     font-size: 25px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e39;
+    margin-left: 9px;
 }
 
 .card-head .col-md-4 {
@@ -1112,9 +1549,10 @@ tr.blod td {
 }
 
 a.btn_light_1 p {
-    padding: 3px 12px 0px;
-    margin: 0px;
+    padding: 8px 12px 0px;
+    margin: 0px !important;
     color: gray;
+    line-height: 1;
 }
 
 a.btn_light_1 i {
@@ -1132,14 +1570,22 @@ a.btn_light_1 span {
 }
 
 .sticker_1 {
-    border-radius: 3px;
-    height: 46px;
-    box-shadow: 0px 4px 10px #cccccc;
+    max-width: 240px;
+    width: 100%;
+    height: 50px;
+    border-radius: 27px;
+    box-shadow: 0 3px 6px 0 rgba(61, 73, 82, 0.22);
+    border: solid 1px #f5f5f5;
+    background-color: #ffffff;
+    margin-left: -14px;
+    padding: 0px 8px;
 }
 
 .e-logo {
-    max-width: 74%;
+    max-width: 104px;
     width: 100%;
+    height: 104px;
+    float: left;
 }
 
 .e-logo img {
@@ -1148,11 +1594,18 @@ a.btn_light_1 span {
 }
 
 .logo-decription {
-    margin-top: 30px;
+    margin-top: 4px;
+    margin-left: 12px;
 }
 
 .logo_dec h5 {
     font-size: 20px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e39;
 }
 
 .dec .col-md-10 {
@@ -1160,12 +1613,16 @@ a.btn_light_1 span {
 }
 
 .logo_dec h5 span {
-    padding: 6px;
+    padding: 3px 6px;
+    text-align: center;
     background: #ededed;
     font-size: 13px;
     color: #72747b;
-    margin-left: 22px;
-    border-radius: 3px;
+    width: 114px;
+    height: 22px;
+    margin-left: 13px;
+    border-radius: 11px;
+    background-color: #ededed
 }
 
 .contact-info ul {
@@ -1173,21 +1630,41 @@ a.btn_light_1 span {
     float: left;
     width: 100%;
     margin: 0px;
+    margin-top: 5px;
 }
 
 .contact-info ul li {
     list-style: none;
     float: left;
-    margin-left: 26px;
+    margin-left: 36px;
+    font-size: 14px;
+    font-weight: 500;
+    color: #6d6d75 !important;
 }
 
 .contact-info ul li:first-child {
     margin-left: 0px;
 }
 
-.contact-info ul li img {
-    width: 16px;
-    margin-right: 7px;
+.contact-info ul li:nth-child(1) img {
+    max-width: 20px;
+    width: 100%;
+    height: 14px;
+    margin-right: 2px;
+    margin-top: -3px;
+}
+
+.contact-info ul li:nth-child(2) img {
+    max-width: 17px;
+    width: 100%;
+    height: 18px;
+    margin-right: 2px;
+}
+
+.contact-info ul li:nth-child(3) img {
+    max-width: 22px;
+    width: 100%;
+    margin-right: 2px;
 }
 
 .basic-profile-info-box {
@@ -1196,14 +1673,26 @@ a.btn_light_1 span {
 }
 
 .basic-profile-info-box h2 {
-    font-size: 16px;
-    font-weight: 600;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e39;
 }
 
 .basic-profile-info-box h3 {
+    font-family: Roboto;
     font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #6d6d75;
     margin: 0px;
-    color: #736e75;
     white-space: nowrap;
     overflow: hidden;
     text-overflow: ellipsis;
@@ -1211,6 +1700,20 @@ a.btn_light_1 span {
 
 .card-edit-heading {
     float: left;
+}
+
+.heading h1 {
+    font-family: Roboto;
+    font-size: 28px;
+    font-weight: bold;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e39;
+    margin-bottom: 0px !important;
+    /* margin-left: -12px; */
+    padding: 0px !important;
 }
 
 .card-heading-and-edit-button {
@@ -1221,6 +1724,7 @@ a.btn_light_1 span {
 .card-edit-heading h2 {
     font-size: 20px;
     font-weight: 700;
+    color: #2e2e39;
 }
 
 .card-edit-btn {
@@ -1249,13 +1753,18 @@ a.btn_light_1 span {
 }
 
 .sumary-heading {
-    padding-left: 25px;
+    /* padding-left: 25px; */
+}
+
+body:not(.minimenu) .pc-sidebar .pc-submenu {
+    padding-bottom: 2px !important;
 }
 
 .sumary-heading h1 {
     font-size: 17px;
     font-weight: bold;
     margin-top: 5px;
+    float: left;
 }
 
 .subscription-plan-vehical {
@@ -1274,23 +1783,41 @@ a.btn_light_1 span {
 }
 
 .subscription-plan-vehical-info h1 {
-    font-size: 25px;
+    font-family: Roboto;
+    font-size: 28px;
     font-weight: bold;
     color: #099b3f;
+    text-align: center;
 }
 
 .subscription-plan-vehical-info h2 {
-    font-size: 15px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
     color: #6d6d75;
+    text-align: center;
 }
 
 .subscription-plan-vehical-info h3 {
-    font-size: 16px;
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #2e2e39;
+    text-align: center;
 }
 
 .subscription-plan-vehical-info h3 span {
-    font-size: 16px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 500;
+    color: #2e2e39;
 }
 
 .web-links-edit {
@@ -1387,7 +1914,7 @@ a.btn_light_1 span {
 .vehical-card {
     max-width: 190px;
     width: 100%;
-    width: 190px;
+    width: 100%;
     height: 70px;
     border-radius: 5px;
     border-top-right-radius: 5px;
@@ -1395,6 +1922,11 @@ a.btn_light_1 span {
     padding: 20px 0px 20px 20px;
     float: left;
     position: relative;
+}
+
+.vehical-card-minus-left,
+.vehical-card-minus-left2 {
+    margin-left: -20px !important;
 }
 
 .vehical-card h2 {
@@ -1416,11 +1948,13 @@ a.btn_light_1 span {
 }
 
 .clender {
-    max-width: 232px;
+    max-width: 260px;
     width: 100%;
-    height: 48px;
-    border-radius: 30px;
-    background-color: #f3f3f3;
+    height: 50px;
+    border-radius: 27px;
+    box-shadow: 0 3px 6px 0 rgba(61, 73, 82, 0.22);
+    border: solid 1px #f5f5f5;
+    background-color: #ffffff;
     justify-content: center;
     align-items: center;
     display: flex;
@@ -1432,6 +1966,8 @@ a.btn_light_1 span {
 
 .clender i {
     font-size: 14px;
+    color: #000000;
+    font-weight: bold;
 }
 
 .table-battery {
@@ -1576,10 +2112,117 @@ a.btn_light_1 span {
     font-weight: bold;
 }
 
+.e-skoot-notification {
+    max-width: 526px;
+    width: 100%;
+    max-height: 174px;
+    height: 100%;
+    border-radius: 6px;
+    box-shadow: 0 2px 12px 0 rgba(109, 134, 149, 0.16);
+    background-color: #ffffff;
+    overflow: hidden;
+    position: absolute;
+    transition: 0.4s;
+    top: 40px;
+}
 
+.e-skoot-notification-content {
+    width: 100%;
+    height: 100%;
+    border-left: 10px solid #04bc34;
+    top: 0;
+    padding: 30px 30px;
+    position: relative;
+}
 
+.e-skoot-notification-content h1 {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #21212a;
+}
 
+.e-skoot-notification-content h1 span {
+    font-family: Roboto;
+    font-size: 18px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #04bc34;
+}
 
+.e-skoot-notification-content h2 {
+
+    font-family: Roboto;
+    font-size: 14px;
+    font-weight: normal;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    color: #3a4048;
+    width: 313px;
+    height: 38px;
+}
+
+.witch-back-img {
+    max-width: 18px;
+    width: 100%;
+    float: left;
+    margin-top: -2px;
+}
+
+.witch-back-img img {
+    width: 100%;
+}
+
+.switch-back-btn {
+    max-width: 139px;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #f0f1f1;
+    padding: 7px 9px;
+    position: absolute;
+    right: 30px;
+    bottom: 30px;
+    border: none;
+    outline: none;
+}
+
+.switch-back-btn p {
+    font-size: 14px;
+    font-weight: 500;
+    font-stretch: normal;
+    font-style: normal;
+    line-height: normal;
+    letter-spacing: normal;
+    text-align: center;
+    color: #505659;
+    margin: 0px !important;
+}
+
+.e-skoot-notification-content-close {
+    position: absolute;
+    right: 18px;
+    top: 3px;
+}
+
+.e-skoot-notification-content-close i {
+    color: #323841;
+    font-size: 16px;
+    opacity: 0.32;
+    cursor: pointer;
+}
+
+.fleet-drop {
+    padding-left: 15px !important;
+}
 
 /* ===========================================================================
 \\\\\\\\\\\\\\\\\\\\\\\\\organizaton_managment-end////////////////////////////////////
@@ -1733,9 +2376,10 @@ li.pc-item.pc-hasmenu.mt-2 {
     cursor: pointer;
     padding: 14px 16px;
     transition: 0.3s;
-    color: #616672;
+    color: #9c9ca7;
     font-weight: bold;
-    font-size: 12px;
+    font-size: 14px;
+    font-weight: 500;
     border-bottom: 3px solid transparent;
 }
 
@@ -1752,10 +2396,12 @@ li.pc-item.pc-hasmenu.mt-2 {
 .page-tab button.active {
     color: black;
     border-bottom: 3px solid black;
+    font-weight: bold;
 }
 
 .sreach_box1 {
     position: relative;
+    margin-left: 12px;
 }
 
 .sreach_box1 i {
@@ -1766,14 +2412,19 @@ li.pc-item.pc-hasmenu.mt-2 {
     top: -2px;
 }
 
+.vehical-card-take-left {
+    margin-left: 13px;
+}
+
 .sreach_box1 input {
     max-width: 198px;
     width: 100%;
     height: 35px;
     border-radius: 3px;
-    color: lightgray;
+    color: rgb(131, 131, 131);
     padding-left: 30px !important;
     border: 1px solid lightgray;
+    border-radius: 17.5px;
 }
 
 
@@ -1809,14 +2460,15 @@ li.pc-item.pc-hasmenu.mt-2 {
 }
 
 .filter a {
-    font-weight: 800;
+    font-weight: 500;
     display: block;
-    padding: 8px 5px 5px 15px;
+    padding: 8px 5px 5px 38px;
     background: #f1f1f1;
-    max-width: 198px;
+    max-width: 144px;
     width: 100%;
+    font-size: 13px;
     height: 35px;
-    color: #321d1d;
+    color: #323841;
     border-radius: 3px;
     border-top-right-radius: 25px;
     border-bottom-right-radius: 25px;
@@ -1828,7 +2480,24 @@ li.pc-item.pc-hasmenu.mt-2 {
     float: right;
     font-size: 10px;
     line-height: 0px;
+    color: black;
+    font-weight: bold;
 }
+
+.filter-icon {
+    position: absolute;
+    top: 7px;
+    width: 13px;
+    height: 13px;
+    left: 13px;
+}
+
+.filter-icon img {
+    width: 100%;
+    height: 100%;
+
+}
+
 
 
 /* tab-end */

@@ -22,6 +22,9 @@
 	<link rel="stylesheet" href="assets/css/custom.css">
 	<link rel="stylesheet" href="assets/css/custom-responsive.css">
 
+	<link rel="stylesheet" type="text/css" href="https://unpkg.com/gridjs/dist/theme/mermaid.min.css" />
+
+
 	<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/daterangepicker/daterangepicker.css" />
 
 </head>
@@ -1103,26 +1106,37 @@
 										<h1>Organization List</h1>
 									</div>
 									<div class="sreach_row col-md-12">
-										<div class="row">
-											<div class="sreach_box col-md-6">
+
+										<div class="bar-content-left">
+
+											<div class="sreach_box1 no-padding-l">
 												<input class="pl-4 pt-1 pb-1 pr-1" type="text" placeholder="Search">
 												<i class="fas fa-search"></i>
 											</div>
-											<div class="col-md-6">
-												<div class="buttons dropdown">
-													<a class="btn_light" href="#!"
-														class="btn btn-primary dropdown-toggle"
-														data-toggle="dropdown"><i class="fas fa-download"></i> Export As
-														<i class="fas fa-chevron-down"></i></a>
-													<div class="dropdown-menu export-dropdown">
-														<a class="dropdown-item" href="#">Export as CSV</a>
-														<a class="dropdown-item" href="#">Export as PDF</a>
-													</div>
-													<a class="btn_dark" id="add-organization" href="#"><i
-															class="fas fa-plus"></i> Add</a>
-												</div>
-											</div>
+
 										</div>
+
+
+										<div class="bar-content-right">
+
+										<div class="buttons dropdown">
+											<a class="btn_light" href="#!" class="btn btn-primary dropdown-toggle"
+												data-toggle="dropdown"><i class="fas fa-download"></i> Export As
+												<i class="fas fa-chevron-down ml-2 black-t"></i></a>
+
+
+
+											<div class="dropdown-menu export-dropdown">
+												<a class="dropdown-item" href="#">Export as CSV</a>
+												<a class="dropdown-item" href="#">Export as PDF</a>
+											</div>
+											<a class="btn_dark" id="add-organization" href="#"><i
+													class="fas fa-plus"></i> Add</a>
+										</div>
+
+									</div>
+
+
 									</div>
 								</div>
 							</div>
@@ -1243,7 +1257,7 @@
 				<script type="text/javascript" src="https://cdn.jsdelivr.net/jquery/latest/jquery.min.js"></script>
 				<!-- <script src="assets/js/plugins/apexcharts.min.js"></script>
 				<script src="https://cdnjs.cloudflare.com/ajax/libs/Chart.js/2.7.3/Chart.min.js"></script> -->
-				<script src="assets/js/custom.js"></script>
+				
 				<!-- <script src="assets/js/organization-management.js"></script> -->
 
 
@@ -1263,7 +1277,10 @@
 				<script src="assets/js/plugins/clipboard.min.js"></script>
 				<!-- <script src="assets/js/date-pick.js"></script> -->
 				<script src="assets/js/step-form.js"></script>
+
+				<script src="https://unpkg.com/gridjs-jquery/dist/gridjs.production.min.js"></script>
 				<!-- <script src="assets/js/date-pick.js"></script> -->
+				<script src="assets/js/custom.js"></script>
 
 </body>
 

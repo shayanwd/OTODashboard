@@ -21,16 +21,32 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        float: none;
+        max-width: 100%;
     }
 
-    .e-logo img {
-        max-width: 50%;
+    .e-logo img{
+        margin-top: 15px;
+        max-width: 144px;
         width: 100%;
-
+    }
+    .logo-decription{
+        margin-left: auto;
+        margin-right: auto;
     }
 
     .sticker_1 {
-        margin-top: 11px;
+        margin: 11px auto;
+    }
+    .contact-info{
+        width: 100%;
+        text-align: center;
+    }
+    .contact-info ul li{
+       text-align: center;
+       margin: 0 auto;
+       float: none;
+       margin: 10px 0;
     }
 
     .logo-decription {
@@ -45,18 +61,117 @@
         padding-right: 15px;
     }
 
-    .buttons {
-        float: none;
-        margin-top: 21px;
+    .no-padding-u {
+        padding-top: 1px !important;
     }
 
-    .main-mega-dropdown {
+    .no-padding-b {
+        padding-bottom: 1px !important;
+    }
+
+
+    .main-mega-dropdown, .main-mega-dropdown2, .main-mega-dropdown3 {
         top: 48%;
         height: 400px;
         overflow: scroll;
     }
     .filter-apply {
         margin-top: 15px;
+    }
+    .heading h1 {
+        margin-left: 0px;
+    }
+    .sreach_box1 i {
+        left: 9px;
+    }
+    .heading_Id p{
+        text-align: center;
+        margin-bottom: 5px;
+    }
+    .sumary-heading h1{
+        text-align: center;
+    }
+    .filter a{
+        margin: 0 auto;
+    }
+    .clender{
+        float: none;
+        margin: 0 auto;
+        margin-bottom: 15px;
+    }
+
+    .apple-sticker{
+        margin-left: auto;
+    }
+    .play-store-sticker{
+        margin-left: auto;
+    }
+    .vehical-card{
+        margin: 0 auto;
+        float: none;
+        margin-bottom: 10px;
+    }
+    .sreach_box1 input{
+        max-width: 100%;
+        margin-bottom: 10px ;
+    }
+    .heading_Id{
+        float: none;
+    }
+    .buttons {
+        float: none;
+        margin: 0 auto;
+        float: none;
+        width: 100%;
+        text-align: center;
+    }
+    .pdf-modal-top-left {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .pdf-modal-top-right {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .pdf-modal-top-right {
+        text-align: center;
+        float: none;
+        margin: 0 auto;
+    }
+    .bill-left {
+        float: none;
+        text-align: center;
+    }
+    .bill-right h1 {
+        text-align: center;
+    }
+    .pdf-center {
+        text-align: center;
+    }
+    .pdf-modal-footer-left h1 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+    .pdf-modal-footer-right {
+        text-align: center;
+    }
+    .pdf-modal-footer-right h2 {
+        text-align: center;
+    }
+    .pdf-modal-footer-right h3 {
+        text-align: center;
+    }
+    .pdf-viwer-btns button {
+        float: right;
+        margin-bottom: 4px;
+        margin-left: 2px;
+    }
+    .PDF-Viewer {
+        font-size: 13px;
+    }
+    .pdf-table {
+        margin-top: 10px;
     }
 
 }
@@ -68,6 +183,30 @@
 
     .step {
         margin-top: 5px;
+    }
+    .bar-content-left {
+        float: left;
+        max-width: 100%;
+        width: 100%;
+    }
+    .sreach_box1  {
+        width: 100%;
+    }
+    .heading {
+        text-align: center;
+    }
+}
+
+@media(max-width: 555px) {
+    .buttons{
+        float: none;
+    }
+    .bar-content-right {
+        float: right;
+        max-width: 100%;
+        width: 100%;
+        margin-top: 16px;
+        text-align: center;
     }
 }
 

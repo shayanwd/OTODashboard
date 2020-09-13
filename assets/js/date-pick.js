@@ -15,7 +15,7 @@ $(document).ready(function(){
       endDate: end,
       "opens": "left",
     
-      "alwaysShowCalendars": true,
+      // "alwaysShowCalendars": true,
       ranges: {
          'Today': [moment(), moment()],
          'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
@@ -47,7 +47,7 @@ $(document).ready(function(){
       endDate: end,
       "opens": "left",
     
-      "alwaysShowCalendars": true,
+      // "alwaysShowCalendars": true,
       ranges: {
          'Today': [moment(), moment()],
          'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],
@@ -77,7 +77,7 @@ $(document).ready(function(){
       endDate: end,
       "opens": "left",
     
-      "alwaysShowCalendars": true,
+      // "alwaysShowCalendars": true,
       ranges: {
          'Today': [moment(), moment()],
          'Yesterday': [moment().subtract(1, 'days'), moment().subtract(1, 'days')],

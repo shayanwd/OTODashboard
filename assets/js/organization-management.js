@@ -61,3 +61,64 @@ var chart = new Chart(ctx, {
 		cutoutPercentage: 90
 	}
 });
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+$(function(){
+  
+  $("table#wrapper").Grid({
+    
+    pagination:true,
+    pagination: {
+      limit: 4
+    },
+
+   
+
+
+    language: {
+      'pagination': {
+        'showing': 'Show',
+        'results': () => 'Entries'
+      }
+    },
+    
+
+    style: {
+      table: {
+        border: '3px solid white'
+      },
+      td: {
+        border: '3px solid white',
+        color: '#000',
+        'border-bottom': 'none',
+      },
+      th: {
+        'background-color': 'white',
+        color: '#000',
+        'border': '1px solid white',
+      },
+    }
+    
+    
+   
+  });
+
+  
+
+})
+
+
+
